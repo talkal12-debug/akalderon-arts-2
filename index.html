@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AKalderon Arts — Site Index</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --ink:#1c1612;--cream:#f8f4ee;--gold:#b8902a;
+  --light:#faf7f2;--muted:#8a7f72;--border:rgba(28,22,18,0.1);--deep:#1a1410;
+  --pastel-blue:#7ab3c4;--pastel-rose:#d4957a;--pastel-sage:#7aab8a;
+  --pastel-lavender:#b07fa8;--pastel-wheat:#d4b483;--pastel-sky:#6b9fc4;
+  --pastel-terracotta:#c4845a;
+}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 0%,#f2ecf8 35%,#e8f2f8 65%,#ecf8f0 100%);color:var(--ink);}
+
+.site-header{background:var(--deep);padding:64px 64px 52px;border-bottom:1px solid rgba(184,144,42,0.2);}
+.header-eyebrow{font-size:9px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--pastel-wheat);display:flex;align-items:center;gap:12px;margin-bottom:20px;}
+.header-eyebrow::before{content:'';display:block;width:28px;height:1px;background:var(--pastel-wheat);}
+.site-title{font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:300;line-height:1.0;color:#f8f4ee;}
+.site-title em{display:block;font-style:italic;background:linear-gradient(135deg,var(--pastel-wheat),var(--pastel-rose));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-size:72px;}
+.site-sub{font-size:13px;font-weight:300;color:rgba(248,244,238,0.38);margin-top:18px;line-height:1.7;max-width:560px;}
+.pastel-strip{height:5px;background:linear-gradient(to right,var(--pastel-blue),var(--pastel-rose),var(--pastel-lavender),var(--pastel-sage),var(--pastel-wheat),var(--pastel-sky),var(--pastel-blue));}
+.header-stats{display:flex;gap:48px;margin-top:36px;padding-top:28px;border-top:1px solid rgba(184,144,42,0.15);}
+.stat-num{font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;line-height:1;}
+.stat-num.c1{color:var(--pastel-blue);}
+.stat-num.c2{color:var(--pastel-rose);}
+.stat-num.c3{color:var(--pastel-sage);}
+.stat-label{font-size:9px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(248,244,238,0.28);margin-top:4px;}
+
+.section-label{padding:36px 64px 20px;display:flex;align-items:center;gap:16px;}
+.section-label-text{font-size:9px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold);}
+.section-label-line{flex:1;height:1px;background:var(--border);}
+
+.pages-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border);border-top:1px solid var(--border);}
+
+.page-card{background:var(--light);display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:background 0.2s;cursor:pointer;position:relative;overflow:hidden;}
+.page-card:hover{background:var(--cream);}
+.page-card:focus{outline:3px solid var(--gold);outline-offset:-3px;}
+.page-card.home-card{background:var(--deep);}
+.page-card.home-card:hover{background:#221c16;}
+
+.accent-bar{height:3px;width:100%;}
+.card-top{padding:36px 44px 28px;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;justify-content:space-between;gap:24px;}
+.home-card .card-top{border-bottom:1px solid rgba(255,255,255,0.06);}
+.card-meta{}
+.card-eyebrow{font-size:8px;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.home-card .card-eyebrow{color:var(--pastel-wheat);}
+.card-title{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:300;color:var(--ink);line-height:1.05;}
+.home-card .card-title{color:#f8f4ee;}
+.card-title em{font-style:italic;color:var(--gold);}
+.card-desc{font-size:12px;font-weight:300;color:var(--muted);margin-top:9px;line-height:1.7;max-width:320px;}
+.home-card .card-desc{color:rgba(248,244,238,0.38);}
+.card-num{font-family:'Cormorant Garamond',serif;font-size:72px;font-weight:300;color:rgba(28,22,18,0.05);line-height:1;flex-shrink:0;}
+.home-card .card-num{color:rgba(248,244,238,0.04);}
+
+.card-bottom{padding:18px 44px;display:flex;align-items:center;justify-content:space-between;}
+.home-card .card-bottom{border-top:1px solid rgba(255,255,255,0.05);}
+.card-stats{display:flex;gap:28px;}
+.cs-num{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:300;color:var(--gold);}
+.home-card .cs-num{color:var(--pastel-wheat);}
+.cs-label{font-size:8px;font-weight:400;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-top:2px;}
+.home-card .cs-label{color:rgba(248,244,238,0.25);}
+.card-arrow{font-size:16px;color:var(--muted);transition:transform 0.2s,color 0.2s;}
+.home-card .card-arrow{color:rgba(248,244,238,0.3);}
+.page-card:hover .card-arrow{transform:translateX(4px);color:var(--gold);}
+.home-card:hover .card-arrow{color:var(--pastel-wheat);}
+
+/* Full width cards */
+.page-card.full{grid-column:1/-1;flex-direction:row;align-items:center;}
+.full .card-top{flex:1;border-bottom:none;border-right:1px solid var(--border);}
+.home-card.full .card-top{border-right:1px solid rgba(255,255,255,0.06);}
+.full .card-bottom{padding:32px 44px;min-width:220px;flex-direction:column;align-items:flex-start;gap:12px;}
+
+footer{background:#080705;padding:20px 64px;display:flex;align-items:center;justify-content:space-between;margin-top:1px;}
+.footer-brand{font-family:'Cormorant Garamond',serif;font-size:13px;font-style:italic;color:rgba(248,244,238,0.18);}
+.footer-note{font-size:9px;font-weight:400;letter-spacing:0.12em;color:rgba(248,244,238,0.15);}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-eyebrow">AKalderon Arts · Website Redesign 2025</div>
+  <h1 class="site-title">Asher<em>Kalderon</em></h1>
+  <p class="site-sub">כל העמודים שעוצבו — לחץ על כל כרטיס לפתיחת העמוד המלא. כל העמודים כוללים נגישות IS 5568 · WCAG 2.1 AA ועמידה בדרישות PPL 2024.</p>
+  <div class="header-stats">
+    <div><div class="stat-num c1">8</div><div class="stat-label">Pages Designed</div></div>
+    <div><div class="stat-num c2">450+</div><div class="stat-label">Works Showcased</div></div>
+    <div><div class="stat-num c3">IS 5568</div><div class="stat-label">Accessibility</div></div>
+  </div>
+</header>
+<div class="pastel-strip"></div>
+
+<div class="section-label">
+  <span class="section-label-text">All Pages</span>
+  <div class="section-label-line"></div>
+</div>
+
+<div class="pages-grid">
+
+  <!-- HOME — full width, dark -->
+  <a class="page-card home-card full" href="kalderon_home.html" target="_blank">
+    <div class="accent-bar" style="background:linear-gradient(to right,var(--pastel-blue),var(--pastel-rose),var(--pastel-lavender));position:absolute;top:0;left:0;right:0;"></div>
+    <div class="card-top" style="padding-top:44px;">
+      <div class="card-meta">
+        <div class="card-eyebrow">Home Page</div>
+        <h2 class="card-title">Home</h2>
+        <p class="card-desc">Landing page — Hero טיפוגרפי עם פלטת פסטל קלדרון, גריד 6 עמודים עם תמונות אמיתיות, רצועת About, אוספים ציבוריים ויצירת קשר.</p>
+      </div>
+      <div class="card-num">00</div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-stats">
+        <div><div class="cs-num">6</div><div class="cs-label">Sections</div></div>
+        <div><div class="cs-num">Pastel</div><div class="cs-label">Palette</div></div>
+      </div>
+      <div class="card-arrow">→</div>
+    </div>
+  </a>
+
+  <!-- ART GALLERY -->
+  <a class="page-card" href="kalderon_gallery_v4.html" target="_blank">
+    <div class="accent-bar" style="background:var(--pastel-blue);"></div>
+    <div class="card-top">
+      <div class="card-meta">
+        <div class="card-eyebrow">Art Gallery</div>
+        <h2 class="card-title">Art <em>Gallery</em></h2>
+        <p class="card-desc">113 עבודות ב-8 קטגוריות — Abstract, Cosmic, Seasons, Figurative, Sculpture, Decorative, Tapestries, Jerusalem. פילטר דינמי, גריד 3 עמודות.</p>
+      </div>
+      <div class="card-num">01</div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-stats">
+        <div><div class="cs-num">113</div><div class="cs-label">Artworks</div></div>
+        <div><div class="cs-num">8</div><div class="cs-label">Categories</div></div>
+      </div>
+      <div class="card-arrow">→</div>
+    </div>
+  </a>
+
+  <!-- POSTERS -->
+  <a class="page-card" href="kalderon_posters.html" target="_blank">
+    <div class="accent-bar" style="background:var(--pastel-terracotta);"></div>
+    <div class="card-top">
+      <div class="card-meta">
+        <div class="card-eyebrow">Posters</div>
+        <h2 class="card-title">Posters</h2>
+        <p class="card-desc">113 פוסטרים ב-4 קטגוריות — Art & Culture, Social & Political, Commercial, Children & Humour. פריים Portrait 2:3.</p>
+      </div>
+      <div class="card-num">02</div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-stats">
+        <div><div class="cs-num">113</div><div class="cs-label">Posters</div></div>
+        <div><div class="cs-num">4</div><div class="cs-label">Categories</div></div>
+      </div>
+      <div class="card-arrow">→</div>
+    </div>
+  </a>
+
+  <!-- JUDAICA -->
+  <a class="page-card" href="kalderon_judaica.html" target="_blank">
+    <div class="accent-bar" style="background:var(--pastel-lavender);"></div>
+    <div class="card-top">
+      <div class="card-meta">
+        <div class="card-eyebrow">Judaica Art</div>
+        <h2 class="card-title">Judaica <em>Art</em></h2>
+        <p class="card-desc">48 עבודות ב-5 קטגוריות — The Creation, Biblical Figures, Shalom & Peace, Israel & Zion, Jewish Holidays. ציטוט עברי ב-header.</p>
+      </div>
+      <div class="card-num">03</div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-stats">
+        <div><div class="cs-num">48</div><div class="cs-label">Works</div></div>
+        <div><div class="cs-num">5</div><div class="cs-label">Categories</div></div>
+      </div>
+      <div class="card-arrow">→</div>
+    </div>
+  </a>
+
+  <!-- HAGGADAH -->
+  <a class="page-card" href="kalderon_haggadah_v4.html" target="_blank">
+    <div class="accent-bar" style="background:var(--pastel-rose);"></div>
+    <div class="card-top">
+      <div class="card-meta">
+        <div class="card-eyebrow">The Haggadah</div>
+        <h2 class="card-title">The New Passover<em>Haggadah</em></h2>
+        <p class="card-desc">55 איורים ב-6 פרקים בסדר הסיפור — Slideshow אוטומטי 3 שניות, Play/Pause, פס התקדמות, רצועת thumbnails. Hero ספר פתוח.</p>
+      </div>
+      <div class="card-num">04</div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-stats">
+        <div><div class="cs-num">55</div><div class="cs-label">Illustrations</div></div>
+        <div><div class="cs-num">6</div><div class="cs-label">Chapters</div></div>
+        <div><div class="cs-num">Auto</div><div class="cs-label">Slideshow</div></div>
+      </div>
+      <div class="card-arrow">→</div>
+    </div>
+  </a>
+
+  <!-- SYMBOLS -->
+  <a class="page-card" href="kalderon_symbols.html" target="_blank">
+    <div class="accent-bar" style="background:var(--pastel-sage);"></div>
+    <div class="card-top">
+      <div class="card-meta">
+        <div class="card-eyebrow">Symbols & Trademarks</div>
+        <h2 class="card-title">Symbols &amp; <em>Trademarks</em></h2>
+        <p class="card-desc">51 סמלים ולוגואים ב-4 מגזרים — National & Civic, Sports, Industry, Services. Header כהה, גריד 4 עמודות מרובע.</p>
+      </div>
+      <div class="card-num">05</div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-stats">
+        <div><div class="cs-num">51</div><div class="cs-label">Symbols</div></div>
+        <div><div class="cs-num">4</div><div class="cs-label">Sectors</div></div>
+      </div>
+      <div class="card-arrow">→</div>
+    </div>
+  </a>
+
+  <!-- STAMPS -->
+  <a class="page-card" href="kalderon_stamps_v3.html" target="_blank">
+    <div class="accent-bar" style="background:var(--pastel-sky);"></div>
+    <div class="card-top">
+      <div class="card-meta">
+        <div class="card-eyebrow">Stamps, Banknotes & Coins</div>
+        <h2 class="card-title">Stamps &amp; <em>Coins</em></h2>
+        <p class="card-desc">56 עבודות ב-7 קטגוריות — State of Israel, Biblical, Nature, Science, Culture, Banknotes & Coins, UN. פריים Landscape 3:2.</p>
+      </div>
+      <div class="card-num">06</div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-stats">
+        <div><div class="cs-num">56</div><div class="cs-label">Works</div></div>
+        <div><div class="cs-num">7</div><div class="cs-label">Categories</div></div>
+      </div>
+      <div class="card-arrow">→</div>
+    </div>
+  </a>
+
+  <!-- ABOUT — full width, dark -->
+  <a class="page-card home-card full" href="kalderon_about.html" target="_blank">
+    <div class="accent-bar" style="background:linear-gradient(to right,var(--pastel-wheat),var(--pastel-rose));position:absolute;top:0;left:0;right:0;"></div>
+    <div class="card-top" style="padding-top:44px;">
+      <div class="card-meta">
+        <div class="card-eyebrow">About the Artist</div>
+        <h2 class="card-title">About</h2>
+        <p class="card-desc">ביוגרפיה מלאה — Hero עם פורטרט קלדרון, ציר זמן 1929–2018, 4 סקשני ביוגרפיה, כריכת ההגדה, פרסים, 12 אוספים ציבוריים, 20 תערוכות.</p>
+      </div>
+      <div class="card-num">07</div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-stats">
+        <div><div class="cs-num">12</div><div class="cs-label">Public Collections</div></div>
+        <div><div class="cs-num">20</div><div class="cs-label">Exhibitions</div></div>
+      </div>
+      <div class="card-arrow">→</div>
+    </div>
+  </a>
+
+</div>
+
+<footer>
+  <div class="footer-brand">AKalderon Arts — Website Redesign</div>
+  <div class="footer-note">IS 5568 · WCAG 2.1 AA · PPL 2024 · © A&L Kalderon</div>
+</footer>
+
+</body>
+<!-- COOKIE BANNER --><div id="cookie-banner" role="dialog" aria-labelledby="cookie-title" style="position:fixed;bottom:0;left:0;right:0;z-index:999;background:rgba(26,20,16,0.96);backdrop-filter:blur(12px);border-top:1px solid rgba(184,144,42,0.2);padding:18px 64px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;"><div><div id="cookie-title" style="font-size:10px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:rgba(248,244,238,0.75);margin-bottom:5px;">Cookie Policy · PPL 2024</div><p style="font-size:12px;font-weight:300;color:rgba(248,244,238,0.4);line-height:1.6;max-width:560px;">We use essential cookies only. By continuing you agree to our <a href="kalderon_privacy.html" style="color:#d4b483;">Privacy Policy</a> and <a href="kalderon_accessibility.html" style="color:#d4b483;">Accessibility Statement</a>.</p></div><div style="display:flex;gap:10px;flex-shrink:0;"><button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','accepted');" style="padding:10px 28px;background:#b8902a;color:#1c1612;border:none;cursor:pointer;font-family:sans-serif;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Accept</button><button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','essential');" style="padding:10px 22px;background:transparent;color:rgba(248,244,238,0.4);border:1px solid rgba(255,255,255,0.1);cursor:pointer;font-family:sans-serif;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Essential Only</button></div></div><script>if(localStorage.getItem('ak_cookies')){document.getElementById('cookie-banner').style.display='none';}</script>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accessibility Statement — AKalderon Arts</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{--ink:#1c1612;--cream:#f8f4ee;--gold:#b8902a;--muted:#8a7f72;--border:rgba(28,22,18,0.1);
+  --pastel-blue:#7ab3c4;
+  --pastel-rose:#d4957a;
+  --pastel-sage:#7aab8a;
+  --pastel-lavender:#b07fa8;
+  --pastel-wheat:#d4b483;
+  --pastel-sky:#6b9fc4;
+  --pastel-terracotta:#c4845a;--sage:#7aab8a;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.7;}
+nav{background:#1a1410;padding:0 64px;display:flex;align-items:center;height:58px;}
+.brand{font-family:'Cormorant Garamond',serif;font-size:17px;color:#f8f4ee;text-decoration:none;}
+.brand em{font-style:italic;color:var(--gold);}
+.hero{background:linear-gradient(135deg,#e5f5ec,#eee5f5);padding:72px 64px 48px;border-bottom:1px solid var(--border);}
+.eyebrow{font-size:9px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--sage);margin-bottom:14px;}
+h1{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:300;color:var(--ink);}
+h1 em{font-style:italic;color:var(--sage);}
+.updated{font-size:11px;color:var(--muted);margin-top:12px;}
+.compliance-bar{display:flex;gap:16px;margin-top:24px;flex-wrap:wrap;}
+.badge{padding:6px 16px;border:1px solid rgba(122,171,138,0.3);background:rgba(122,171,138,0.08);font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:var(--sage);}
+.content{max-width:740px;margin:0 auto;padding:64px;}
+h2{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;color:var(--ink);margin:40px 0 14px;padding-bottom:10px;border-bottom:1px solid var(--border);}
+p{font-size:13px;font-weight:300;color:rgba(28,22,18,0.7);margin-bottom:14px;}
+ul{font-size:13px;font-weight:300;color:rgba(28,22,18,0.7);padding-left:20px;margin-bottom:14px;}
+ul li{margin-bottom:6px;}
+.check-list{list-style:none;padding:0;}
+.check-list li{padding:8px 0 8px 28px;position:relative;border-bottom:1px solid var(--border);font-size:13px;color:rgba(28,22,18,0.7);}
+.check-list li::before{content:'✓';position:absolute;left:0;color:var(--sage);font-weight:500;}
+.contact-box{background:rgba(122,171,138,0.06);border:1px solid rgba(122,171,138,0.2);padding:24px 28px;margin:32px 0;}
+.contact-box p{margin:0;font-size:13px;}
+.contact-box a{color:var(--sage);}
+footer{background:#1a1410;padding:20px 64px;text-align:center;font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(248,244,238,0.18);}
+footer a{color:rgba(248,244,238,0.3);text-decoration:none;margin:0 12px;}
+footer a:hover{color:var(--gold);}
+.pastel-strip{height:5px;background:linear-gradient(to right,#7ab3c4,#d4957a,#b07fa8,#7aab8a,#d4b483,#6b9fc4,#7ab3c4);}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link" style="position:absolute;top:-100px;left:0;background:#b8902a;color:#1c1612;padding:12px 24px;font-size:13px;font-weight:500;z-index:9999;text-decoration:none;">Skip to main content</a>
+<nav><a href="kalderon_home.html" class="brand">AKalderon <em>Arts</em></a></nav>
+<div class="hero">
+  <div class="eyebrow">Legal · IS 5568</div>
+  <h1>Accessibility <em>Statement</em></h1>
+  <div class="updated">Last updated: April 2025 · Compliant with Israeli Standard IS 5568 (WCAG 2.1 Level AA)</div>
+  <div class="compliance-bar">
+    <div class="badge">IS 5568 Compliant</div>
+    <div class="badge">WCAG 2.1 AA</div>
+    <div class="badge">PPL 2024</div>
+  </div>
+</div>
+<div class="pastel-strip" aria-hidden="true"></div>
+<div class="content">
+  <h2>Our Commitment</h2>
+  <p>AKalderon Arts is committed to making its website accessible to all users, including people with disabilities, in accordance with Israeli Standard IS 5568 — the Israeli equivalent of WCAG 2.1 Level AA — and the Israeli Equal Rights for Persons with Disabilities Law.</p>
+
+  <h2>Accessibility Features</h2>
+  <ul class="check-list">
+    <li>Skip-to-main-content link at the top of every page</li>
+    <li>All images include descriptive alt text</li>
+    <li>Keyboard navigation supported throughout — all interactive elements reachable by Tab</li>
+    <li>ARIA roles and labels on all navigation, lists, forms and regions</li>
+    <li>Sufficient colour contrast ratios (minimum 4.5:1 for normal text)</li>
+    <li>Slideshows and carousels include pause/play controls and keyboard navigation</li>
+    <li>Focus indicators visible on all interactive elements</li>
+    <li>No content flashes more than 3 times per second</li>
+    <li>Page titles are descriptive and unique</li>
+    <li>Language declared in HTML for screen reader compatibility</li>
+    <li>Forms include visible labels and error messages</li>
+  </ul>
+
+  <h2>Known Limitations</h2>
+  <p>Some historical artwork images may have limited alternative text descriptions due to the nature of abstract and non-representational art. We continue to improve descriptions for all works. Some older PDF documents linked from the site may not be fully accessible — we are working to remediate these.</p>
+
+  <h2>Compatibility</h2>
+  <p>This website is designed to be compatible with:</p>
+  <ul>
+    <li>Screen readers: NVDA (Windows), JAWS (Windows), VoiceOver (macOS / iOS), TalkBack (Android)</li>
+    <li>Browsers: Chrome, Firefox, Safari, Edge (latest two major versions)</li>
+    <li>Operating systems: Windows, macOS, iOS, Android</li>
+    <li>Keyboard-only navigation</li>
+  </ul>
+
+  <h2>Technical Standards</h2>
+  <p>This website uses semantic HTML5, WAI-ARIA 1.2 attributes, and follows the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA, as required by Israeli Standard IS 5568.</p>
+
+  <h2>Feedback & Contact</h2>
+  <p>We welcome feedback on the accessibility of this website. If you encounter any barriers or have suggestions for improvement, please contact our accessibility coordinator:</p>
+  <div class="contact-box">
+    <p><strong>Accessibility Coordinator — A&L Kalderon</strong><br>
+    Email: <a href="/cdn-cgi/l/email-protection#4b2a38232e39202a272f2e3924250b2c262a222765282426"><span class="__cf_email__" data-cfemail="9effedf6fbecf5fff2fafbecf1f0def9f3fff7f2b0fdf1f3">[email&#160;protected]</span></a><br>
+    Phone: <a href="tel:+972542466323">+972 54 246 6323</a><br>
+    We aim to respond to accessibility feedback within 5 business days.</p>
+  </div>
+  <p>If you are not satisfied with our response, you may contact the Israeli Commission for Equal Rights of Persons with Disabilities at the Ministry of Justice.</p>
+</div>
+<footer>
+  <a href="kalderon_home.html">Home</a>
+  <a href="kalderon_privacy.html">Pri
+<!-- COOKIE BANNER --><div id="cookie-banner" role="dialog" aria-labelledby="cookie-title" style="position:fixed;bottom:0;left:0;right:0;z-index:999;background:rgba(26,20,16,0.96);backdrop-filter:blur(12px);border-top:1px solid rgba(184,144,42,0.2);padding:18px 64px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;"><div><div id="cookie-title" style="font-size:10px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:rgba(248,244,238,0.75);margin-bottom:5px;">Cookie Policy · PPL 2024</div><p style="font-size:12px;font-weight:300;color:rgba(248,244,238,0.4);line-height:1.6;max-width:560px;">We use essential cookies only. By continuing you agree to our <a href="kalderon_privacy.html" style="color:#d4b483;">Privacy Policy</a> and <a href="kalderon_accessibility.html" style="color:#d4b483;">Accessibility Statement</a>.</p></div><div style="display:flex;gap:10px;flex-shrink:0;"><button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','accepted');" style="padding:10px 28px;background:#b8902a;color:#1c1612;border:none;cursor:pointer;font-family:sans-serif;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Accept</button><button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','essential');" style="padding:10px 22px;background:transparent;color:rgba(248,244,238,0.4);border:1px solid rgba(255,255,255,0.1);cursor:pointer;font-family:sans-serif;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Essential Only</button></div></div><script>if(localStorage.getItem('ak_cookies')){document.getElementById('cookie-banner').style.display='none';}</script>
