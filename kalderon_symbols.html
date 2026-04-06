@@ -788,3 +788,16 @@ document.querySelectorAll('.artwork-frame, .artwork, .work-img, .poster-frame, .
   }
 });
 </script>
+<script>
+document.querySelectorAll('.nav-cat[data-target]').forEach(function(btn){
+  btn.style.cursor='pointer';
+  btn.addEventListener('click',function(){
+    var target=document.getElementById(this.getAttribute('data-target'));
+    if(target){
+      target.scrollIntoView({behavior:'smooth',block:'start'});
+    }
+    document.querySelectorAll('.nav-cat').forEach(function(b){b.classList.remove('active');});
+    this.classList.add('active');
+  });
+});
+</script>
