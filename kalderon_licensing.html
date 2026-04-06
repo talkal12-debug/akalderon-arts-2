@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Licensing — AKalderon Arts</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --ink:#1c1612;
+  --cream:#f8f4ee;
+  --gold:#b8902a;
+  --light:#faf7f2;
+  --muted:#8a7f72;
+  --border:rgba(28,22,18,0.1);
+  --deep:#1a1410;
+  --pastel-blue:#7ab3c4;
+  --pastel-rose:#d4957a;
+  --pastel-sage:#7aab8a;
+  --pastel-lavender:#b07fa8;
+  --pastel-wheat:#d4b483;
+  --pastel-sky:#6b9fc4;
+  --pastel-terracotta:#c4845a;
+}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 0%,#f2ecf8 35%,#e8f2f8 65%,#ecf8f0 100%);color:var(--ink);}
+
+/* NAV */
+.main-nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:stretch;background:rgba(26,20,16,0.97);border-bottom:1px solid rgba(184,144,42,0.2);height:56px;}
+.nav-brand{display:flex;align-items:center;padding:0 32px;border-right:1px solid rgba(255,255,255,0.08);}
+.brand-text{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:#fff;letter-spacing:0.05em;}
+.brand-text em{color:var(--gold);font-style:italic;}
+.nav-links{display:flex;align-items:center;list-style:none;padding:0 24px;gap:0;flex:1;}
+.nav-links li a{display:block;padding:0 14px;height:56px;line-height:56px;font-size:0.65rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.6);text-decoration:none;transition:color 0.2s;}
+.nav-links li a:hover{color:#fff;}
+.nav-links li a.active{color:var(--gold);border-bottom:2px solid var(--gold);}
+.nav-end{display:flex;align-items:center;padding:0 24px;border-left:1px solid rgba(255,255,255,0.08);}
+.btn-license{background:var(--gold);color:#fff;border:none;padding:10px 20px;font-size:0.65rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;}
+
+/* PASTEL STRIP */
+.pastel-strip{height:5px;background:linear-gradient(to right,#7ab3c4,#d4957a,#b07fa8,#7aab8a,#d4b483,#6b9fc4,#7ab3c4);position:fixed;top:56px;left:0;right:0;z-index:99;}
+
+/* HERO */
+.page-header{padding:140px 80px 80px;max-width:1200px;margin:0 auto;}
+.eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:16px;margin-bottom:28px;}
+.eyebrow::before{content:'';display:block;width:40px;height:1px;background:var(--gold);}
+.page-title{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6vw,5.5rem);font-weight:300;line-height:1.05;color:var(--deep);margin-bottom:12px;}
+.page-title em{color:var(--gold);font-style:italic;display:block;}
+.page-subtitle{font-size:1rem;color:var(--muted);font-weight:300;max-width:480px;line-height:1.7;margin-top:24px;}
+
+/* STATS BAR */
+.stats-bar{display:flex;gap:0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);max-width:1200px;margin:0 80px 80px;}
+.stat{flex:1;padding:32px 40px;border-right:1px solid var(--border);}
+.stat:last-child{border-right:none;}
+.stat-number{font-family:'Cormorant Garamond',serif;font-size:2.8rem;font-weight:300;color:var(--gold);line-height:1;}
+.stat-label{font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);margin-top:6px;}
+
+/* INTRO SECTION */
+.intro-section{max-width:1200px;margin:0 auto 80px;padding:0 80px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.intro-text h2{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;line-height:1.3;color:var(--deep);margin-bottom:24px;}
+.intro-text p{font-size:0.95rem;line-height:1.85;color:var(--muted);font-weight:300;}
+.quote-block{background:var(--deep);padding:48px;position:relative;}
+.quote-block::before{content:'\201C';font-family:'Cormorant Garamond',serif;font-size:8rem;color:var(--gold);opacity:0.3;position:absolute;top:-20px;left:32px;line-height:1;}
+.quote-text{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;color:#fff;line-height:1.6;font-weight:300;}
+
+/* USE CASES */
+.uses-section{background:var(--deep);padding:80px;margin-bottom:0;}
+.uses-inner{max-width:1200px;margin:0 auto;}
+.uses-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:56px;}
+.uses-header h2{font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:300;color:#fff;}
+.uses-header p{font-size:0.85rem;color:rgba(255,255,255,0.4);max-width:280px;text-align:right;line-height:1.6;}
+.uses-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,0.1);}
+.use-card{background:var(--deep);padding:40px 32px;transition:background 0.3s;}
+.use-card:hover{background:#241e18;}
+.use-number{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:var(--gold);opacity:0.4;line-height:1;margin-bottom:20px;}
+.use-title{font-size:0.75rem;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:#fff;margin-bottom:12px;}
+.use-desc{font-size:0.85rem;color:rgba(255,255,255,0.45);line-height:1.7;font-weight:300;}
+
+/* PROCESS */
+.process-section{max-width:1200px;margin:0 auto;padding:80px;}
+.section-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:16px;margin-bottom:40px;}
+.section-eyebrow::before{content:'';display:block;width:40px;height:1px;background:var(--gold);}
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;}
+.step{position:relative;}
+.step::after{content:'';position:absolute;top:20px;right:-20px;width:40px;height:1px;background:var(--border);}
+.step:last-child::after{display:none;}
+.step-num{width:40px;height:40px;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--gold);margin-bottom:20px;}
+.step-title{font-size:0.75rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--deep);margin-bottom:10px;}
+.step-desc{font-size:0.85rem;color:var(--muted);line-height:1.7;font-weight:300;}
+
+/* CONTACT */
+.contact-section{background:linear-gradient(135deg,#1a1410 0%,#2a2018 100%);padding:100px 80px;}
+.contact-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.contact-left h2{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:#fff;line-height:1.2;margin-bottom:20px;}
+.contact-left h2 em{color:var(--gold);font-style:italic;}
+.contact-left p{font-size:0.9rem;color:rgba(255,255,255,0.45);line-height:1.8;font-weight:300;}
+.contact-details{display:flex;flex-direction:column;gap:24px;}
+.contact-item{display:flex;align-items:flex-start;gap:20px;padding:28px 32px;border:1px solid rgba(184,144,42,0.2);transition:border-color 0.3s;}
+.contact-item:hover{border-color:rgba(184,144,42,0.6);}
+.contact-icon{font-size:1.4rem;line-height:1;margin-top:2px;}
+.contact-info{}
+.contact-label{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.contact-value{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#fff;font-weight:300;}
+.contact-value a{color:#fff;text-decoration:none;transition:color 0.2s;}
+.contact-value a:hover{color:var(--gold);}
+.response-note{margin-top:32px;font-size:0.8rem;color:rgba(255,255,255,0.3);display:flex;align-items:center;gap:10px;}
+.response-note::before{content:'';display:block;width:6px;height:6px;border-radius:50%;background:var(--gold);}
+
+/* FOOTER STRIP */
+.footer-strip{height:5px;background:linear-gradient(to right,#7ab3c4,#d4957a,#b07fa8,#7aab8a,#d4b483,#6b9fc4,#7ab3c4);}
+
+/* ANIMATIONS */
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px);}to{opacity:1;transform:translateY(0);}}
+.page-header,.stats-bar,.intro-section,.uses-section,.process-section,.contact-section{animation:fadeUp 0.8s ease both;}
+.stats-bar{animation-delay:0.1s;}
+.intro-section{animation-delay:0.2s;}
+
+@media(max-width:900px){
+  .intro-section,.contact-inner{grid-template-columns:1fr;}
+  .uses-grid{grid-template-columns:1fr 1fr;}
+  .process-steps{grid-template-columns:1fr 1fr;}
+  .page-header,.stats-bar,.intro-section,.process-section,.contact-section{padding-left:32px;padding-right:32px;}
+  .uses-section{padding:60px 32px;}
+  .stats-bar{margin:0 32px 60px;}
+}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link" style="position:absolute;top:-100px;left:0;background:var(--gold);color:#fff;padding:12px 24px;font-size:0.8rem;z-index:999;">Skip to main content</a>
+
+<nav class="main-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-brand"><div class="brand-text">AKalderon <em>Arts</em></div></div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="kalderon_gallery_v4.html">Art Gallery</a></li>
+    <li><a href="kalderon_posters.html">Posters</a></li>
+    <li><a href="kalderon_judaica.html">Judaica Art</a></li>
+    <li><a href="kalderon_haggadah_v4.html">Haggadah</a></li>
+    <li><a href="kalderon_symbols.html">Symbols</a></li>
+    <li><a href="kalderon_stamps_v3.html">Stamps</a></li>
+    <li><a href="kalderon_about.html">About</a></li>
+  </ul>
+  <div class="nav-end"><a href="kalderon_licensing.html"><button class="btn-license">Licensing</button></a></div>
+</nav>
+<div class="pastel-strip"></div>
+
+<main id="main">
+
+  <!-- HERO -->
+  <div class="page-header">
+    <div class="eyebrow">Licensing & Rights Acquisition</div>
+    <h1 class="page-title">Your vision.<em>His art.</em></h1>
+    <p class="page-subtitle">Asher Kalderon's works have captivated audiences worldwide — and now they can elevate your project, brand, or space.</p>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-number">450+</div>
+      <div class="stat-label">Works Available</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">6</div>
+      <div class="stat-label">License Categories</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">24h</div>
+      <div class="stat-label">Response Time</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">∞</div>
+      <div class="stat-label">Creative Possibilities</div>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <div class="intro-section">
+    <div class="intro-text">
+      <h2>Art that works as hard as you do</h2>
+      <p>We offer flexible licensing arrangements that allow you to use Asher Kalderon's iconic works across a wide range of creative and commercial applications. Whether you're launching a product, publishing a book, or designing an interior — we'll craft a solution tailored to your specific needs and budget.</p>
+    </div>
+    <div class="quote-block">
+      <p class="quote-text">The perfect collaboration begins with a conversation. Tell us your vision, and we'll bring the art to life within it.</p>
+    </div>
+  </div>
+
+  <!-- USE CASES -->
+  <div class="uses-section">
+    <div class="uses-inner">
+      <div class="uses-header">
+        <h2>Licensing Categories</h2>
+        <p>We support a broad range of licensing uses, tailored to your industry and goals.</p>
+      </div>
+      <div class="uses-grid">
+        <div class="use-card">
+          <div class="use-number">01</div>
+          <div class="use-title">Commercial & Advertising</div>
+          <div class="use-desc">Campaigns, brand identity, marketing materials, and promotional content that demand visual distinction.</div>
+        </div>
+        <div class="use-card">
+          <div class="use-number">02</div>
+          <div class="use-title">Editorial & Publishing</div>
+          <div class="use-desc">Books, magazines, newspapers, and digital publications seeking the authority of original fine art.</div>
+        </div>
+        <div class="use-card">
+          <div class="use-number">03</div>
+          <div class="use-title">Product Design & Merchandise</div>
+          <div class="use-desc">Apparel, stationery, packaging, gifts, and consumer products elevated by iconic imagery.</div>
+        </div>
+        <div class="use-card">
+          <div class="use-number">04</div>
+          <div class="use-title">Interior Design & Hospitality</div>
+          <div class="use-desc">Hotels, restaurants, offices, and residential spaces transformed through large-format fine art prints.</div>
+        </div>
+        <div class="use-card">
+          <div class="use-number">05</div>
+          <div class="use-title">Digital & Multimedia</div>
+          <div class="use-desc">Websites, apps, video productions, exhibitions, and interactive installations.</div>
+        </div>
+        <div class="use-card">
+          <div class="use-number">06</div>
+          <div class="use-title">Custom & Institutional</div>
+          <div class="use-desc">Museums, cultural institutions, government bodies, and bespoke projects with unique requirements.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROCESS -->
+  <div class="process-section">
+    <div class="section-eyebrow">How It Works</div>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-title">Reach Out</div>
+        <div class="step-desc">Contact us by email or phone with your project details and the work you're interested in.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-title">Consultation</div>
+        <div class="step-desc">We discuss your needs, intended use, timeline, and budget to find the right licensing model.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-title">Proposal</div>
+        <div class="step-desc">We present a tailored licensing offer with clear terms and a variety of purchase options.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-title">Agreement</div>
+        <div class="step-desc">Once agreed, you receive high-resolution files and full documentation of your licensed rights.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="contact-section">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <h2>Ready to bring great art <em>into your work?</em></h2>
+        <p>We respond to all licensing inquiries within 24 hours. Tell us about your project and we'll guide you through every step of the process.</p>
+      </div>
+      <div class="contact-details">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div class="contact-info">
+            <div class="contact-label">Email</div>
+            <div class="contact-value"><a href="mailto:talkal12@gmail.com">talkal12@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-info">
+            <div class="contact-label">Phone</div>
+            <div class="contact-value"><a href="tel:+972542466323">+972 54 246 6323</a></div>
+          </div>
+        </div>
+        <div class="response-note">Typical response time: within 24 hours</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<div class="footer-strip"></div>
+
+</body>
+</html>
