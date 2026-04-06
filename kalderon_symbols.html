@@ -763,3 +763,28 @@ const observer = new IntersectionObserver(entries => {
   });
 }, 
 <!-- COOKIE BANNER --><div id="cookie-banner" role="dialog" aria-labelledby="cookie-title" style="position:fixed;bottom:0;left:0;right:0;z-index:999;background:rgba(26,20,16,0.96);backdrop-filter:blur(12px);border-top:1px solid rgba(184,144,42,0.2);padding:18px 64px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;"><div><div id="cookie-title" style="font-size:10px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:rgba(248,244,238,0.75);margin-bottom:5px;">Cookie Policy · PPL 2024</div><p style="font-size:12px;font-weight:300;color:rgba(248,244,238,0.4);line-height:1.6;max-width:560px;">We use essential cookies only. By continuing you agree to our <a href="kalderon_privacy.html" style="color:#d4b483;">Privacy Policy</a> and <a href="kalderon_accessibility.html" style="color:#d4b483;">Accessibility Statement</a>.</p></div><div style="display:flex;gap:10px;flex-shrink:0;"><button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','accepted');" style="padding:10px 28px;background:#b8902a;color:#1c1612;border:none;cursor:pointer;font-family:sans-serif;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Accept</button><button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','essential');" style="padding:10px 22px;background:transparent;color:rgba(248,244,238,0.4);border:1px solid rgba(255,255,255,0.1);cursor:pointer;font-family:sans-serif;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Essential Only</button></div></div><script>if(localStorage.getItem('ak_cookies')){document.getElementById('cookie-banner').style.display='none';}</script>
+<div id="img-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:9999;cursor:zoom-out;align-items:center;justify-content:center;" onclick="this.style.display='none'">
+<img id="img-overlay-img" style="max-width:90vw;max-height:90vh;object-fit:contain;box-shadow:0 8px 60px rgba(0,0,0,0.6);">
+</div>
+<script>
+document.querySelectorAll('.artwork-frame img, .artwork img, .work-img img, .poster-frame img, .stamp-frame img, .symbol-frame img, .judaica-frame img, .gallery-img img, img.artwork-img, .grid-item img, .item-frame img, .card-img img').forEach(function(img){
+  img.style.cursor='zoom-in';
+  img.addEventListener('click',function(e){
+    e.stopPropagation();
+    var overlay=document.getElementById('img-overlay');
+    document.getElementById('img-overlay-img').src=this.src;
+    overlay.style.display='flex';
+  });
+});
+document.querySelectorAll('.artwork-frame, .artwork, .work-img, .poster-frame, .stamp-frame, .symbol-frame, .judaica-frame, .gallery-img, .grid-item, .item-frame, .card-img').forEach(function(el){
+  var img=el.querySelector('img');
+  if(img){
+    el.style.cursor='zoom-in';
+    el.addEventListener('click',function(){
+      var overlay=document.getElementById('img-overlay');
+      document.getElementById('img-overlay-img').src=img.src;
+      overlay.style.display='flex';
+    });
+  }
+});
+</script>

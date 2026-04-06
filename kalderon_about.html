@@ -583,5 +583,30 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
 </div>
 <script>if(localStorage.getItem('ak_cookies')){document.getElementById('cookie-banner').style.display='none';}</script>
 
+<div id="img-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:9999;cursor:zoom-out;align-items:center;justify-content:center;" onclick="this.style.display='none'">
+<img id="img-overlay-img" style="max-width:90vw;max-height:90vh;object-fit:contain;box-shadow:0 8px 60px rgba(0,0,0,0.6);">
+</div>
+<script>
+document.querySelectorAll('.artwork-frame img, .artwork img, .work-img img, .poster-frame img, .stamp-frame img, .symbol-frame img, .judaica-frame img, .gallery-img img, img.artwork-img, .grid-item img, .item-frame img, .card-img img').forEach(function(img){
+  img.style.cursor='zoom-in';
+  img.addEventListener('click',function(e){
+    e.stopPropagation();
+    var overlay=document.getElementById('img-overlay');
+    document.getElementById('img-overlay-img').src=this.src;
+    overlay.style.display='flex';
+  });
+});
+document.querySelectorAll('.artwork-frame, .artwork, .work-img, .poster-frame, .stamp-frame, .symbol-frame, .judaica-frame, .gallery-img, .grid-item, .item-frame, .card-img').forEach(function(el){
+  var img=el.querySelector('img');
+  if(img){
+    el.style.cursor='zoom-in';
+    el.addEventListener('click',function(){
+      var overlay=document.getElementById('img-overlay');
+      document.getElementById('img-overlay-img').src=img.src;
+      overlay.style.display='flex';
+    });
+  }
+});
+</script>
 </body>
 </html>
