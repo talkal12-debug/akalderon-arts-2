@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — AKalderon Arts</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --ink:#1c1612;
+  --cream:#f8f4ee;
+  --gold:#b8902a;
+  --light:#faf7f2;
+  --muted:#8a7f72;
+  --border:rgba(28,22,18,0.1);
+  --deep:#1a1410;
+}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 0%,#f2ecf8 35%,#e8f2f8 65%,#ecf8f0 100%);color:var(--ink);min-height:100vh;}
+
+/* NAV */
+.main-nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:stretch;background:rgba(26,20,16,0.97);border-bottom:1px solid rgba(184,144,42,0.2);height:56px;}
+.nav-brand{display:flex;align-items:center;padding:0 32px;border-right:1px solid rgba(255,255,255,0.08);}
+.brand-text{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:#fff;letter-spacing:0.05em;}
+.brand-text em{color:var(--gold);font-style:italic;}
+.nav-links{display:flex;align-items:center;list-style:none;padding:0 24px;gap:0;flex:1;}
+.nav-links li a{display:block;padding:0 14px;height:56px;line-height:56px;font-size:0.65rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.6);text-decoration:none;transition:color 0.2s;}
+.nav-links li a:hover,.nav-links li a.active{color:var(--gold);}
+.nav-end{display:flex;align-items:center;padding:0 24px;border-left:1px solid rgba(255,255,255,0.08);gap:8px;}
+.btn-license{background:var(--gold);color:#fff;border:none;padding:10px 20px;font-size:0.65rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;text-decoration:none;display:inline-block;}
+.btn-contact-nav{background:transparent;border:1px solid #b8902a;color:#b8902a;padding:9px 20px;font-size:0.65rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;text-decoration:none;display:inline-block;}
+
+/* PASTEL STRIP */
+.pastel-strip{height:5px;background:linear-gradient(to right,#7ab3c4,#d4957a,#b07fa8,#7aab8a,#d4b483,#6b9fc4,#7ab3c4);position:fixed;top:56px;left:0;right:0;z-index:99;}
+
+/* HERO */
+.page-hero{padding:120px 80px 60px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;}
+.eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:16px;margin-bottom:24px;}
+.eyebrow::before{content:'';display:block;width:40px;height:1px;background:var(--gold);}
+.page-title{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,5vw,4.5rem);font-weight:300;line-height:1.05;color:var(--deep);}
+.page-title em{color:var(--gold);font-style:italic;display:block;}
+.hero-right p{font-size:0.95rem;color:var(--muted);line-height:1.85;font-weight:300;margin-bottom:32px;}
+.direct-contacts{display:flex;flex-direction:column;gap:16px;}
+.direct-item{display:flex;align-items:center;gap:14px;}
+.direct-icon{font-size:1rem;}
+.direct-info{font-size:0.85rem;color:var(--ink);font-weight:400;}
+.direct-info a{color:var(--ink);text-decoration:none;transition:color 0.2s;}
+.direct-info a:hover{color:var(--gold);}
+.direct-label{font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:2px;}
+
+/* FORM SECTION */
+.form-section{max-width:1200px;margin:0 auto;padding:0 80px 100px;}
+.form-card{background:#fff;padding:60px;box-shadow:0 4px 40px rgba(28,22,18,0.08);}
+.form-header{margin-bottom:48px;padding-bottom:32px;border-bottom:1px solid var(--border);}
+.form-header h2{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:300;color:var(--deep);margin-bottom:8px;}
+.form-header p{font-size:0.85rem;color:var(--muted);}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px;}
+.form-group{display:flex;flex-direction:column;gap:8px;}
+.form-group.full{grid-column:1/-1;}
+.form-group label{font-size:0.65rem;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);}
+.form-group input,
+.form-group textarea{border:1px solid var(--border);padding:14px 16px;font-size:0.9rem;font-family:'DM Sans',sans-serif;color:var(--ink);background:#faf9f7;outline:none;transition:border-color 0.2s,background 0.2s;resize:none;width:100%;}
+.form-group input:focus,
+.form-group textarea:focus{border-color:var(--gold);background:#fff;}
+.form-group textarea{min-height:160px;}
+.form-footer{display:flex;align-items:center;justify-content:space-between;margin-top:32px;padding-top:32px;border-top:1px solid var(--border);}
+.form-note{font-size:0.8rem;color:var(--muted);display:flex;align-items:center;gap:8px;}
+.form-note::before{content:'';display:block;width:6px;height:6px;border-radius:50%;background:var(--gold);}
+.btn-submit{background:var(--deep);color:#fff;border:none;padding:16px 48px;font-size:0.7rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;transition:background 0.2s;}
+.btn-submit:hover{background:var(--gold);}
+
+/* SUCCESS MESSAGE */
+.success-msg{display:none;background:#f0faf4;border:1px solid #7aab8a;padding:24px 32px;margin-top:24px;color:#2d6b3f;font-size:0.9rem;}
+.success-msg strong{display:block;margin-bottom:4px;font-size:1rem;}
+
+/* FOOTER STRIP */
+.footer-strip{height:5px;background:linear-gradient(to right,#7ab3c4,#d4957a,#b07fa8,#7aab8a,#d4b483,#6b9fc4,#7ab3c4);}
+
+/* ANIMATIONS */
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+.page-hero,.form-section{animation:fadeUp 0.7s ease both;}
+.form-section{animation-delay:0.15s;}
+
+@media(max-width:900px){
+  .page-hero{grid-template-columns:1fr;padding:100px 32px 40px;gap:40px;}
+  .form-section{padding:0 32px 80px;}
+  .form-card{padding:40px 28px;}
+  .form-grid{grid-template-columns:1fr;}
+  .form-footer{flex-direction:column;gap:20px;align-items:flex-start;}
+}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link" style="position:absolute;top:-100px;left:0;background:var(--gold);color:#fff;padding:12px 24px;font-size:0.8rem;z-index:999;">Skip to main content</a>
+
+<nav class="main-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-brand"><div class="brand-text">AKalderon <em>Arts</em></div></div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="kalderon_gallery_v4.html">Art Gallery</a></li>
+    <li><a href="kalderon_posters.html">Posters</a></li>
+    <li><a href="kalderon_judaica.html">Judaica Art</a></li>
+    <li><a href="kalderon_haggadah_v4.html">Haggadah</a></li>
+    <li><a href="kalderon_symbols.html">Symbols</a></li>
+    <li><a href="kalderon_stamps_v3.html">Stamps</a></li>
+    <li><a href="kalderon_about.html">About</a></li>
+  </ul>
+  <div class="nav-end">
+    <a href="kalderon_licensing.html" style="text-decoration:none;"><button class="btn-license">Licensing</button></a>
+    <a href="kalderon_contact.html" style="text-decoration:none;"><button class="btn-contact-nav">Contact</button></a>
+  </div>
+</nav>
+<div class="pastel-strip"></div>
+
+<main id="main">
+
+  <div class="page-hero">
+    <div class="hero-left">
+      <div class="eyebrow">Get in Touch</div>
+      <h1 class="page-title">Let's start a<em>conversation.</em></h1>
+    </div>
+    <div class="hero-right">
+      <p>Whether you're interested in licensing, purchasing original works, or simply want to learn more about Asher Kalderon's art — we'd love to hear from you. Fill in the form and we'll get back to you within 24 hours.</p>
+      <div class="direct-contacts">
+        <div class="direct-item">
+          <div class="direct-icon">📧</div>
+          <div class="direct-info">
+            <span class="direct-label">Email</span>
+            <a href="kalderon_contact.html">talkal12@gmail.com</a>
+          </div>
+        </div>
+        <div class="direct-item">
+          <div class="direct-icon">📞</div>
+          <div class="direct-info">
+            <span class="direct-label">Phone</span>
+            <a href="tel:+972542466323">+972 54 246 6323</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-section">
+    <div class="form-card">
+      <div class="form-header">
+        <h2>Send us a message</h2>
+        <p>All fields are required. We typically respond within 24 hours.</p>
+      </div>
+      <form action="https://formspree.io/f/xgoprqzb" method="POST" id="contact-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+972 XX XXX XXXX">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Licensing inquiry">
+          </div>
+          <div class="form-group full">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project or inquiry..." required></textarea>
+          </div>
+        </div>
+        <div class="form-footer">
+          <div class="form-note">We'll respond within 24 hours</div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </div>
+      </form>
+      <div class="success-msg" id="success-msg">
+        <strong>Message sent successfully!</strong>
+        Thank you for reaching out. We'll be in touch within 24 hours.
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<div class="footer-strip"></div>
+
+<script>
+const form = document.getElementById('contact-form');
+const successMsg = document.getElementById('success-msg');
+form.addEventListener('submit', async function(e){
+  e.preventDefault();
+  const data = new FormData(form);
+  const response = await fetch(form.action, {
+    method: 'POST',
+    body: data,
+    headers: {'Accept': 'application/json'}
+  });
+  if(response.ok){
+    form.style.display = 'none';
+    successMsg.style.display = 'block';
+  }
+});
+</script>
+
+</body>
+</html>
