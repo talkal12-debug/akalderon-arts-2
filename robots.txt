@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akalderon-arts.com/sitemap.xml

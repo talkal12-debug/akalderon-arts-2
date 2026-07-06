@@ -1,13 +1,476 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.akalderon-arts.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_gallery_v4.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_posters.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_judaica.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_haggadah_v4.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_symbols.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_stamps_v3.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_about.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_licensing.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.akalderon-arts.com/kalderon_contact.html</loc><priority>0.6</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://akalderon-arts.com/</loc><lastmod>2026-07-06</lastmod><priority>1.0</priority>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/tapestries-exhibition-asher-kalderon.jpg</image:loc><image:title>Tapestries Exhibition</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/zodiac-tapestry-asher-kalderon.jpg</image:loc><image:title>Zodiac Tapestry</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/think-peace-asher-kalderon.jpg</image:loc><image:title>Think Peace</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/the-creation-asher-kalderon.jpg</image:loc><image:title>The Creation</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/jewish-kings-stamps-asher-kalderon.jpg</image:loc><image:title>Jewish Kings Stamps</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/sara-asher-kalderon.jpg</image:loc><image:title>Sara</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/maccabiah-asher-kalderon.jpg</image:loc><image:title>Maccabiah</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/king-david-asher-kalderon.jpg</image:loc><image:title>King David</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/art-gallery-asher-kalderon.jpg</image:loc><image:title>Art Gallery</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/posters-asher-kalderon.jpg</image:loc><image:title>Posters</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/judaica-art-asher-kalderon.jpg</image:loc><image:title>Judaica Art</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/the-haggadah-asher-kalderon.jpg</image:loc><image:title>The Haggadah</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/symbols-trademarks-asher-kalderon.jpg</image:loc><image:title>Symbols &amp; Trademarks</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/stamps-coins-asher-kalderon.jpg</image:loc><image:title>Stamps &amp; Coins</image:title></image:image>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_gallery_v4.html</loc><lastmod>2026-07-06</lastmod><priority>0.9</priority>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-asher-kalderon.jpg</image:loc><image:title>ABSTRACT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-a-asher-kalderon.jpg</image:loc><image:title>ABSTRACT A — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-b-asher-kalderon.jpg</image:loc><image:title>ABSTRACT B — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-8-asher-kalderon.jpg</image:loc><image:title>Abstract 8 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-c-asher-kalderon.jpg</image:loc><image:title>Abstract C — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-f-asher-kalderon.jpg</image:loc><image:title>Abstract F — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-in-blues-asher-kalderon.jpg</image:loc><image:title>Abstract in blues — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-in-reds-and-blues-asher-kalderon.jpg</image:loc><image:title>Abstract in reds and blues — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-color-spong-asher-kalderon.jpg</image:loc><image:title>Abstract Color SPONG — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-pink-violet-and-b-1-asher-kalderon.jpg</image:loc><image:title>Abstract Pink, Violet and B 1 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/big-abstract-asher-kalderon.jpg</image:loc><image:title>Big Abstract — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/red-abstract-asher-kalderon.jpg</image:loc><image:title>Red Abstract — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/kalderon-abstraact-60x60-cm-asher-kalderon.jpg</image:loc><image:title>Kalderon Abstraact 60x60 cm — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/geo-metrica-asher-kalderon.jpg</image:loc><image:title>GEO METRICA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/space-embrio-asher-kalderon.jpg</image:loc><image:title>SPACE EMBRIO — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/space-objects-asher-kalderon.jpg</image:loc><image:title>SPACE OBJECTS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/space-objects-b-asher-kalderon.jpg</image:loc><image:title>SPACE OBJECTS B — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/space-voices-2-asher-kalderon.jpg</image:loc><image:title>SPACE VOICES 2 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/01-birds-storm-asher-kalderon.jpg</image:loc><image:title>01 Birds storm — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/polar-storm-2-asher-kalderon.jpg</image:loc><image:title>Polar storm 2 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/the-creation-print-asher-kalderon.jpg</image:loc><image:title>The Creation Print — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/04-zodiascorpio-asher-kalderon.jpg</image:loc><image:title>04 ZodiaScorpio — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/04-3deams-asher-kalderon.jpg</image:loc><image:title>04 3Deams — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/spring-romance-asher-kalderon.jpg</image:loc><image:title>SPRING ROMANCE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/summer-a-asher-kalderon.jpg</image:loc><image:title>SUMMER A — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/summer-b-asher-kalderon.jpg</image:loc><image:title>SUMMER B — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/summer-c-asher-kalderon.jpg</image:loc><image:title>SUMMER C — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/autumn-asher-kalderon.jpg</image:loc><image:title>AUTUMN — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/winter-asher-kalderon.jpg</image:loc><image:title>WINTER — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/year-s-seasons-asher-kalderon.jpg</image:loc><image:title>YEAR s SEASONS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/rooster-acrilic-asher-kalderon.jpg</image:loc><image:title>Rooster-acrilic — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/angel-clown-asher-kalderon.jpg</image:loc><image:title>Angel clown — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/divorcees-asher-kalderon.jpg</image:loc><image:title>DiVORCEES — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/man-s-peace-and-war-asher-kalderon.jpg</image:loc><image:title>MAN s PEACE AND WAR — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/melancholy-asher-kalderon.jpg</image:loc><image:title>MELANCHOLY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/message-in-the-sky-asher-kalderon.jpg</image:loc><image:title>MESSAGE IN THE SKY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/rooster-acrilic-asher-kalderon.jpg</image:loc><image:title>MORNING MESSANGER — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/mistery-iland-asher-kalderon.jpg</image:loc><image:title>MISTERY ILAND — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/agata-c-1-asher-kalderon.jpg</image:loc><image:title>Agata C -1 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/agata-cristi-asher-kalderon.jpg</image:loc><image:title>Agata Cristi — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/kinetic-sculpture-asher-kalderon.jpg</image:loc><image:title>KINETIC SCULPTURE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/sculpture-in-apartment-asher-kalderon.jpg</image:loc><image:title>SCULPTURE IN APARTMENT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/014a-abstract-asher-kalderon.jpg</image:loc><image:title>014A ABSTRACT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-in-pink-and-red-asher-kalderon.jpg</image:loc><image:title>ABSTRACT IN PINK AND RED — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-paintings-in-a-restorant-asher-kalderon.jpg</image:loc><image:title>ABSTRACT Paintings in a restorant — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/birds-storm-asher-kalderon.jpg</image:loc><image:title>BIRDS STORM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/labyrinth-2001for-special-places-asher-kalderon.jpg</image:loc><image:title>LABYRINTH 2001for special places — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-c-asher-kalderon-2.jpg</image:loc><image:title>ABSTRACT C — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-asher-kalderon-2.jpg</image:loc><image:title>ABSTRACT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/clowns-asher-kalderon.jpg</image:loc><image:title>CLOWNS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/ancient-couple-asher-kalderon.jpg</image:loc><image:title>ANCIENT COUPLE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/going-nowhere-canvas-asher-kalderon.jpg</image:loc><image:title>GOING NOWHERE canvas — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/tropicana-asher-kalderon.jpg</image:loc><image:title>TROPICANA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/running-water-asher-kalderon.jpg</image:loc><image:title>RUNNING WATER — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/spring-asher-kalderon.jpg</image:loc><image:title>SPRING — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/the-creation-asher-kalderon-2.jpg</image:loc><image:title>THE CREATION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/transformation-asher-kalderon.jpg</image:loc><image:title>TRANSFORMATION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/oriental-women-asher-kalderon.jpg</image:loc><image:title>ORIENTAL WOMEN — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/peace-bar-mitzva-asher-kalderon.jpg</image:loc><image:title>PEACE &amp; BAR MITZVA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/make-me-a-clown-asher-kalderon.jpg</image:loc><image:title>MAKE ME A CLOWN — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/nine-small-abstract-asher-kalderon.jpg</image:loc><image:title>Nine small abstract — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/abstract-in-red-asher-kalderon.jpg</image:loc><image:title>ABSTRACT IN RED — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/the-creation-asher-kalderon-3.jpg</image:loc><image:title>THE CREATION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/the-creation-2-asher-kalderon.jpg</image:loc><image:title>THE CREATION 2 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/the-creation-3-asher-kalderon.jpg</image:loc><image:title>THE CREATION 3 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/the-deluge-asher-kalderon.jpg</image:loc><image:title>THE DELUGE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/noach-arch-asher-kalderon.jpg</image:loc><image:title>NOACH ARCH — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jacob-s-dream-asher-kalderon.jpg</image:loc><image:title>JACOB S DREAM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jona-and-the-wale-asher-kalderon.jpg</image:loc><image:title>JONA AND THE WALE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/king-david-asher-kalderon-2.jpg</image:loc><image:title>KING DAVID — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/rachel-asher-kalderon.jpg</image:loc><image:title>RACHEL — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/rebeca-asher-kalderon.jpg</image:loc><image:title>REBECA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/sara-asher-kalderon-2.jpg</image:loc><image:title>SARA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/adam-eve-asher-kalderon.jpg</image:loc><image:title>ADAM &amp; EVE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/mother-and-child-asher-kalderon.jpg</image:loc><image:title>MOTHER AND CHILD — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/man-with-himself-asher-kalderon.jpg</image:loc><image:title>MAN WITH HIMSELF — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/sea-man-asher-kalderon.jpg</image:loc><image:title>SEA MAN — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/birds-girl-asher-kalderon.jpg</image:loc><image:title>BIRDS GIRL — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/homage-asher-kalderon.jpg</image:loc><image:title>HOMAGE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/propatria-asher-kalderon.jpg</image:loc><image:title>PROPATRIA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/head-asher-kalderon.jpg</image:loc><image:title>HEAD — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/blue-rooster-asher-kalderon.jpg</image:loc><image:title>BLUE ROOSTER — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/rooster-asher-kalderon.jpg</image:loc><image:title>ROOSTER — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/peace-in-3-languges-asher-kalderon.jpg</image:loc><image:title>PEACE in 3 languges — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/shabat-shalom-asher-kalderon.jpg</image:loc><image:title>SHABAT SHALOM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/say-i-love-you-asher-kalderon.jpg</image:loc><image:title>SAY I LOVE YOU — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jerusalem-asher-kalderon.jpg</image:loc><image:title>JERUSALEM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiacs-tapestry-asher-kalderon.jpg</image:loc><image:title>ZODIACS-Tapestry — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiac-75-asher-kalderon.jpg</image:loc><image:title>Zodiac 75 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiacs-taurus-asher-kalderon.jpg</image:loc><image:title>ZODIACS TAURUS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiacs-leo-asher-kalderon.jpg</image:loc><image:title>ZODIACS  LEO — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiacs-scorpio-asher-kalderon.jpg</image:loc><image:title>ZODIACS  SCORPIO — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiacs-sagitarius-asher-kalderon.jpg</image:loc><image:title>ZODIACS SAGITARIUS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiacs-cancer-asher-kalderon.jpg</image:loc><image:title>ZODIACS CANCER — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiacs-capricorn-asher-kalderon.jpg</image:loc><image:title>ZODIACS CAPRICORN — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/zodiacs-pisces-asher-kalderon.jpg</image:loc><image:title>ZODIACS PISCES — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/oh-lord-oh-lord-asher-kalderon.jpg</image:loc><image:title>Oh Lord, Oh Lord ! — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jer-album-wings-of-dream-1-asher-kalderon.jpg</image:loc><image:title>Jer. Album Wings of Dream 1 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/next-year-in-rebuilded-jerusalem-asher-kalderon.jpg</image:loc><image:title>Next year in rebuilded Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/blessed-be-the-lord-out-of-jerusalem-asher-kalderon.jpg</image:loc><image:title>Blessed be The Lord out of Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/towers-of-love-asher-kalderon.jpg</image:loc><image:title>Towers of Love — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/if-i-forget-thee-jerusalem-asher-kalderon.jpg</image:loc><image:title>If I Forget Thee Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jerusalem-university-asher-kalderon.jpg</image:loc><image:title>Jerusalem University — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/walk-about-zion-asher-kalderon.jpg</image:loc><image:title>Walk about Zion — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jerusalem-the-old-asher-kalderon.jpg</image:loc><image:title>Jerusalem the old — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jerusalem-s-overwiew-asher-kalderon.jpg</image:loc><image:title>Jerusalem s overwiew — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/pray-for-the-peace-of-jerusalem-asher-kalderon.jpg</image:loc><image:title>Pray for the peace of Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/yeru-shalem-asher-kalderon.jpg</image:loc><image:title>Yeru-shalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jerusalem-print-copy-asher-kalderon.jpg</image:loc><image:title>Jerusalem Print copy — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/mizrach-east-asher-kalderon.jpg</image:loc><image:title>Mizrach East — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/for-out-of-zion-shall-go-asher-kalderon.jpg</image:loc><image:title>For out of Zion shall go — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/nostalgic-jerusalem-asher-kalderon.jpg</image:loc><image:title>Nostalgic Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/gallery/jerusalem-painting-asher-kalderon.jpg</image:loc><image:title>Jerusalem painting — Asher Kalderon</image:title></image:image>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_posters.html</loc><lastmod>2026-07-06</lastmod><priority>0.9</priority>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/boris-godunov-opera-asher-kalderon.jpg</image:loc><image:title>BORIS GODUNOV Opera — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/don-juan-opera-asher-kalderon.jpg</image:loc><image:title>Don Juan Opera — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/the-visit-of-the-lady-play-asher-kalderon.jpg</image:loc><image:title>THE VISIT OF THE LADY Play — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/ak-design-exhibition-asher-kalderon.jpg</image:loc><image:title>AK DESIGN EXHIBITION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/exibition-asher-kalderon.jpg</image:loc><image:title>EXIBITION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/jewish-olympics-asher-kalderon.jpg</image:loc><image:title>JEWISH OLYMPICS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/maccabiah-asher-kalderon-2.jpg</image:loc><image:title>Maccabiah — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/11th-jewish-olympics-asher-kalderon.jpg</image:loc><image:title>11th JEWISH OLYMPICS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sukot-jewish-holiday-asher-kalderon.jpg</image:loc><image:title>SUKOT Jewish Holiday — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sukot-jewish-holiday3-asher-kalderon.jpg</image:loc><image:title>SUKOT Jewish Holiday3 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sukot-jewish-holiday4-asher-kalderon.jpg</image:loc><image:title>SUKOT Jewish Holiday4 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sukot-jewish-holiday5-asher-kalderon.jpg</image:loc><image:title>SUKOT Jewish Holiday5 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/shavuot-jewish-holiday-asher-kalderon.jpg</image:loc><image:title>SHAVUOT Jewish Holiday — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/shavuot-jewish-holiday2-asher-kalderon.jpg</image:loc><image:title>SHAVUOT Jewish Holiday2 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/shavuot-jewish-holiday4-asher-kalderon.jpg</image:loc><image:title>SHAVUOT Jewish Holiday4 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/jerusalem-3000-years-asher-kalderon.jpg</image:loc><image:title>JERUSALEM 3000 YEARS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/jerusalem-is-peace-poster75-asher-kalderon.jpg</image:loc><image:title>Jerusalem is peace poster75 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/season-greetings-gov-asher-kalderon.jpg</image:loc><image:title>SEASON GREETINGS Gov — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/jewish-festival-stamps-asher-kalderon.jpg</image:loc><image:title>JEWISH FESTIVAL stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/bible-kings-postal-stamps-asher-kalderon.jpg</image:loc><image:title>BIBLE KINGS Postal stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/festival-stamps-poster-asher-kalderon.jpg</image:loc><image:title>FESTIVAL STAMPS Poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/collecting-postage-stamps-asher-kalderon.jpg</image:loc><image:title>Collecting Postage Stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/collect-israeli-stamps-asher-kalderon.jpg</image:loc><image:title>Collect Israeli Stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/amal-asher-kalderon.jpg</image:loc><image:title>AMAL — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/export-asher-kalderon.jpg</image:loc><image:title>EXPORT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/space-embrio-asher-kalderon-2.jpg</image:loc><image:title>SPACE EMBRIO — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/art-exhibition-asher-kalderon.jpg</image:loc><image:title>ART EXHIBITION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/space-voices-science-asher-kalderon.jpg</image:loc><image:title>SPACE VOICES Science — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/take-me-to-the-moon-asher-kalderon.jpg</image:loc><image:title>Take me to the Moon — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/3dreams-art-asher-kalderon.jpg</image:loc><image:title>3DREAMS Art — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/hot-lips-night-club-asher-kalderon.jpg</image:loc><image:title>HOT LIPS Night club. — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/labyrint-2001-asher-kalderon.jpg</image:loc><image:title>LABYRINT 2001 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/44-great-movies-asher-kalderon.jpg</image:loc><image:title>44 GREAT MOVIES — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/no-drugs-anti-drugs-2-asher-kalderon.jpg</image:loc><image:title>NO DRUGS Anti-drugs 2 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/stop-it-asher-kalderon.jpg</image:loc><image:title>STOP IT ! — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/11th-jewish-olympics-asher-kalderon.jpg</image:loc><image:title>11th JEWISH OLYMPICS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/25-zionist-congress-asher-kalderon.jpg</image:loc><image:title>25 ZIONIST CONGRESS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/a-for-accuse-asher-kalderon.jpg</image:loc><image:title>A FOR ACCUSE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/freedom-asher-kalderon.jpg</image:loc><image:title>FREEDOM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/happy-millennium-asher-kalderon.jpg</image:loc><image:title>Happy Millennium — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/home-sweet-home-asher-kalderon.jpg</image:loc><image:title>HOME SWEET HOME — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/keep-eating-asher-kalderon.jpg</image:loc><image:title>KEEP EATING — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/keep-smoking-asher-kalderon.jpg</image:loc><image:title>KEEP SMOKING — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/remembering-asher-kalderon.jpg</image:loc><image:title>REMEMBERING — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/lets-go-together-asher-kalderon.jpg</image:loc><image:title>Lets Go Together — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/national-insurance-asher-kalderon.jpg</image:loc><image:title>NATIONAL INSURANCE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/negotiations-asher-kalderon.jpg</image:loc><image:title>NEGOTIATIONS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/no-drugs-asher-kalderon.jpg</image:loc><image:title>NO DRUGS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/peace-asher-kalderon.jpg</image:loc><image:title>PEACE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/peace-asher-kalderon-2.jpg</image:loc><image:title>PEACE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/peace-original-asher-kalderon.jpg</image:loc><image:title>PEACE original — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/pictoposter-burned-asher-kalderon.jpg</image:loc><image:title>Pictoposter Burned — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/pictoposter-eliminated-asher-kalderon.jpg</image:loc><image:title>Pictoposter Eliminated — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/apocalypse-asher-kalderon.jpg</image:loc><image:title>APOCALYPSE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/better-city-environment-asher-kalderon.jpg</image:loc><image:title>BETTER CITY Environment — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/pictoposter-go-on-asher-kalderon.jpg</image:loc><image:title>Pictoposter Go on! — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/pictoposter-separated-asher-kalderon.jpg</image:loc><image:title>Pictoposter Separated — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/preventing-car-accidents-asher-kalderon.jpg</image:loc><image:title>PREVENTING CAR ACCIDENTS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/preventing-global-disasters-asher-kalderon.jpg</image:loc><image:title>PREVENTING GLOBAL DISASTERS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/save-for-your-home-asher-kalderon.jpg</image:loc><image:title>SAVE FOR YOUR HOME — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/telemania-new-age-asher-kalderon.jpg</image:loc><image:title>TELEMANIA New age — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/home/think-peace-asher-kalderon.jpg</image:loc><image:title>THINK PEACE 1 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/think-peace-2-asher-kalderon.jpg</image:loc><image:title>THINK PEACE 2 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/we-love-israel-asher-kalderon.jpg</image:loc><image:title>WE LOVE ISRAEL — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/israel-independence-poster-asher-kalderon.jpg</image:loc><image:title>ISRAEL INDEPENDENCE poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/fertility-asher-kalderon.jpg</image:loc><image:title>FERTILITY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/today-asher-kalderon.jpg</image:loc><image:title>TODAY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/anti-aids-poster180-asher-kalderon.jpg</image:loc><image:title>ANTI AIDS poster180 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/ffreedom-asher-kalderon.jpg</image:loc><image:title>FFREEDOM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/freedom-from-hunger-asher-kalderon.jpg</image:loc><image:title>FREEDOM FROM HUNGER — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/save-nature-s-beauty-asher-kalderon.jpg</image:loc><image:title>SAVE NATURE s BEAUTY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/shalom-asher-kalderon.jpg</image:loc><image:title>SHALOM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/43a-exelent-army-asher-kalderon.jpg</image:loc><image:title>43a EXELENT ARMY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/44-a-dex-exibition-asher-kalderon.jpg</image:loc><image:title>44 A+DEX Exibition — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/bank-poster-asher-kalderon.jpg</image:loc><image:title>BANK poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/bank-poster-asher-kalderon-2.jpg</image:loc><image:title>BANK Poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/bank-poster-asher-kalderon-3.jpg</image:loc><image:title>BANK Poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/bank-poster-asher-kalderon-4.jpg</image:loc><image:title>BANK Poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/bank-poster-asher-kalderon-5.jpg</image:loc><image:title>BANK Poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/smile-asher-kalderon.jpg</image:loc><image:title>SMILE ! — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/the-big-pot-asher-kalderon.jpg</image:loc><image:title>THE BIG POT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/together-asher-kalderon.jpg</image:loc><image:title>TOGETHER — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/carnival-lotts-asher-kalderon.jpg</image:loc><image:title>CARNIVAL LOTTS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/loto-lotery-asher-kalderon.jpg</image:loc><image:title>LOTO Lotery — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/lottery-winnings-asher-kalderon.jpg</image:loc><image:title>LOTTERY WINNINGS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/lotto-asher-kalderon.jpg</image:loc><image:title>LOTTO — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/two-jackpots-asher-kalderon.jpg</image:loc><image:title>TWO JACKPOTS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/workshop-buildings-asher-kalderon.jpg</image:loc><image:title>WORKSHOP BUILDINGS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/carmel-agriculture-asher-kalderon.jpg</image:loc><image:title>CARMEL Agriculture — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/atlas-radio-poster-asher-kalderon.jpg</image:loc><image:title>ATLAS RADIO poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/technology-71-iinternl-fair-asher-kalderon.jpg</image:loc><image:title>TECHNOLOGY 71 IInternl. Fair — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sport-football-asher-kalderon.jpg</image:loc><image:title>SPORT Football — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sportime-asher-kalderon.jpg</image:loc><image:title>SPORTIME — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sports-volley-ball-asher-kalderon.jpg</image:loc><image:title>SPORTS Volley ball — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sports-weith-lifter-asher-kalderon.jpg</image:loc><image:title>SPORTS Weith lifter — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sports-tennise-asher-kalderon.jpg</image:loc><image:title>SPORTS-Tennise — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/stamp-collecting-gov-asher-kalderon.jpg</image:loc><image:title>STAMP COLLECTING Gov — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/stamp-promotion-asher-kalderon.jpg</image:loc><image:title>STAMP PROMOTION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/stamps-of-israel-promotio-asher-kalderon.jpg</image:loc><image:title>STAMPS OF ISRAEL Promotio — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/children-s-car-accidents-asher-kalderon.jpg</image:loc><image:title>CHILDREN s CAR ACCIDENTS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/circus-asher-kalderon.jpg</image:loc><image:title>CIRCUS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/i-love-you-children-asher-kalderon.jpg</image:loc><image:title>I LOVE YOU Children — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/musiclown-decorative-asher-kalderon.jpg</image:loc><image:title>MUSICLOWN Decorative — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/i-love-you-asher-kalderon.jpg</image:loc><image:title>I LOVE YOU — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/love-to-israel-2014-asher-kalderon.jpg</image:loc><image:title>LOVE TO ISRAEL 2014 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/devorcees-humor-asher-kalderon.jpg</image:loc><image:title>DEVORCEES Humor — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/many-car-accidents-asher-kalderon.jpg</image:loc><image:title>MANY CAR ACCIDENTS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/say-i-love-you-asher-kalderon-2.jpg</image:loc><image:title>SAY I LOVE YOU — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/succes-asher-kalderon.jpg</image:loc><image:title>SUCCES — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/sweety-say-i-love-you-asher-kalderon.jpg</image:loc><image:title>Sweety say I love you — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/a-for-avocado-ed-asher-kalderon.jpg</image:loc><image:title>A FOR AVOCADO Ed — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/b-for-bananas-edu-asher-kalderon.jpg</image:loc><image:title>B FOR BANANAS Edu — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/posters/c-for-carmel-asher-kalderon.jpg</image:loc><image:title>C for CARMEL — Asher Kalderon</image:title></image:image>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_judaica.html</loc><lastmod>2026-07-06</lastmod><priority>0.9</priority>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/the-creation-asher-kalderon-4.jpg</image:loc><image:title>THE CREATION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/the-creation-2-asher-kalderon-2.jpg</image:loc><image:title>THE CREATION 2 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/the-creation-3-asher-kalderon-2.jpg</image:loc><image:title>THE CREATION 3 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/the-creation-print-75-asher-kalderon.jpg</image:loc><image:title>The Creation Print 75 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/rachel-asher-kalderon-2.jpg</image:loc><image:title>RACHEL — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/rebeca-asher-kalderon-2.jpg</image:loc><image:title>REBECA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/sara-asher-kalderon-3.jpg</image:loc><image:title>SARA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/adam-eve-asher-kalderon-2.jpg</image:loc><image:title>ADAM &amp; EVE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/king-david-asher-kalderon-3.jpg</image:loc><image:title>KING DAVID — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/jacob-s-dream-asher-kalderon-2.jpg</image:loc><image:title>JACOB S DREAM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/jona-and-the-wale-asher-kalderon-2.jpg</image:loc><image:title>JONA AND THE WALE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/noach-arch-asher-kalderon-2.jpg</image:loc><image:title>NOACH ARCH — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/the-deluge-asher-kalderon-2.jpg</image:loc><image:title>THE DELUGE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/peace-in-3-languges-asher-kalderon-2.jpg</image:loc><image:title>PEACE in 3 languges — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/shabat-shalom-asher-kalderon-2.jpg</image:loc><image:title>SHABAT SHALOM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/say-i-love-you-asher-kalderon-3.jpg</image:loc><image:title>SAY I LOVE YOU — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/shalom-asher-kalderon-2.jpg</image:loc><image:title>SHALOM — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/peace-asher-kalderon-3.jpg</image:loc><image:title>PEACE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/peace-asher-kalderon-4.jpg</image:loc><image:title>PEACE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/peace-original-asher-kalderon-2.jpg</image:loc><image:title>PEACE original — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/think-peace-1-asher-kalderon.jpg</image:loc><image:title>THINK PEACE 1 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/think-peace-2-asher-kalderon-2.jpg</image:loc><image:title>THINK PEACE 2 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/we-love-israel-asher-kalderon-2.jpg</image:loc><image:title>WE LOVE ISRAEL — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/israel-independence-poster-asher-kalderon-2.jpg</image:loc><image:title>ISRAEL INDEPENDENCE poster — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/25-zionist-congress-asher-kalderon-2.jpg</image:loc><image:title>25 ZIONIST CONGRESS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/if-i-forget-thee-jerusalem-asher-kalderon-2.jpg</image:loc><image:title>If I Forget Thee Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/pray-for-the-peace-of-jerusalem-asher-kalderon-2.jpg</image:loc><image:title>Pray for the peace of Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/next-year-in-rebuilded-jerusalem-asher-kalderon-2.jpg</image:loc><image:title>Next year in rebuilded Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/mizrach-east-asher-kalderon-2.jpg</image:loc><image:title>Mizrach East — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/walk-about-zion-asher-kalderon-2.jpg</image:loc><image:title>Walk about Zion — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/blessed-be-the-lord-out-of-jerusalem-asher-kalderon-2.jpg</image:loc><image:title>Blessed be The Lord out of Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/for-out-of-zion-shall-go-asher-kalderon-2.jpg</image:loc><image:title>For out of Zion shall go — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/yeru-shalem-asher-kalderon-2.jpg</image:loc><image:title>Yeru-shalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/towers-of-love-asher-kalderon-2.jpg</image:loc><image:title>Towers of Love — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/nostalgic-jerusalem-asher-kalderon-2.jpg</image:loc><image:title>Nostalgic Jerusalem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/jerusalem-painting-asher-kalderon-2.jpg</image:loc><image:title>Jerusalem painting — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/jerusalem-the-old-asher-kalderon-2.jpg</image:loc><image:title>Jerusalem the old — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/jerusalem-s-overwiew-asher-kalderon-2.jpg</image:loc><image:title>Jerusalem s overwiew — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/oh-lord-oh-lord-asher-kalderon-2.jpg</image:loc><image:title>Oh Lord, Oh Lord ! — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/sukot-asher-kalderon.jpg</image:loc><image:title>SUKOT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/sukot-asher-kalderon-2.jpg</image:loc><image:title>SUKOT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/sukot-asher-kalderon-3.jpg</image:loc><image:title>SUKOT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/sukot-asher-kalderon-4.jpg</image:loc><image:title>SUKOT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/shavuot-asher-kalderon.jpg</image:loc><image:title>SHAVUOT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/shavuot-asher-kalderon-2.jpg</image:loc><image:title>SHAVUOT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/shavuot-asher-kalderon-3.jpg</image:loc><image:title>SHAVUOT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/season-greetings-gov-asher-kalderon-2.jpg</image:loc><image:title>SEASON GREETINGS Gov — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/judaica/jewish-festival-stamps-asher-kalderon-2.jpg</image:loc><image:title>JEWISH FESTIVAL stamps — Asher Kalderon</image:title></image:image>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_haggadah_v4.html</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/the-new-passover-haggadah-cover-asher-kalderon.jpg</image:loc><image:title>The New Passover Haggadah cover</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-the-new-passover-haggadah-asher-kalderon.jpg</image:loc><image:title>The New Passover Haggadah</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-regular-edition-asher-kalderon.jpg</image:loc><image:title>Regular edition</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-deluxe-edition-asher-kalderon.jpg</image:loc><image:title>Deluxe Edition</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-collectors-king-size-haggadah-asher-kalderon.jpg</image:loc><image:title>Collectors King Size Haggadah</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-the-artist-and-his-book-asher-kalderon.jpg</image:loc><image:title>The artist and his book</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-front-pages-asher-kalderon.jpg</image:loc><image:title>Front pages</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-02haggad-first-pages-asher-kalderon.jpg</image:loc><image:title>02Haggad First pages</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-artist-s-statement-asher-kalderon.jpg</image:loc><image:title>Artist s Statement</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-dedications-asher-kalderon.jpg</image:loc><image:title>Dedications</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-04baruch-ata-asher-kalderon.jpg</image:loc><image:title>04Baruch Ata</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-haggad-the-seder-plate-asher-kalderon.jpg</image:loc><image:title>Haggad The Seder Plate</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-haggadah-seder-orders-asher-kalderon.jpg</image:loc><image:title>Haggadah Seder Orders</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-kidush-asher-kalderon.jpg</image:loc><image:title>-Kidush</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-bore-meorei-esh-asher-kalderon.jpg</image:loc><image:title>Bore Meorei Esh</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-halahmaania-asher-kalderon.jpg</image:loc><image:title>Halahmaania</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-11mah-nishtana-asher-kalderon.jpg</image:loc><image:title>11Mah Nishtana</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-we-were-slaves-asher-kalderon.jpg</image:loc><image:title>We were slaves</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-raabbi-s-story-asher-kalderon.jpg</image:loc><image:title>Raabbi s story</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-haggadah-s-four-sons-asher-kalderon.jpg</image:loc><image:title>Haggadah s Four Sons</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-keeping-his-promise-asher-kalderon.jpg</image:loc><image:title>Keeping His promise</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-that-hath-been-maintained-to-our-forfathers-asher-kalderon.jpg</image:loc><image:title>That Hath been maintained to our forfathers</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-few-in-number-asher-kalderon.jpg</image:loc><image:title>Few in number</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-the-hard-bondage-asher-kalderon.jpg</image:loc><image:title>The hard bondage</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-and-we-cried-asher-kalderon.jpg</image:loc><image:title>And we cried</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-blood-fire-and-pillars-asher-kalderon.jpg</image:loc><image:title>Blood,Fire and Pillars</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-with-a-strong-arm-asher-kalderon.jpg</image:loc><image:title>With a strong arm</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-ten-plages-asher-kalderon.jpg</image:loc><image:title>Ten Plages</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-rabbi-jose-of-galilee-asher-kalderon.jpg</image:loc><image:title>Rabbi Jose of Galilee</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-exodus-crossing-the-sea-asher-kalderon.jpg</image:loc><image:title>Exodus Crossing the sea</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-how-many-benefits-dayeinu-asher-kalderon.jpg</image:loc><image:title>How many benefits Dayeinu</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-pesah-asher-kalderon.jpg</image:loc><image:title>Pesah</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-in-every-generation-asher-kalderon.jpg</image:loc><image:title>In every generation</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-israel-went-out-of-egypt-asher-kalderon.jpg</image:loc><image:title>Israel went out of Egypt</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-haleluyah-asher-kalderon.jpg</image:loc><image:title>Haleluyah</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-haleluya-b-asher-kalderon.jpg</image:loc><image:title>Haleluya B</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-o-praise-the-lord-asher-kalderon.jpg</image:loc><image:title>O praise the Lord</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-praise-the-lord-asher-kalderon.jpg</image:loc><image:title>Praise The Lord</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-the-soul-of-every-living-being-asher-kalderon.jpg</image:loc><image:title>The soul of every living being</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-blessings-befor-dinner-asher-kalderon.jpg</image:loc><image:title>Blessings befor dinner</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-seder-dinner-asher-kalderon.jpg</image:loc><image:title>Seder Dinner</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-epicoman-and-blessings-asher-kalderon.jpg</image:loc><image:title>Epicoman and Blessings</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-rebuild-jerusalem-asher-kalderon.jpg</image:loc><image:title>Rebuild Jerusalem</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-have-mercy-l-rd-asher-kalderon.jpg</image:loc><image:title>Have mercy L-rd</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-blessed-are-thou-lord-asher-kalderon.jpg</image:loc><image:title>Blessed are Thou, Lord</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-o-fear-the-lord-asher-kalderon.jpg</image:loc><image:title>O fear the Lord</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-pour-out-your-wrath-asher-kalderon.jpg</image:loc><image:title>Pour out Your wrath</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-nirtza-asher-kalderon.jpg</image:loc><image:title>Nirtza</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-next-year-in-jerusalem-asher-kalderon.jpg</image:loc><image:title>Next Year in Jerusalem</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-the-sacrifice-of-the-passover-asher-kalderon.jpg</image:loc><image:title>The sacrifice of the Passover</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-to-him-praise-has-ever-been-asher-kalderon.jpg</image:loc><image:title>To Him Praise Has ever been</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-rebuild-the-house-asher-kalderon.jpg</image:loc><image:title>Rebuild the house</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-who-knows-what-is-one-asher-kalderon.jpg</image:loc><image:title>Who knows what is One</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-who-knows-six-asher-kalderon.jpg</image:loc><image:title>Who knows Six</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-who-knows-what-is-ten-asher-kalderon.jpg</image:loc><image:title>Who knows what is Ten</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/haggadah/haggadah-had-gadia-one-only-kid-asher-kalderon.jpg</image:loc><image:title>Had Gadia  One only kid</image:title></image:image>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_symbols.html</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/post-office-emblem-asher-kalderon.jpg</image:loc><image:title>POST OFFICE Emblem — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/histadrut-workers-union-asher-kalderon.jpg</image:loc><image:title>HISTADRUT Workers union — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/israel-s-radio-tv-asher-kalderon.jpg</image:loc><image:title>ISRAEL s RADIO &amp; TV — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/bezeq-telephone-services-asher-kalderon.jpg</image:loc><image:title>BEZEQ Telephone services — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/phone-services-icons-asher-kalderon.jpg</image:loc><image:title>PHONE SERVICES ICONS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/statestati-sticdepartment-asher-kalderon.jpg</image:loc><image:title>STATESTATI STICDEPARTMENT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/safety-institute-asher-kalderon.jpg</image:loc><image:title>SAFETY INSTITUTE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/engineer-s-union-asher-kalderon.jpg</image:loc><image:title>ENGINEER s UNION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/naamat-women-workers-union-asher-kalderon.jpg</image:loc><image:title>NAAMAT Women workers union — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/zionist-women-workers-assos-asher-kalderon.jpg</image:loc><image:title>ZIONIST WOMEN Workers assos — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/30th-un-anniversary-for-asher-kalderon.jpg</image:loc><image:title>30th UN ANNIVERSARY for — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/un-for-postage-stamp-400-asher-kalderon.jpg</image:loc><image:title>UN for postage stamp 400 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/shema-logo-for-coin-asher-kalderon.jpg</image:loc><image:title>SHEMA Logo for coin — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/11th-maccabiah-jewish-olympic-games-asher-kalderon.jpg</image:loc><image:title>11th MACCABIAH Jewish olympic games — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/11th-maccabiah-mascot-asher-kalderon.jpg</image:loc><image:title>11th MACCABIAH MASCOT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/technology-fair-asher-kalderon.jpg</image:loc><image:title>TECHNOLOGY Fair — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/logo-for-fair-pavilion-asher-kalderon.jpg</image:loc><image:title>LOGO FOR FAIR PAVILION — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/jec-jer-economy-conference-asher-kalderon.jpg</image:loc><image:title>JEC Jer Economy conference — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/carnival-lottery-asher-kalderon.jpg</image:loc><image:title>CARNIVAL LOTTERY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/lotto-lotery-asher-kalderon.jpg</image:loc><image:title>LOTTO Lotery — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/keter-plastic-produgts-asher-kalderon.jpg</image:loc><image:title>KETER PLASTIC PRODUGTS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/keter-outdoor-furniture-asher-kalderon.jpg</image:loc><image:title>KETER OUTDOOR FURNITURE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/keter-sport-body-shaping-equipment-asher-kalderon.jpg</image:loc><image:title>KETER SPORT Body shaping equipment — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/steel-industry-asher-kalderon.jpg</image:loc><image:title>STEEL INDUSTRY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/albar-aluminum-industry-asher-kalderon.jpg</image:loc><image:title>ALBAR Aluminum industry — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/asaf-plastic-materials-asher-kalderon.jpg</image:loc><image:title>ASAF Plastic materials — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/tambur-paints-factory-asher-kalderon.jpg</image:loc><image:title>TAMBUR paints factory — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/light-bulbs-industry-asher-kalderon.jpg</image:loc><image:title>LIGHT BULBS INDUSTRY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/car-industry-asher-kalderon.jpg</image:loc><image:title>CAR INDUSTRY — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/technical-equipment-asher-kalderon.jpg</image:loc><image:title>TECHNICAL EQUIPMENT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/building-construct-managing-asher-kalderon.jpg</image:loc><image:title>BUILDING CONSTRUCT MANAGING — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/solel-boneh-builders-asher-kalderon.jpg</image:loc><image:title>SOLEL BONEH Builders — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/solel-boneh-builders-corp-asher-kalderon.jpg</image:loc><image:title>SOLEL BONEH Builders Corp. — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/misrachi-bank-proposition-asher-kalderon.jpg</image:loc><image:title>MISRACHI bank (proposition) — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/bank-savings-program-asher-kalderon.jpg</image:loc><image:title>BANK Savings program — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/gavra-photographer-asher-kalderon.jpg</image:loc><image:title>GAVRA Photographer — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/visco-visual-communication-asher-kalderon.jpg</image:loc><image:title>VISCO Visual communication — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/logo-for-art-gallery-asher-kalderon.jpg</image:loc><image:title>LOGO for Art Gallery — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/star-arist-s-studio-49c05b-asher-kalderon.jpg</image:loc><image:title>STAR Arist s studio #49C05B — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/midnight-weekly-magazine-asher-kalderon.jpg</image:loc><image:title>MIDNIGHT Weekly Magazine — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/sofshavua-weekend-weekly-magaz-asher-kalderon.jpg</image:loc><image:title>SOFSHAVUA (Weekend)Weekly magaz — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/criminal-story-books-asher-kalderon.jpg</image:loc><image:title>CRIMINAL STORY BOOKS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/sir-john-scotch-whisky-asher-kalderon.jpg</image:loc><image:title>SIR JOHN Scotch Whisky — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/calif-food-import-asher-kalderon.jpg</image:loc><image:title>CALIF Food import — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/sweetened-yogurt-asher-kalderon.jpg</image:loc><image:title>SWEETENED YOGURT — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/body-shaping-club-asher-kalderon.jpg</image:loc><image:title>BODY SHAPING CLUB — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/shahor-lavan-black-white-photostate-service-asher-kalderon.jpg</image:loc><image:title>SHAHOR LAVAN(Black&amp;White) Photostate service — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/hot-lips-night-club-asher-kalderon-2.jpg</image:loc><image:title>HOT LIPS Night club — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/kanion-mall-asher-kalderon.jpg</image:loc><image:title>KANION Mall — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/aora-children-s-wear-asher-kalderon.jpg</image:loc><image:title>AORA Children s wear — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/symbols/agate-c-2-wm-asher-kalderon.jpg</image:loc><image:title>Agate C 2 WM — Asher Kalderon</image:title></image:image>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_stamps_v3.html</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/jubilee-of-israel-asher-kalderon.jpg</image:loc><image:title>Jubilee of Israel — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/israel-50th-anniversary-asher-kalderon.jpg</image:loc><image:title>Israel-50th Anniversary — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/independence-64-asher-kalderon.jpg</image:loc><image:title>INDEPENDENCE 64 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/israel-independencey-64-set-asher-kalderon.jpg</image:loc><image:title>Israel Independencey 64 set — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/israeli-army-forces-asher-kalderon.jpg</image:loc><image:title>Israeli Army Forces — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/jeruasalem-capital-of-israe-asher-kalderon.jpg</image:loc><image:title>Jeruasalem capital of Israe — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/peace-on-jerusalem-pres-asher-kalderon.jpg</image:loc><image:title>Peace on Jerusalem pres . — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/jca-presentation-asher-kalderon.jpg</image:loc><image:title>JCA presentation — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/bible-heros-asher-kalderon.jpg</image:loc><image:title>BIBLE HEROS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/women-in-the-bible-asher-kalderon.jpg</image:loc><image:title>WOMEN IN THE BIBLE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/bible-women-asher-kalderon.jpg</image:loc><image:title>Bible Women — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/patriarchs-presentation-asher-kalderon.jpg</image:loc><image:title>Patriarchs presentation — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/the-matriarchs-special-asher-kalderon.jpg</image:loc><image:title>The Matriarchs Special — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/jewish-kings-stamps-asher-kalderon-2.jpg</image:loc><image:title>Jewish Kings Stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/moses-stamps-asher-kalderon.jpg</image:loc><image:title>MOSES STAMPS — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/jews-from-n-africa75-asher-kalderon.jpg</image:loc><image:title>Jews from N. Africa75 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/making-olive-oil-300-asher-kalderon.jpg</image:loc><image:title>Making olive oil 300 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/arbor-day-tu-bis-asher-kalderon.jpg</image:loc><image:title>Arbor day (Tu Bis — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/arbor-day-tu-bish-asher-kalderon.jpg</image:loc><image:title>Arbor day(Tu Bish — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/arbor-day-tu-bish-asher-kalderon-2.jpg</image:loc><image:title>Arbor day(Tu Bish — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/arbor-day-tu-bishvat-asher-kalderon.jpg</image:loc><image:title>Arbor day(Tu Bishvat — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/sucot-stamps-prese-asher-kalderon.jpg</image:loc><image:title>Sucot stamps prese — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/sucot-stamps-asher-kalderon.jpg</image:loc><image:title>Sucot stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/sucot-presentation-asher-kalderon.jpg</image:loc><image:title>Sucot presentation — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/shavuoth-stamp-present-asher-kalderon.jpg</image:loc><image:title>Shavuoth stamp present — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/shavuot-stamp-coin3-asher-kalderon.jpg</image:loc><image:title>SHAVUOT Stamp+coin3 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/pioneer-women-asher-kalderon.jpg</image:loc><image:title>Pioneer Women — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/israelindustry-science-asher-kalderon.jpg</image:loc><image:title>ISRAELINDUSTRY &amp; SCIENCE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/israel-s-industry-ce-asher-kalderon.jpg</image:loc><image:title>ISRAEL s INDUSTRY CE — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/satelite-stamp-pres-asher-kalderon.jpg</image:loc><image:title>Satelite stamp pres — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/health-resorts-pr-asher-kalderon.jpg</image:loc><image:title>Health resorts pr — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/health-resorts-stamps-asher-kalderon.jpg</image:loc><image:title>Health Resorts stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/hunger-asher-kalderon.jpg</image:loc><image:title>Hunger — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/1-railways-pres-block-asher-kalderon.jpg</image:loc><image:title>1.Railways pres.-Block — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/railway-stamps-asher-kalderon.jpg</image:loc><image:title>Railway Stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/railways-in-holy-land-asher-kalderon.jpg</image:loc><image:title>Railways in Holy Land — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/railways-pres-block-1-asher-kalderon.jpg</image:loc><image:title>Railways pres.-Block 1 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/hebrew-university-asher-kalderon.jpg</image:loc><image:title>Hebrew University — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/betzalel-ceramics-pres-asher-kalderon.jpg</image:loc><image:title>Betzalel ceramics pres. — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/bezalel-ceram-stamp-pres75-asher-kalderon.jpg</image:loc><image:title>Bezalel ceram stamp pres75 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/painting-l-blum-des-asher-kalderon.jpg</image:loc><image:title>Painting-L.Blum, Des — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/histadrut-anniversary-asher-kalderon.jpg</image:loc><image:title>Histadrut Anniversary — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/ymca-asher-kalderon.jpg</image:loc><image:title>YMCA — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/truth-law-peace-asher-kalderon.jpg</image:loc><image:title>Truth, Law, Peace — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/banknote-coins-asher-kalderon.jpg</image:loc><image:title>Banknote+coins — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-stamp-asher-kalderon.jpg</image:loc><image:title>UN Stamp — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-postcard-stamp-asher-kalderon.jpg</image:loc><image:title>UN Postcard stamp — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-30th-anniversary150-asher-kalderon.jpg</image:loc><image:title>UN 30th Anniversary150 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-30th-anniversary-presen-asher-kalderon.jpg</image:loc><image:title>UN 30th Anniversary presen — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-30th-anniversary-stamps-asher-kalderon.jpg</image:loc><image:title>UN 30th anniversary stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-stamps-30th-annivers300-asher-kalderon.jpg</image:loc><image:title>UN stamps 30th Annivers300 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-women-righgts-presen300-asher-kalderon.jpg</image:loc><image:title>UN Women Righgts presen300 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-women-righgts-presen-asher-kalderon.jpg</image:loc><image:title>UN Women Righgts presen — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/un-stamps-law-of-the-sea75-asher-kalderon.jpg</image:loc><image:title>UN stamps Law of the Sea75 — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/the-law-of-sea-stamps-asher-kalderon.jpg</image:loc><image:title>The Law of Sea stamps — Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/stamps/law-of-the-sea-jpg-asher-kalderon.jpg</image:loc><image:title>Law of the sea jpg — Asher Kalderon</image:title></image:image>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_about.html</loc><lastmod>2026-07-06</lastmod><priority>0.7</priority>
+    <image:image><image:loc>https://akalderon-arts.com/images/about/asher-kalderon.jpg</image:loc><image:title>Asher Kalderon</image:title></image:image>
+    <image:image><image:loc>https://akalderon-arts.com/images/about/the-new-passover-haggadah-asher-kalderon.jpg</image:loc><image:title>The New Passover Haggadah — Asher Kalderon</image:title></image:image>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_licensing.html</loc><lastmod>2026-07-06</lastmod><priority>0.9</priority>
+  </url>
+  <url><loc>https://akalderon-arts.com/kalderon_contact.html</loc><lastmod>2026-07-06</lastmod><priority>0.6</priority>
+  </url>
 </urlset>

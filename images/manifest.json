@@ -1,0 +1,1830 @@
+{
+ "index.html": [
+  {
+   "src": "images/home/tapestries-exhibition-asher-kalderon.jpg",
+   "alt": "Tapestries Exhibition"
+  },
+  {
+   "src": "images/home/zodiac-tapestry-asher-kalderon.jpg",
+   "alt": "Zodiac Tapestry"
+  },
+  {
+   "src": "images/home/think-peace-asher-kalderon.jpg",
+   "alt": "Think Peace"
+  },
+  {
+   "src": "images/home/the-creation-asher-kalderon.jpg",
+   "alt": "The Creation"
+  },
+  {
+   "src": "images/home/jewish-kings-stamps-asher-kalderon.jpg",
+   "alt": "Jewish Kings Stamps"
+  },
+  {
+   "src": "images/home/sara-asher-kalderon.jpg",
+   "alt": "Sara"
+  },
+  {
+   "src": "images/home/maccabiah-asher-kalderon.jpg",
+   "alt": "Maccabiah"
+  },
+  {
+   "src": "images/home/king-david-asher-kalderon.jpg",
+   "alt": "King David"
+  },
+  {
+   "src": "images/home/art-gallery-asher-kalderon.jpg",
+   "alt": "Art Gallery"
+  },
+  {
+   "src": "images/home/posters-asher-kalderon.jpg",
+   "alt": "Posters"
+  },
+  {
+   "src": "images/home/judaica-art-asher-kalderon.jpg",
+   "alt": "Judaica Art"
+  },
+  {
+   "src": "images/home/the-haggadah-asher-kalderon.jpg",
+   "alt": "The Haggadah"
+  },
+  {
+   "src": "images/home/symbols-trademarks-asher-kalderon.jpg",
+   "alt": "Symbols & Trademarks"
+  },
+  {
+   "src": "images/home/stamps-coins-asher-kalderon.jpg",
+   "alt": "Stamps & Coins"
+  }
+ ],
+ "kalderon_gallery_v4.html": [
+  {
+   "src": "images/gallery/abstract-asher-kalderon.jpg",
+   "alt": "ABSTRACT — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-a-asher-kalderon.jpg",
+   "alt": "ABSTRACT A — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-b-asher-kalderon.jpg",
+   "alt": "ABSTRACT B — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-8-asher-kalderon.jpg",
+   "alt": "Abstract 8 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-c-asher-kalderon.jpg",
+   "alt": "Abstract C — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-f-asher-kalderon.jpg",
+   "alt": "Abstract F — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-in-blues-asher-kalderon.jpg",
+   "alt": "Abstract in blues — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-in-reds-and-blues-asher-kalderon.jpg",
+   "alt": "Abstract in reds and blues — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-color-spong-asher-kalderon.jpg",
+   "alt": "Abstract Color SPONG — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-pink-violet-and-b-1-asher-kalderon.jpg",
+   "alt": "Abstract Pink, Violet and B 1 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/big-abstract-asher-kalderon.jpg",
+   "alt": "Big Abstract — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/red-abstract-asher-kalderon.jpg",
+   "alt": "Red Abstract — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/kalderon-abstraact-60x60-cm-asher-kalderon.jpg",
+   "alt": "Kalderon Abstraact 60x60 cm — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/geo-metrica-asher-kalderon.jpg",
+   "alt": "GEO METRICA — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/space-embrio-asher-kalderon.jpg",
+   "alt": "SPACE EMBRIO — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/space-objects-asher-kalderon.jpg",
+   "alt": "SPACE OBJECTS — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/space-objects-b-asher-kalderon.jpg",
+   "alt": "SPACE OBJECTS B — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/space-voices-2-asher-kalderon.jpg",
+   "alt": "SPACE VOICES 2 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/01-birds-storm-asher-kalderon.jpg",
+   "alt": "01 Birds storm — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/polar-storm-2-asher-kalderon.jpg",
+   "alt": "Polar storm 2 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/the-creation-print-asher-kalderon.jpg",
+   "alt": "The Creation Print — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/04-zodiascorpio-asher-kalderon.jpg",
+   "alt": "04 ZodiaScorpio — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/04-3deams-asher-kalderon.jpg",
+   "alt": "04 3Deams — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/spring-romance-asher-kalderon.jpg",
+   "alt": "SPRING ROMANCE — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/summer-a-asher-kalderon.jpg",
+   "alt": "SUMMER A — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/summer-b-asher-kalderon.jpg",
+   "alt": "SUMMER B — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/summer-c-asher-kalderon.jpg",
+   "alt": "SUMMER C — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/autumn-asher-kalderon.jpg",
+   "alt": "AUTUMN — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/winter-asher-kalderon.jpg",
+   "alt": "WINTER — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/year-s-seasons-asher-kalderon.jpg",
+   "alt": "YEAR s SEASONS — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/rooster-acrilic-asher-kalderon.jpg",
+   "alt": "Rooster-acrilic — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/angel-clown-asher-kalderon.jpg",
+   "alt": "Angel clown — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/divorcees-asher-kalderon.jpg",
+   "alt": "DiVORCEES — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/man-s-peace-and-war-asher-kalderon.jpg",
+   "alt": "MAN s PEACE AND WAR — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/melancholy-asher-kalderon.jpg",
+   "alt": "MELANCHOLY — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/message-in-the-sky-asher-kalderon.jpg",
+   "alt": "MESSAGE IN THE SKY — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/rooster-acrilic-asher-kalderon.jpg",
+   "alt": "MORNING MESSANGER — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/mistery-iland-asher-kalderon.jpg",
+   "alt": "MISTERY ILAND — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/agata-c-1-asher-kalderon.jpg",
+   "alt": "Agata C -1 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/agata-cristi-asher-kalderon.jpg",
+   "alt": "Agata Cristi — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/kinetic-sculpture-asher-kalderon.jpg",
+   "alt": "KINETIC SCULPTURE — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/sculpture-in-apartment-asher-kalderon.jpg",
+   "alt": "SCULPTURE IN APARTMENT — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/014a-abstract-asher-kalderon.jpg",
+   "alt": "014A ABSTRACT — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-in-pink-and-red-asher-kalderon.jpg",
+   "alt": "ABSTRACT IN PINK AND RED — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-paintings-in-a-restorant-asher-kalderon.jpg",
+   "alt": "ABSTRACT Paintings in a restorant — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/birds-storm-asher-kalderon.jpg",
+   "alt": "BIRDS STORM — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/labyrinth-2001for-special-places-asher-kalderon.jpg",
+   "alt": "LABYRINTH 2001for special places — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-c-asher-kalderon-2.jpg",
+   "alt": "ABSTRACT C — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-asher-kalderon-2.jpg",
+   "alt": "ABSTRACT — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/clowns-asher-kalderon.jpg",
+   "alt": "CLOWNS — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/ancient-couple-asher-kalderon.jpg",
+   "alt": "ANCIENT COUPLE — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/going-nowhere-canvas-asher-kalderon.jpg",
+   "alt": "GOING NOWHERE canvas — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/tropicana-asher-kalderon.jpg",
+   "alt": "TROPICANA — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/running-water-asher-kalderon.jpg",
+   "alt": "RUNNING WATER — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/spring-asher-kalderon.jpg",
+   "alt": "SPRING — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/the-creation-asher-kalderon-2.jpg",
+   "alt": "THE CREATION — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/transformation-asher-kalderon.jpg",
+   "alt": "TRANSFORMATION — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/oriental-women-asher-kalderon.jpg",
+   "alt": "ORIENTAL WOMEN — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/peace-bar-mitzva-asher-kalderon.jpg",
+   "alt": "PEACE & BAR MITZVA — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/make-me-a-clown-asher-kalderon.jpg",
+   "alt": "MAKE ME A CLOWN — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/nine-small-abstract-asher-kalderon.jpg",
+   "alt": "Nine small abstract — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/abstract-in-red-asher-kalderon.jpg",
+   "alt": "ABSTRACT IN RED — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/the-creation-asher-kalderon-3.jpg",
+   "alt": "THE CREATION — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/the-creation-2-asher-kalderon.jpg",
+   "alt": "THE CREATION 2 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/the-creation-3-asher-kalderon.jpg",
+   "alt": "THE CREATION 3 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/the-deluge-asher-kalderon.jpg",
+   "alt": "THE DELUGE — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/noach-arch-asher-kalderon.jpg",
+   "alt": "NOACH ARCH — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jacob-s-dream-asher-kalderon.jpg",
+   "alt": "JACOB S DREAM — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jona-and-the-wale-asher-kalderon.jpg",
+   "alt": "JONA AND THE WALE — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/king-david-asher-kalderon-2.jpg",
+   "alt": "KING DAVID — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/rachel-asher-kalderon.jpg",
+   "alt": "RACHEL — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/rebeca-asher-kalderon.jpg",
+   "alt": "REBECA — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/sara-asher-kalderon-2.jpg",
+   "alt": "SARA — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/adam-eve-asher-kalderon.jpg",
+   "alt": "ADAM & EVE — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/mother-and-child-asher-kalderon.jpg",
+   "alt": "MOTHER AND CHILD — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/man-with-himself-asher-kalderon.jpg",
+   "alt": "MAN WITH HIMSELF — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/sea-man-asher-kalderon.jpg",
+   "alt": "SEA MAN — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/birds-girl-asher-kalderon.jpg",
+   "alt": "BIRDS GIRL — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/homage-asher-kalderon.jpg",
+   "alt": "HOMAGE — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/propatria-asher-kalderon.jpg",
+   "alt": "PROPATRIA — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/head-asher-kalderon.jpg",
+   "alt": "HEAD — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/blue-rooster-asher-kalderon.jpg",
+   "alt": "BLUE ROOSTER — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/rooster-asher-kalderon.jpg",
+   "alt": "ROOSTER — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/peace-in-3-languges-asher-kalderon.jpg",
+   "alt": "PEACE in 3 languges — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/shabat-shalom-asher-kalderon.jpg",
+   "alt": "SHABAT SHALOM — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/say-i-love-you-asher-kalderon.jpg",
+   "alt": "SAY I LOVE YOU — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jerusalem-asher-kalderon.jpg",
+   "alt": "JERUSALEM — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiacs-tapestry-asher-kalderon.jpg",
+   "alt": "ZODIACS-Tapestry — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiac-75-asher-kalderon.jpg",
+   "alt": "Zodiac 75 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiacs-taurus-asher-kalderon.jpg",
+   "alt": "ZODIACS TAURUS — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiacs-leo-asher-kalderon.jpg",
+   "alt": "ZODIACS  LEO — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiacs-scorpio-asher-kalderon.jpg",
+   "alt": "ZODIACS  SCORPIO — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiacs-sagitarius-asher-kalderon.jpg",
+   "alt": "ZODIACS SAGITARIUS — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiacs-cancer-asher-kalderon.jpg",
+   "alt": "ZODIACS CANCER — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiacs-capricorn-asher-kalderon.jpg",
+   "alt": "ZODIACS CAPRICORN — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/zodiacs-pisces-asher-kalderon.jpg",
+   "alt": "ZODIACS PISCES — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/oh-lord-oh-lord-asher-kalderon.jpg",
+   "alt": "Oh Lord, Oh Lord ! — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jer-album-wings-of-dream-1-asher-kalderon.jpg",
+   "alt": "Jer. Album Wings of Dream 1 — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/next-year-in-rebuilded-jerusalem-asher-kalderon.jpg",
+   "alt": "Next year in rebuilded Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/blessed-be-the-lord-out-of-jerusalem-asher-kalderon.jpg",
+   "alt": "Blessed be The Lord out of Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/towers-of-love-asher-kalderon.jpg",
+   "alt": "Towers of Love — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/if-i-forget-thee-jerusalem-asher-kalderon.jpg",
+   "alt": "If I Forget Thee Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jerusalem-university-asher-kalderon.jpg",
+   "alt": "Jerusalem University — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/walk-about-zion-asher-kalderon.jpg",
+   "alt": "Walk about Zion — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jerusalem-the-old-asher-kalderon.jpg",
+   "alt": "Jerusalem the old — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jerusalem-s-overwiew-asher-kalderon.jpg",
+   "alt": "Jerusalem s overwiew — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/pray-for-the-peace-of-jerusalem-asher-kalderon.jpg",
+   "alt": "Pray for the peace of Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/yeru-shalem-asher-kalderon.jpg",
+   "alt": "Yeru-shalem — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jerusalem-print-copy-asher-kalderon.jpg",
+   "alt": "Jerusalem Print copy — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/mizrach-east-asher-kalderon.jpg",
+   "alt": "Mizrach East — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/for-out-of-zion-shall-go-asher-kalderon.jpg",
+   "alt": "For out of Zion shall go — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/nostalgic-jerusalem-asher-kalderon.jpg",
+   "alt": "Nostalgic Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/gallery/jerusalem-painting-asher-kalderon.jpg",
+   "alt": "Jerusalem painting — Asher Kalderon"
+  }
+ ],
+ "kalderon_posters.html": [
+  {
+   "src": "images/posters/boris-godunov-opera-asher-kalderon.jpg",
+   "alt": "BORIS GODUNOV Opera — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/don-juan-opera-asher-kalderon.jpg",
+   "alt": "Don Juan Opera — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/the-visit-of-the-lady-play-asher-kalderon.jpg",
+   "alt": "THE VISIT OF THE LADY Play — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/ak-design-exhibition-asher-kalderon.jpg",
+   "alt": "AK DESIGN EXHIBITION — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/exibition-asher-kalderon.jpg",
+   "alt": "EXIBITION — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/jewish-olympics-asher-kalderon.jpg",
+   "alt": "JEWISH OLYMPICS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/maccabiah-asher-kalderon-2.jpg",
+   "alt": "Maccabiah — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/11th-jewish-olympics-asher-kalderon.jpg",
+   "alt": "11th JEWISH OLYMPICS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sukot-jewish-holiday-asher-kalderon.jpg",
+   "alt": "SUKOT Jewish Holiday — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sukot-jewish-holiday3-asher-kalderon.jpg",
+   "alt": "SUKOT Jewish Holiday3 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sukot-jewish-holiday4-asher-kalderon.jpg",
+   "alt": "SUKOT Jewish Holiday4 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sukot-jewish-holiday5-asher-kalderon.jpg",
+   "alt": "SUKOT Jewish Holiday5 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/shavuot-jewish-holiday-asher-kalderon.jpg",
+   "alt": "SHAVUOT Jewish Holiday — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/shavuot-jewish-holiday2-asher-kalderon.jpg",
+   "alt": "SHAVUOT Jewish Holiday2 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/shavuot-jewish-holiday4-asher-kalderon.jpg",
+   "alt": "SHAVUOT Jewish Holiday4 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/jerusalem-3000-years-asher-kalderon.jpg",
+   "alt": "JERUSALEM 3000 YEARS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/jerusalem-is-peace-poster75-asher-kalderon.jpg",
+   "alt": "Jerusalem is peace poster75 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/season-greetings-gov-asher-kalderon.jpg",
+   "alt": "SEASON GREETINGS Gov — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/jewish-festival-stamps-asher-kalderon.jpg",
+   "alt": "JEWISH FESTIVAL stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/bible-kings-postal-stamps-asher-kalderon.jpg",
+   "alt": "BIBLE KINGS Postal stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/festival-stamps-poster-asher-kalderon.jpg",
+   "alt": "FESTIVAL STAMPS Poster — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/collecting-postage-stamps-asher-kalderon.jpg",
+   "alt": "Collecting Postage Stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/collect-israeli-stamps-asher-kalderon.jpg",
+   "alt": "Collect Israeli Stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/amal-asher-kalderon.jpg",
+   "alt": "AMAL — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/export-asher-kalderon.jpg",
+   "alt": "EXPORT — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/space-embrio-asher-kalderon-2.jpg",
+   "alt": "SPACE EMBRIO — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/art-exhibition-asher-kalderon.jpg",
+   "alt": "ART EXHIBITION — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/space-voices-science-asher-kalderon.jpg",
+   "alt": "SPACE VOICES Science — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/take-me-to-the-moon-asher-kalderon.jpg",
+   "alt": "Take me to the Moon — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/3dreams-art-asher-kalderon.jpg",
+   "alt": "3DREAMS Art — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/hot-lips-night-club-asher-kalderon.jpg",
+   "alt": "HOT LIPS Night club. — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/labyrint-2001-asher-kalderon.jpg",
+   "alt": "LABYRINT 2001 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/44-great-movies-asher-kalderon.jpg",
+   "alt": "44 GREAT MOVIES — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/no-drugs-anti-drugs-2-asher-kalderon.jpg",
+   "alt": "NO DRUGS Anti-drugs 2 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/stop-it-asher-kalderon.jpg",
+   "alt": "STOP IT ! — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/11th-jewish-olympics-asher-kalderon.jpg",
+   "alt": "11th JEWISH OLYMPICS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/25-zionist-congress-asher-kalderon.jpg",
+   "alt": "25 ZIONIST CONGRESS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/a-for-accuse-asher-kalderon.jpg",
+   "alt": "A FOR ACCUSE — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/freedom-asher-kalderon.jpg",
+   "alt": "FREEDOM — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/happy-millennium-asher-kalderon.jpg",
+   "alt": "Happy Millennium — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/home-sweet-home-asher-kalderon.jpg",
+   "alt": "HOME SWEET HOME — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/keep-eating-asher-kalderon.jpg",
+   "alt": "KEEP EATING — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/keep-smoking-asher-kalderon.jpg",
+   "alt": "KEEP SMOKING — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/remembering-asher-kalderon.jpg",
+   "alt": "REMEMBERING — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/lets-go-together-asher-kalderon.jpg",
+   "alt": "Lets Go Together — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/national-insurance-asher-kalderon.jpg",
+   "alt": "NATIONAL INSURANCE — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/negotiations-asher-kalderon.jpg",
+   "alt": "NEGOTIATIONS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/no-drugs-asher-kalderon.jpg",
+   "alt": "NO DRUGS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/peace-asher-kalderon.jpg",
+   "alt": "PEACE — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/peace-asher-kalderon-2.jpg",
+   "alt": "PEACE — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/peace-original-asher-kalderon.jpg",
+   "alt": "PEACE original — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/pictoposter-burned-asher-kalderon.jpg",
+   "alt": "Pictoposter Burned — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/pictoposter-eliminated-asher-kalderon.jpg",
+   "alt": "Pictoposter Eliminated — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/apocalypse-asher-kalderon.jpg",
+   "alt": "APOCALYPSE — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/better-city-environment-asher-kalderon.jpg",
+   "alt": "BETTER CITY Environment — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/pictoposter-go-on-asher-kalderon.jpg",
+   "alt": "Pictoposter Go on! — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/pictoposter-separated-asher-kalderon.jpg",
+   "alt": "Pictoposter Separated — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/preventing-car-accidents-asher-kalderon.jpg",
+   "alt": "PREVENTING CAR ACCIDENTS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/preventing-global-disasters-asher-kalderon.jpg",
+   "alt": "PREVENTING GLOBAL DISASTERS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/save-for-your-home-asher-kalderon.jpg",
+   "alt": "SAVE FOR YOUR HOME — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/telemania-new-age-asher-kalderon.jpg",
+   "alt": "TELEMANIA New age — Asher Kalderon"
+  },
+  {
+   "src": "images/home/think-peace-asher-kalderon.jpg",
+   "alt": "THINK PEACE 1 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/think-peace-2-asher-kalderon.jpg",
+   "alt": "THINK PEACE 2 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/we-love-israel-asher-kalderon.jpg",
+   "alt": "WE LOVE ISRAEL — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/israel-independence-poster-asher-kalderon.jpg",
+   "alt": "ISRAEL INDEPENDENCE poster — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/fertility-asher-kalderon.jpg",
+   "alt": "FERTILITY — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/today-asher-kalderon.jpg",
+   "alt": "TODAY — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/anti-aids-poster180-asher-kalderon.jpg",
+   "alt": "ANTI AIDS poster180 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/ffreedom-asher-kalderon.jpg",
+   "alt": "FFREEDOM — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/freedom-from-hunger-asher-kalderon.jpg",
+   "alt": "FREEDOM FROM HUNGER — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/save-nature-s-beauty-asher-kalderon.jpg",
+   "alt": "SAVE NATURE s BEAUTY — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/shalom-asher-kalderon.jpg",
+   "alt": "SHALOM — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/43a-exelent-army-asher-kalderon.jpg",
+   "alt": "43a EXELENT ARMY — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/44-a-dex-exibition-asher-kalderon.jpg",
+   "alt": "44 A+DEX Exibition — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/bank-poster-asher-kalderon.jpg",
+   "alt": "BANK poster — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/bank-poster-asher-kalderon-2.jpg",
+   "alt": "BANK Poster — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/bank-poster-asher-kalderon-3.jpg",
+   "alt": "BANK Poster — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/bank-poster-asher-kalderon-4.jpg",
+   "alt": "BANK Poster — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/bank-poster-asher-kalderon-5.jpg",
+   "alt": "BANK Poster — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/smile-asher-kalderon.jpg",
+   "alt": "SMILE ! — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/the-big-pot-asher-kalderon.jpg",
+   "alt": "THE BIG POT — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/together-asher-kalderon.jpg",
+   "alt": "TOGETHER — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/carnival-lotts-asher-kalderon.jpg",
+   "alt": "CARNIVAL LOTTS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/loto-lotery-asher-kalderon.jpg",
+   "alt": "LOTO Lotery — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/lottery-winnings-asher-kalderon.jpg",
+   "alt": "LOTTERY WINNINGS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/lotto-asher-kalderon.jpg",
+   "alt": "LOTTO — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/two-jackpots-asher-kalderon.jpg",
+   "alt": "TWO JACKPOTS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/workshop-buildings-asher-kalderon.jpg",
+   "alt": "WORKSHOP BUILDINGS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/carmel-agriculture-asher-kalderon.jpg",
+   "alt": "CARMEL Agriculture — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/atlas-radio-poster-asher-kalderon.jpg",
+   "alt": "ATLAS RADIO poster — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/technology-71-iinternl-fair-asher-kalderon.jpg",
+   "alt": "TECHNOLOGY 71 IInternl. Fair — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sport-football-asher-kalderon.jpg",
+   "alt": "SPORT Football — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sportime-asher-kalderon.jpg",
+   "alt": "SPORTIME — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sports-volley-ball-asher-kalderon.jpg",
+   "alt": "SPORTS Volley ball — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sports-weith-lifter-asher-kalderon.jpg",
+   "alt": "SPORTS Weith lifter — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sports-tennise-asher-kalderon.jpg",
+   "alt": "SPORTS-Tennise — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/stamp-collecting-gov-asher-kalderon.jpg",
+   "alt": "STAMP COLLECTING Gov — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/stamp-promotion-asher-kalderon.jpg",
+   "alt": "STAMP PROMOTION — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/stamps-of-israel-promotio-asher-kalderon.jpg",
+   "alt": "STAMPS OF ISRAEL Promotio — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/children-s-car-accidents-asher-kalderon.jpg",
+   "alt": "CHILDREN s CAR ACCIDENTS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/circus-asher-kalderon.jpg",
+   "alt": "CIRCUS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/i-love-you-children-asher-kalderon.jpg",
+   "alt": "I LOVE YOU Children — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/musiclown-decorative-asher-kalderon.jpg",
+   "alt": "MUSICLOWN Decorative — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/i-love-you-asher-kalderon.jpg",
+   "alt": "I LOVE YOU — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/love-to-israel-2014-asher-kalderon.jpg",
+   "alt": "LOVE TO ISRAEL 2014 — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/devorcees-humor-asher-kalderon.jpg",
+   "alt": "DEVORCEES Humor — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/many-car-accidents-asher-kalderon.jpg",
+   "alt": "MANY CAR ACCIDENTS — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/say-i-love-you-asher-kalderon-2.jpg",
+   "alt": "SAY I LOVE YOU — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/succes-asher-kalderon.jpg",
+   "alt": "SUCCES — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/sweety-say-i-love-you-asher-kalderon.jpg",
+   "alt": "Sweety say I love you — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/a-for-avocado-ed-asher-kalderon.jpg",
+   "alt": "A FOR AVOCADO Ed — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/b-for-bananas-edu-asher-kalderon.jpg",
+   "alt": "B FOR BANANAS Edu — Asher Kalderon"
+  },
+  {
+   "src": "images/posters/c-for-carmel-asher-kalderon.jpg",
+   "alt": "C for CARMEL — Asher Kalderon"
+  }
+ ],
+ "kalderon_judaica.html": [
+  {
+   "src": "images/judaica/the-creation-asher-kalderon-4.jpg",
+   "alt": "THE CREATION — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/the-creation-2-asher-kalderon-2.jpg",
+   "alt": "THE CREATION 2 — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/the-creation-3-asher-kalderon-2.jpg",
+   "alt": "THE CREATION 3 — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/the-creation-print-75-asher-kalderon.jpg",
+   "alt": "The Creation Print 75 — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/rachel-asher-kalderon-2.jpg",
+   "alt": "RACHEL — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/rebeca-asher-kalderon-2.jpg",
+   "alt": "REBECA — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/sara-asher-kalderon-3.jpg",
+   "alt": "SARA — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/adam-eve-asher-kalderon-2.jpg",
+   "alt": "ADAM & EVE — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/king-david-asher-kalderon-3.jpg",
+   "alt": "KING DAVID — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/jacob-s-dream-asher-kalderon-2.jpg",
+   "alt": "JACOB S DREAM — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/jona-and-the-wale-asher-kalderon-2.jpg",
+   "alt": "JONA AND THE WALE — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/noach-arch-asher-kalderon-2.jpg",
+   "alt": "NOACH ARCH — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/the-deluge-asher-kalderon-2.jpg",
+   "alt": "THE DELUGE — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/peace-in-3-languges-asher-kalderon-2.jpg",
+   "alt": "PEACE in 3 languges — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/shabat-shalom-asher-kalderon-2.jpg",
+   "alt": "SHABAT SHALOM — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/say-i-love-you-asher-kalderon-3.jpg",
+   "alt": "SAY I LOVE YOU — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/shalom-asher-kalderon-2.jpg",
+   "alt": "SHALOM — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/peace-asher-kalderon-3.jpg",
+   "alt": "PEACE — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/peace-asher-kalderon-4.jpg",
+   "alt": "PEACE — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/peace-original-asher-kalderon-2.jpg",
+   "alt": "PEACE original — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/think-peace-1-asher-kalderon.jpg",
+   "alt": "THINK PEACE 1 — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/think-peace-2-asher-kalderon-2.jpg",
+   "alt": "THINK PEACE 2 — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/we-love-israel-asher-kalderon-2.jpg",
+   "alt": "WE LOVE ISRAEL — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/israel-independence-poster-asher-kalderon-2.jpg",
+   "alt": "ISRAEL INDEPENDENCE poster — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/25-zionist-congress-asher-kalderon-2.jpg",
+   "alt": "25 ZIONIST CONGRESS — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/if-i-forget-thee-jerusalem-asher-kalderon-2.jpg",
+   "alt": "If I Forget Thee Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/pray-for-the-peace-of-jerusalem-asher-kalderon-2.jpg",
+   "alt": "Pray for the peace of Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/next-year-in-rebuilded-jerusalem-asher-kalderon-2.jpg",
+   "alt": "Next year in rebuilded Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/mizrach-east-asher-kalderon-2.jpg",
+   "alt": "Mizrach East — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/walk-about-zion-asher-kalderon-2.jpg",
+   "alt": "Walk about Zion — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/blessed-be-the-lord-out-of-jerusalem-asher-kalderon-2.jpg",
+   "alt": "Blessed be The Lord out of Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/for-out-of-zion-shall-go-asher-kalderon-2.jpg",
+   "alt": "For out of Zion shall go — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/yeru-shalem-asher-kalderon-2.jpg",
+   "alt": "Yeru-shalem — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/towers-of-love-asher-kalderon-2.jpg",
+   "alt": "Towers of Love — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/nostalgic-jerusalem-asher-kalderon-2.jpg",
+   "alt": "Nostalgic Jerusalem — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/jerusalem-painting-asher-kalderon-2.jpg",
+   "alt": "Jerusalem painting — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/jerusalem-the-old-asher-kalderon-2.jpg",
+   "alt": "Jerusalem the old — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/jerusalem-s-overwiew-asher-kalderon-2.jpg",
+   "alt": "Jerusalem s overwiew — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/oh-lord-oh-lord-asher-kalderon-2.jpg",
+   "alt": "Oh Lord, Oh Lord ! — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/sukot-asher-kalderon.jpg",
+   "alt": "SUKOT — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/sukot-asher-kalderon-2.jpg",
+   "alt": "SUKOT — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/sukot-asher-kalderon-3.jpg",
+   "alt": "SUKOT — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/sukot-asher-kalderon-4.jpg",
+   "alt": "SUKOT — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/shavuot-asher-kalderon.jpg",
+   "alt": "SHAVUOT — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/shavuot-asher-kalderon-2.jpg",
+   "alt": "SHAVUOT — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/shavuot-asher-kalderon-3.jpg",
+   "alt": "SHAVUOT — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/season-greetings-gov-asher-kalderon-2.jpg",
+   "alt": "SEASON GREETINGS Gov — Asher Kalderon"
+  },
+  {
+   "src": "images/judaica/jewish-festival-stamps-asher-kalderon-2.jpg",
+   "alt": "JEWISH FESTIVAL stamps — Asher Kalderon"
+  }
+ ],
+ "kalderon_haggadah_v4.html": [
+  {
+   "src": "images/haggadah/the-new-passover-haggadah-cover-asher-kalderon.jpg",
+   "alt": "The New Passover Haggadah cover"
+  },
+  {
+   "src": "images/haggadah/haggadah-the-new-passover-haggadah-asher-kalderon.jpg",
+   "alt": "The New Passover Haggadah"
+  },
+  {
+   "src": "images/haggadah/haggadah-regular-edition-asher-kalderon.jpg",
+   "alt": "Regular edition"
+  },
+  {
+   "src": "images/haggadah/haggadah-deluxe-edition-asher-kalderon.jpg",
+   "alt": "Deluxe Edition"
+  },
+  {
+   "src": "images/haggadah/haggadah-collectors-king-size-haggadah-asher-kalderon.jpg",
+   "alt": "Collectors King Size Haggadah"
+  },
+  {
+   "src": "images/haggadah/haggadah-the-artist-and-his-book-asher-kalderon.jpg",
+   "alt": "The artist and his book"
+  },
+  {
+   "src": "images/haggadah/haggadah-front-pages-asher-kalderon.jpg",
+   "alt": "Front pages"
+  },
+  {
+   "src": "images/haggadah/haggadah-02haggad-first-pages-asher-kalderon.jpg",
+   "alt": "02Haggad First pages"
+  },
+  {
+   "src": "images/haggadah/haggadah-artist-s-statement-asher-kalderon.jpg",
+   "alt": "Artist s Statement"
+  },
+  {
+   "src": "images/haggadah/haggadah-dedications-asher-kalderon.jpg",
+   "alt": "Dedications"
+  },
+  {
+   "src": "images/haggadah/haggadah-04baruch-ata-asher-kalderon.jpg",
+   "alt": "04Baruch Ata"
+  },
+  {
+   "src": "images/haggadah/haggadah-haggad-the-seder-plate-asher-kalderon.jpg",
+   "alt": "Haggad The Seder Plate"
+  },
+  {
+   "src": "images/haggadah/haggadah-haggadah-seder-orders-asher-kalderon.jpg",
+   "alt": "Haggadah Seder Orders"
+  },
+  {
+   "src": "images/haggadah/haggadah-kidush-asher-kalderon.jpg",
+   "alt": "-Kidush"
+  },
+  {
+   "src": "images/haggadah/haggadah-bore-meorei-esh-asher-kalderon.jpg",
+   "alt": "Bore Meorei Esh"
+  },
+  {
+   "src": "images/haggadah/haggadah-halahmaania-asher-kalderon.jpg",
+   "alt": "Halahmaania"
+  },
+  {
+   "src": "images/haggadah/haggadah-11mah-nishtana-asher-kalderon.jpg",
+   "alt": "11Mah Nishtana"
+  },
+  {
+   "src": "images/haggadah/haggadah-we-were-slaves-asher-kalderon.jpg",
+   "alt": "We were slaves"
+  },
+  {
+   "src": "images/haggadah/haggadah-raabbi-s-story-asher-kalderon.jpg",
+   "alt": "Raabbi s story"
+  },
+  {
+   "src": "images/haggadah/haggadah-haggadah-s-four-sons-asher-kalderon.jpg",
+   "alt": "Haggadah s Four Sons"
+  },
+  {
+   "src": "images/haggadah/haggadah-keeping-his-promise-asher-kalderon.jpg",
+   "alt": "Keeping His promise"
+  },
+  {
+   "src": "images/haggadah/haggadah-that-hath-been-maintained-to-our-forfathers-asher-kalderon.jpg",
+   "alt": "That Hath been maintained to our forfathers"
+  },
+  {
+   "src": "images/haggadah/haggadah-few-in-number-asher-kalderon.jpg",
+   "alt": "Few in number"
+  },
+  {
+   "src": "images/haggadah/haggadah-the-hard-bondage-asher-kalderon.jpg",
+   "alt": "The hard bondage"
+  },
+  {
+   "src": "images/haggadah/haggadah-and-we-cried-asher-kalderon.jpg",
+   "alt": "And we cried"
+  },
+  {
+   "src": "images/haggadah/haggadah-blood-fire-and-pillars-asher-kalderon.jpg",
+   "alt": "Blood,Fire and Pillars"
+  },
+  {
+   "src": "images/haggadah/haggadah-with-a-strong-arm-asher-kalderon.jpg",
+   "alt": "With a strong arm"
+  },
+  {
+   "src": "images/haggadah/haggadah-ten-plages-asher-kalderon.jpg",
+   "alt": "Ten Plages"
+  },
+  {
+   "src": "images/haggadah/haggadah-rabbi-jose-of-galilee-asher-kalderon.jpg",
+   "alt": "Rabbi Jose of Galilee"
+  },
+  {
+   "src": "images/haggadah/haggadah-exodus-crossing-the-sea-asher-kalderon.jpg",
+   "alt": "Exodus Crossing the sea"
+  },
+  {
+   "src": "images/haggadah/haggadah-how-many-benefits-dayeinu-asher-kalderon.jpg",
+   "alt": "How many benefits Dayeinu"
+  },
+  {
+   "src": "images/haggadah/haggadah-pesah-asher-kalderon.jpg",
+   "alt": "Pesah"
+  },
+  {
+   "src": "images/haggadah/haggadah-in-every-generation-asher-kalderon.jpg",
+   "alt": "In every generation"
+  },
+  {
+   "src": "images/haggadah/haggadah-israel-went-out-of-egypt-asher-kalderon.jpg",
+   "alt": "Israel went out of Egypt"
+  },
+  {
+   "src": "images/haggadah/haggadah-haleluyah-asher-kalderon.jpg",
+   "alt": "Haleluyah"
+  },
+  {
+   "src": "images/haggadah/haggadah-haleluya-b-asher-kalderon.jpg",
+   "alt": "Haleluya B"
+  },
+  {
+   "src": "images/haggadah/haggadah-o-praise-the-lord-asher-kalderon.jpg",
+   "alt": "O praise the Lord"
+  },
+  {
+   "src": "images/haggadah/haggadah-praise-the-lord-asher-kalderon.jpg",
+   "alt": "Praise The Lord"
+  },
+  {
+   "src": "images/haggadah/haggadah-the-soul-of-every-living-being-asher-kalderon.jpg",
+   "alt": "The soul of every living being"
+  },
+  {
+   "src": "images/haggadah/haggadah-blessings-befor-dinner-asher-kalderon.jpg",
+   "alt": "Blessings befor dinner"
+  },
+  {
+   "src": "images/haggadah/haggadah-seder-dinner-asher-kalderon.jpg",
+   "alt": "Seder Dinner"
+  },
+  {
+   "src": "images/haggadah/haggadah-epicoman-and-blessings-asher-kalderon.jpg",
+   "alt": "Epicoman and Blessings"
+  },
+  {
+   "src": "images/haggadah/haggadah-rebuild-jerusalem-asher-kalderon.jpg",
+   "alt": "Rebuild Jerusalem"
+  },
+  {
+   "src": "images/haggadah/haggadah-have-mercy-l-rd-asher-kalderon.jpg",
+   "alt": "Have mercy L-rd"
+  },
+  {
+   "src": "images/haggadah/haggadah-blessed-are-thou-lord-asher-kalderon.jpg",
+   "alt": "Blessed are Thou, Lord"
+  },
+  {
+   "src": "images/haggadah/haggadah-o-fear-the-lord-asher-kalderon.jpg",
+   "alt": "O fear the Lord"
+  },
+  {
+   "src": "images/haggadah/haggadah-pour-out-your-wrath-asher-kalderon.jpg",
+   "alt": "Pour out Your wrath"
+  },
+  {
+   "src": "images/haggadah/haggadah-nirtza-asher-kalderon.jpg",
+   "alt": "Nirtza"
+  },
+  {
+   "src": "images/haggadah/haggadah-next-year-in-jerusalem-asher-kalderon.jpg",
+   "alt": "Next Year in Jerusalem"
+  },
+  {
+   "src": "images/haggadah/haggadah-the-sacrifice-of-the-passover-asher-kalderon.jpg",
+   "alt": "The sacrifice of the Passover"
+  },
+  {
+   "src": "images/haggadah/haggadah-to-him-praise-has-ever-been-asher-kalderon.jpg",
+   "alt": "To Him Praise Has ever been"
+  },
+  {
+   "src": "images/haggadah/haggadah-rebuild-the-house-asher-kalderon.jpg",
+   "alt": "Rebuild the house"
+  },
+  {
+   "src": "images/haggadah/haggadah-who-knows-what-is-one-asher-kalderon.jpg",
+   "alt": "Who knows what is One"
+  },
+  {
+   "src": "images/haggadah/haggadah-who-knows-six-asher-kalderon.jpg",
+   "alt": "Who knows Six"
+  },
+  {
+   "src": "images/haggadah/haggadah-who-knows-what-is-ten-asher-kalderon.jpg",
+   "alt": "Who knows what is Ten"
+  },
+  {
+   "src": "images/haggadah/haggadah-had-gadia-one-only-kid-asher-kalderon.jpg",
+   "alt": "Had Gadia  One only kid"
+  }
+ ],
+ "kalderon_symbols.html": [
+  {
+   "src": "images/symbols/post-office-emblem-asher-kalderon.jpg",
+   "alt": "POST OFFICE Emblem — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/histadrut-workers-union-asher-kalderon.jpg",
+   "alt": "HISTADRUT Workers union — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/israel-s-radio-tv-asher-kalderon.jpg",
+   "alt": "ISRAEL s RADIO & TV — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/bezeq-telephone-services-asher-kalderon.jpg",
+   "alt": "BEZEQ Telephone services — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/phone-services-icons-asher-kalderon.jpg",
+   "alt": "PHONE SERVICES ICONS — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/statestati-sticdepartment-asher-kalderon.jpg",
+   "alt": "STATESTATI STICDEPARTMENT — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/safety-institute-asher-kalderon.jpg",
+   "alt": "SAFETY INSTITUTE — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/engineer-s-union-asher-kalderon.jpg",
+   "alt": "ENGINEER s UNION — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/naamat-women-workers-union-asher-kalderon.jpg",
+   "alt": "NAAMAT Women workers union — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/zionist-women-workers-assos-asher-kalderon.jpg",
+   "alt": "ZIONIST WOMEN Workers assos — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/30th-un-anniversary-for-asher-kalderon.jpg",
+   "alt": "30th UN ANNIVERSARY for — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/un-for-postage-stamp-400-asher-kalderon.jpg",
+   "alt": "UN for postage stamp 400 — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/shema-logo-for-coin-asher-kalderon.jpg",
+   "alt": "SHEMA Logo for coin — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/11th-maccabiah-jewish-olympic-games-asher-kalderon.jpg",
+   "alt": "11th MACCABIAH Jewish olympic games — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/11th-maccabiah-mascot-asher-kalderon.jpg",
+   "alt": "11th MACCABIAH MASCOT — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/technology-fair-asher-kalderon.jpg",
+   "alt": "TECHNOLOGY Fair — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/logo-for-fair-pavilion-asher-kalderon.jpg",
+   "alt": "LOGO FOR FAIR PAVILION — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/jec-jer-economy-conference-asher-kalderon.jpg",
+   "alt": "JEC Jer Economy conference — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/carnival-lottery-asher-kalderon.jpg",
+   "alt": "CARNIVAL LOTTERY — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/lotto-lotery-asher-kalderon.jpg",
+   "alt": "LOTTO Lotery — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/keter-plastic-produgts-asher-kalderon.jpg",
+   "alt": "KETER PLASTIC PRODUGTS — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/keter-outdoor-furniture-asher-kalderon.jpg",
+   "alt": "KETER OUTDOOR FURNITURE — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/keter-sport-body-shaping-equipment-asher-kalderon.jpg",
+   "alt": "KETER SPORT Body shaping equipment — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/steel-industry-asher-kalderon.jpg",
+   "alt": "STEEL INDUSTRY — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/albar-aluminum-industry-asher-kalderon.jpg",
+   "alt": "ALBAR Aluminum industry — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/asaf-plastic-materials-asher-kalderon.jpg",
+   "alt": "ASAF Plastic materials — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/tambur-paints-factory-asher-kalderon.jpg",
+   "alt": "TAMBUR paints factory — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/light-bulbs-industry-asher-kalderon.jpg",
+   "alt": "LIGHT BULBS INDUSTRY — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/car-industry-asher-kalderon.jpg",
+   "alt": "CAR INDUSTRY — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/technical-equipment-asher-kalderon.jpg",
+   "alt": "TECHNICAL EQUIPMENT — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/building-construct-managing-asher-kalderon.jpg",
+   "alt": "BUILDING CONSTRUCT MANAGING — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/solel-boneh-builders-asher-kalderon.jpg",
+   "alt": "SOLEL BONEH Builders — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/solel-boneh-builders-corp-asher-kalderon.jpg",
+   "alt": "SOLEL BONEH Builders Corp. — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/misrachi-bank-proposition-asher-kalderon.jpg",
+   "alt": "MISRACHI bank (proposition) — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/bank-savings-program-asher-kalderon.jpg",
+   "alt": "BANK Savings program — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/gavra-photographer-asher-kalderon.jpg",
+   "alt": "GAVRA Photographer — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/visco-visual-communication-asher-kalderon.jpg",
+   "alt": "VISCO Visual communication — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/logo-for-art-gallery-asher-kalderon.jpg",
+   "alt": "LOGO for Art Gallery — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/star-arist-s-studio-49c05b-asher-kalderon.jpg",
+   "alt": "STAR Arist s studio #49C05B — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/midnight-weekly-magazine-asher-kalderon.jpg",
+   "alt": "MIDNIGHT Weekly Magazine — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/sofshavua-weekend-weekly-magaz-asher-kalderon.jpg",
+   "alt": "SOFSHAVUA (Weekend)Weekly magaz — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/criminal-story-books-asher-kalderon.jpg",
+   "alt": "CRIMINAL STORY BOOKS — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/sir-john-scotch-whisky-asher-kalderon.jpg",
+   "alt": "SIR JOHN Scotch Whisky — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/calif-food-import-asher-kalderon.jpg",
+   "alt": "CALIF Food import — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/sweetened-yogurt-asher-kalderon.jpg",
+   "alt": "SWEETENED YOGURT — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/body-shaping-club-asher-kalderon.jpg",
+   "alt": "BODY SHAPING CLUB — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/shahor-lavan-black-white-photostate-service-asher-kalderon.jpg",
+   "alt": "SHAHOR LAVAN(Black&White) Photostate service — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/hot-lips-night-club-asher-kalderon-2.jpg",
+   "alt": "HOT LIPS Night club — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/kanion-mall-asher-kalderon.jpg",
+   "alt": "KANION Mall — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/aora-children-s-wear-asher-kalderon.jpg",
+   "alt": "AORA Children s wear — Asher Kalderon"
+  },
+  {
+   "src": "images/symbols/agate-c-2-wm-asher-kalderon.jpg",
+   "alt": "Agate C 2 WM — Asher Kalderon"
+  }
+ ],
+ "kalderon_stamps_v3.html": [
+  {
+   "src": "images/stamps/jubilee-of-israel-asher-kalderon.jpg",
+   "alt": "Jubilee of Israel — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/israel-50th-anniversary-asher-kalderon.jpg",
+   "alt": "Israel-50th Anniversary — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/independence-64-asher-kalderon.jpg",
+   "alt": "INDEPENDENCE 64 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/israel-independencey-64-set-asher-kalderon.jpg",
+   "alt": "Israel Independencey 64 set — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/israeli-army-forces-asher-kalderon.jpg",
+   "alt": "Israeli Army Forces — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/jeruasalem-capital-of-israe-asher-kalderon.jpg",
+   "alt": "Jeruasalem capital of Israe — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/peace-on-jerusalem-pres-asher-kalderon.jpg",
+   "alt": "Peace on Jerusalem pres . — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/jca-presentation-asher-kalderon.jpg",
+   "alt": "JCA presentation — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/bible-heros-asher-kalderon.jpg",
+   "alt": "BIBLE HEROS — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/women-in-the-bible-asher-kalderon.jpg",
+   "alt": "WOMEN IN THE BIBLE — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/bible-women-asher-kalderon.jpg",
+   "alt": "Bible Women — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/patriarchs-presentation-asher-kalderon.jpg",
+   "alt": "Patriarchs presentation — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/the-matriarchs-special-asher-kalderon.jpg",
+   "alt": "The Matriarchs Special — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/jewish-kings-stamps-asher-kalderon-2.jpg",
+   "alt": "Jewish Kings Stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/moses-stamps-asher-kalderon.jpg",
+   "alt": "MOSES STAMPS — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/jews-from-n-africa75-asher-kalderon.jpg",
+   "alt": "Jews from N. Africa75 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/making-olive-oil-300-asher-kalderon.jpg",
+   "alt": "Making olive oil 300 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/arbor-day-tu-bis-asher-kalderon.jpg",
+   "alt": "Arbor day (Tu Bis — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/arbor-day-tu-bish-asher-kalderon.jpg",
+   "alt": "Arbor day(Tu Bish — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/arbor-day-tu-bish-asher-kalderon-2.jpg",
+   "alt": "Arbor day(Tu Bish — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/arbor-day-tu-bishvat-asher-kalderon.jpg",
+   "alt": "Arbor day(Tu Bishvat — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/sucot-stamps-prese-asher-kalderon.jpg",
+   "alt": "Sucot stamps prese — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/sucot-stamps-asher-kalderon.jpg",
+   "alt": "Sucot stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/sucot-presentation-asher-kalderon.jpg",
+   "alt": "Sucot presentation — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/shavuoth-stamp-present-asher-kalderon.jpg",
+   "alt": "Shavuoth stamp present — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/shavuot-stamp-coin3-asher-kalderon.jpg",
+   "alt": "SHAVUOT Stamp+coin3 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/pioneer-women-asher-kalderon.jpg",
+   "alt": "Pioneer Women — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/israelindustry-science-asher-kalderon.jpg",
+   "alt": "ISRAELINDUSTRY & SCIENCE — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/israel-s-industry-ce-asher-kalderon.jpg",
+   "alt": "ISRAEL s INDUSTRY CE — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/satelite-stamp-pres-asher-kalderon.jpg",
+   "alt": "Satelite stamp pres — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/health-resorts-pr-asher-kalderon.jpg",
+   "alt": "Health resorts pr — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/health-resorts-stamps-asher-kalderon.jpg",
+   "alt": "Health Resorts stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/hunger-asher-kalderon.jpg",
+   "alt": "Hunger — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/1-railways-pres-block-asher-kalderon.jpg",
+   "alt": "1.Railways pres.-Block — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/railway-stamps-asher-kalderon.jpg",
+   "alt": "Railway Stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/railways-in-holy-land-asher-kalderon.jpg",
+   "alt": "Railways in Holy Land — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/railways-pres-block-1-asher-kalderon.jpg",
+   "alt": "Railways pres.-Block 1 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/hebrew-university-asher-kalderon.jpg",
+   "alt": "Hebrew University — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/betzalel-ceramics-pres-asher-kalderon.jpg",
+   "alt": "Betzalel ceramics pres. — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/bezalel-ceram-stamp-pres75-asher-kalderon.jpg",
+   "alt": "Bezalel ceram stamp pres75 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/painting-l-blum-des-asher-kalderon.jpg",
+   "alt": "Painting-L.Blum, Des — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/histadrut-anniversary-asher-kalderon.jpg",
+   "alt": "Histadrut Anniversary — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/ymca-asher-kalderon.jpg",
+   "alt": "YMCA — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/truth-law-peace-asher-kalderon.jpg",
+   "alt": "Truth, Law, Peace — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/banknote-coins-asher-kalderon.jpg",
+   "alt": "Banknote+coins — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-stamp-asher-kalderon.jpg",
+   "alt": "UN Stamp — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-postcard-stamp-asher-kalderon.jpg",
+   "alt": "UN Postcard stamp — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-30th-anniversary150-asher-kalderon.jpg",
+   "alt": "UN 30th Anniversary150 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-30th-anniversary-presen-asher-kalderon.jpg",
+   "alt": "UN 30th Anniversary presen — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-30th-anniversary-stamps-asher-kalderon.jpg",
+   "alt": "UN 30th anniversary stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-stamps-30th-annivers300-asher-kalderon.jpg",
+   "alt": "UN stamps 30th Annivers300 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-women-righgts-presen300-asher-kalderon.jpg",
+   "alt": "UN Women Righgts presen300 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-women-righgts-presen-asher-kalderon.jpg",
+   "alt": "UN Women Righgts presen — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/un-stamps-law-of-the-sea75-asher-kalderon.jpg",
+   "alt": "UN stamps Law of the Sea75 — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/the-law-of-sea-stamps-asher-kalderon.jpg",
+   "alt": "The Law of Sea stamps — Asher Kalderon"
+  },
+  {
+   "src": "images/stamps/law-of-the-sea-jpg-asher-kalderon.jpg",
+   "alt": "Law of the sea jpg — Asher Kalderon"
+  }
+ ],
+ "kalderon_about.html": [
+  {
+   "src": "images/about/asher-kalderon.jpg",
+   "alt": "Asher Kalderon"
+  },
+  {
+   "src": "images/about/the-new-passover-haggadah-asher-kalderon.jpg",
+   "alt": "The New Passover Haggadah — Asher Kalderon"
+  }
+ ]
+}
