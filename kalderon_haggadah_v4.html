@@ -23,7 +23,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
-:root{--ink:#0f0f0d;--cream:#f8f4ee;--gold:#b8902a;--light:#faf8f4;--mid:#ede8e0;--muted:#7a7670;--border:rgba(15,15,13,0.1);
+:root{--ink:#0f0f0d;--cream:#f8f4ee;--gold:#b8902a;--gold-dark:#7d5f0e;--light:#faf8f4;--mid:#ede8e0;--muted:#5f5b55;--border:rgba(15,15,13,0.1);
   --pastel-blue:#7ab3c4;
   --pastel-rose:#d4957a;
   --pastel-sage:#7aab8a;
@@ -40,24 +40,24 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .brand-text{font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:400;letter-spacing:0.08em;color:#f7f4ef;}
 .brand-text em{font-style:italic;color:var(--gold);}
 .nav-links{display:flex;align-items:center;list-style:none;flex:1;overflow-x:auto;}
-.nav-links a{display:block;padding:18px 16px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:rgba(247,244,239,0.4);text-decoration:none;border-right:1px solid rgba(255,255,255,0.04);white-space:nowrap;transition:color 0.2s;}
+.nav-links a{display:block;padding:18px 16px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:rgba(247,244,239,0.82);text-decoration:none;border-right:1px solid rgba(255,255,255,0.04);white-space:nowrap;transition:color 0.2s;}
 .nav-links a:hover,.nav-links a.active{color:var(--gold);}
 .nav-links a:focus{outline:2px solid var(--gold);outline-offset:-2px;}
 .nav-end{display:flex;align-items:center;padding:0 24px;border-left:1px solid rgba(255,255,255,0.08);flex-shrink:0;}
-.btn-purchase{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
+.btn-purchase{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
 .page-hero{padding:0;background:var(--deep);border-bottom:1px solid rgba(184,144,42,0.25);display:grid;grid-template-columns:1fr 1fr;min-height:0;}
-.hero-eyebrow{font-size:9px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:20px;}
+.hero-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:20px;}
 .hero-eyebrow::before{content:'';display:block;width:28px;height:1px;background:var(--gold);}
 .hero-title{font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:300;line-height:1.0;color:#f7f4ef;}
 .hero-title em{display:block;font-style:italic;color:var(--gold);font-size:72px;}
-.hero-subtitle{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:300;font-style:italic;color:rgba(247,244,239,0.5);margin-top:16px;}
-.hero-desc{font-size:13px;font-weight:300;line-height:1.8;color:rgba(247,244,239,0.45);margin-top:28px;max-width:440px;}
+.hero-subtitle{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:300;font-style:italic;color:rgba(247,244,239,0.82);margin-top:16px;}
+.hero-desc{font-size:13px;font-weight:300;line-height:1.8;color:rgba(247,244,239,0.82);margin-top:28px;max-width:440px;}
 .hero-facts{display:flex;gap:40px;margin-top:40px;padding-top:32px;border-top:1px solid rgba(184,144,42,0.2);}
 .fact-num{font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;color:var(--gold);line-height:1;}
-.fact-label{font-size:9px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:4px;}
+.fact-label{font-size:11px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:4px;}
 .hero-ctas{display:flex;gap:14px;margin-top:40px;}
-.btn-gold{padding:13px 32px;background:var(--gold);color:var(--ink);font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
-.btn-ghost-light{padding:13px 32px;background:transparent;color:rgba(247,244,239,0.5);border:1px solid rgba(247,244,239,0.15);font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;}
+.btn-gold{padding:13px 32px;background:var(--gold);color:var(--ink);font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
+.btn-ghost-light{padding:13px 32px;background:transparent;color:rgba(247,244,239,0.82);border:1px solid rgba(247,244,239,0.15);font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;}
 .hero-right{display:flex;justify-content:center;align-items:center;background:#060402;position:relative;}
 .book-cover{width:100%;height:100%;min-height:0;background:#060402;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
 .book-cover::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(184,144,42,0.06) 0%,transparent 65%);pointer-events:none;z-index:1;}
@@ -66,31 +66,31 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .edition-item{flex:1;padding:0 32px;border-right:1px solid rgba(184,144,42,0.15);}
 .edition-item:first-child{padding-left:0;}
 .edition-item:last-child{border-right:none;}
-.edition-label{font-size:9px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.edition-desc{font-size:12px;font-weight:300;color:rgba(247,244,239,0.4);line-height:1.5;}
+.edition-label{font-size:11px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:4px;}
+.edition-desc{font-size:12px;font-weight:300;color:rgba(247,244,239,0.82);line-height:1.5;}
 .cat-nav{position:sticky;top:57px;z-index:90;display:flex;align-items:center;background:var(--light);border-bottom:1px solid var(--border);overflow-x:auto;}
-.nav-cat{padding:18px 24px;font-family:'DM Sans',sans-serif;font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:var(--muted);background:transparent;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;transition:all 0.2s;display:flex;align-items:center;gap:7px;}
+.nav-cat{padding:18px 24px;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:var(--muted);background:transparent;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;transition:all 0.2s;display:flex;align-items:center;gap:7px;}
 .nav-cat:hover{color:var(--ink);}
 .nav-cat.active{color:var(--ink);border-bottom-color:var(--gold);background:var(--cream);}
 .nav-cat:focus{outline:2px solid var(--gold);outline-offset:-2px;}
-.nav-count{font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:var(--gold);opacity:0.7;}
+.nav-count{font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:var(--gold-dark);opacity:0.7;}
 .cat-section{padding:64px 64px 72px;border-bottom:1px solid var(--border);}
 .cat-section:nth-child(even){background:rgba(122,179,196,0.05);}
 .cat-header{display:grid;grid-template-columns:1fr auto;align-items:end;gap:32px;margin-bottom:40px;padding-bottom:28px;border-bottom:1px solid var(--border);}
-.cat-eyebrow{font-size:9px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.cat-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold-dark);display:flex;align-items:center;gap:10px;margin-bottom:12px;}
 .cat-eyebrow::before{content:'';display:block;width:20px;height:1px;background:var(--gold);}
 .cat-title{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:300;color:var(--ink);line-height:1.05;}
 .cat-desc{font-size:13px;font-weight:300;color:var(--muted);margin-top:8px;line-height:1.6;}
-.cat-count{font-family:'Cormorant Garamond',serif;font-size:72px;font-weight:300;color:rgba(15,15,13,0.06);line-height:1;flex-shrink:0;}
+.cat-count{font-family:'Cormorant Garamond',serif;font-size:72px;font-weight:300;color:rgba(15,15,13,0.9);line-height:1;flex-shrink:0;}
 .slideshow{}
 .slide-stage{display:flex;align-items:center;gap:16px;margin-bottom:16px;}
 .slide-viewport{flex:1;position:relative;background:var(--ink);display:flex;align-items:center;justify-content:center;min-height:0;height:72vh;}
 .slide-img{display:block;max-width:100%;max-height:75vh;width:auto;height:auto;object-fit:contain;transition:opacity 0.25s ease;will-change:opacity;}
 .slide-caption{position:absolute;bottom:0;left:0;right:0;padding:20px 28px;background:linear-gradient(transparent,rgba(15,15,13,0.85));display:flex;align-items:baseline;justify-content:space-between;}
 .slide-title{font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;font-weight:300;color:#f7f4ef;letter-spacing:0.03em;}
-.slide-counter{font-size:9px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);white-space:nowrap;margin-left:20px;}
+.slide-counter{font-size:11px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);white-space:nowrap;margin-left:20px;}
 .slide-btn{width:52px;height:52px;flex-shrink:0;background:var(--cream);border:1px solid var(--border);color:var(--ink);font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all 0.2s;}
-.slide-btn:hover{background:var(--gold);color:var(--ink);border-color:var(--gold);}
+.slide-btn:hover{background:var(--gold);color:var(--ink);border-color:var(--gold-dark);}
 .slide-btn:focus{outline:2px solid var(--gold);outline-offset:2px;}
 .slide-btn:disabled{opacity:0.25;cursor:not-allowed;}
 .thumb-strip{display:flex;gap:8px;overflow-x:auto;padding:4px 0 8px;}
@@ -101,20 +101,20 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .thumb:focus{outline:2px solid var(--gold);outline-offset:2px;}
 .purchase-section{background:var(--deep);padding:80px 64px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
 .purchase-h{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:300;line-height:1.1;color:#f7f4ef;}
-.purchase-h em{display:block;font-style:italic;color:var(--gold);}
-.purchase-sub{font-size:13px;font-weight:300;color:rgba(247,244,239,0.4);margin-top:16px;line-height:1.7;}
+.purchase-h em{display:block;font-style:italic;color:var(--gold-dark);}
+.purchase-sub{font-size:13px;font-weight:300;color:rgba(247,244,239,0.82);margin-top:16px;line-height:1.7;}
 .c-row{display:flex;align-items:baseline;gap:16px;padding:14px 0;border-bottom:1px solid rgba(184,144,42,0.12);}
-.c-label{font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.25);min-width:80px;}
+.c-label{font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);min-width:80px;}
 .c-val{font-size:13px;font-weight:300;color:#f7f4ef;}
-.c-val a{color:var(--gold);text-decoration:none;}
+.c-val a{color:var(--gold-dark);text-decoration:none;}
 .purchase-ctas{display:flex;gap:12px;margin-top:32px;}
 footer{background:#080807;padding:24px 64px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.04);}
-.footer-brand{font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(247,244,239,0.2);}
+.footer-brand{font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(247,244,239,0.82);}
 .footer-nav{display:flex;gap:28px;}
-.footer-nav a{font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(247,244,239,0.18);text-decoration:none;}
+.footer-nav a{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(247,244,239,0.82);text-decoration:none;}
 .footer-nav a:hover{color:var(--gold);}
 .footer-badges{display:flex;gap:8px;}
-.badge{padding:3px 10px;border:1px solid rgba(255,255,255,0.08);font-size:7px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.18);}
+.badge{padding:3px 10px;border:1px solid rgba(255,255,255,0.08);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);}
 
 .slide-controls { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
 .play-pause {
@@ -153,7 +153,21 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
 /* Pastel strip */
 .pastel-strip{height:5px;background:linear-gradient(to right,#7ab3c4,#d4957a,#b07fa8,#7aab8a,#d4b483,#6b9fc4,#7ab3c4);}
 
-.btn-license{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}.btn-license:focus{outline:3px solid #fff;outline-offset:2px;}</style>
+.btn-license{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}.btn-license:focus{outline:3px solid #fff;outline-offset:2px;}
+/* ===== ACCESSIBILITY (IS 5568 / WCAG 2.1 AA) ===== */
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[tabindex]:focus-visible,summary:focus-visible{outline:3px solid #b8902a!important;outline-offset:3px!important;border-radius:2px;}
+nav a:focus-visible,.main-nav a:focus-visible{outline-offset:-3px!important;}
+main:focus{outline:none;}
+.skip-link{position:absolute;top:-100px;left:0;background:#b8902a;color:#0f0f0d;padding:12px 24px;font-size:14px;font-weight:500;z-index:99999;text-decoration:none;}
+.skip-link:focus{top:0;}
+[aria-current="page"]{color:#b8902a!important;}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important;}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important;}
+}
+@media(forced-colors:active){a,button{forced-color-adjust:auto;}}
+</style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://akalderon-arts.com/#artist", "name": "Asher Kalderon", "birthDate": "1929", "deathDate": "2018", "nationality": "Israeli", "jobTitle": "Graphic Designer and Artist", "description": "One of Israel's most distinguished graphic designers. Creator of 60+ Israeli stamps, national symbols, posters, tapestries, Judaica art and an award-winning illustrated Haggadah.", "alumniOf": "Bezalel Academy of Arts and Design", "url": "https://akalderon-arts.com/", "sameAs": ["https://www.absolutearts.com/kalderon/", "https://www.artmajeur.com/akalderonart", "https://www.coroflot.com/kalderon/profile", "https://www.facebook.com/Asher-Kalderons-Art-36782493053/"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://akalderon-arts.com/"}, {"@type": "ListItem", "position": 2, "name": "The Illustrated Haggadah", "item": "https://akalderon-arts.com/kalderon_haggadah_v4.html"}]}, {"@type": "CollectionPage", "@id": "https://akalderon-arts.com/kalderon_haggadah_v4.html#collection", "url": "https://akalderon-arts.com/kalderon_haggadah_v4.html", "name": "The Illustrated Haggadah — Asher Kalderon", "description": "Asher Kalderon's illustrated Passover Haggadah — 58 illustrations, 3 limited editions.", "mainEntity": {"@type": "ItemList", "numberOfItems": 56, "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "VisualArtwork", "name": "The New Passover Haggadah cover", "image": "https://akalderon-arts.com/images/haggadah/the-new-passover-haggadah-cover-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 2, "item": {"@type": "VisualArtwork", "name": "The New Passover Haggadah", "image": "https://akalderon-arts.com/images/haggadah/haggadah-the-new-passover-haggadah-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 3, "item": {"@type": "VisualArtwork", "name": "Regular edition", "image": "https://akalderon-arts.com/images/haggadah/haggadah-regular-edition-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 4, "item": {"@type": "VisualArtwork", "name": "Deluxe Edition", "image": "https://akalderon-arts.com/images/haggadah/haggadah-deluxe-edition-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 5, "item": {"@type": "VisualArtwork", "name": "Collectors King Size Haggadah", "image": "https://akalderon-arts.com/images/haggadah/haggadah-collectors-king-size-haggadah-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 6, "item": {"@type": "VisualArtwork", "name": "The artist and his book", "image": "https://akalderon-arts.com/images/haggadah/haggadah-the-artist-and-his-book-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 7, "item": {"@type": "VisualArtwork", "name": "Front pages", "image": "https://akalderon-arts.com/images/haggadah/haggadah-front-pages-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 8, "item": {"@type": "VisualArtwork", "name": "02Haggad First pages", "image": "https://akalderon-arts.com/images/haggadah/haggadah-02haggad-first-pages-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 9, "item": {"@type": "VisualArtwork", "name": "Artist s Statement", "image": "https://akalderon-arts.com/images/haggadah/haggadah-artist-s-statement-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 10, "item": {"@type": "VisualArtwork", "name": "Dedications", "image": "https://akalderon-arts.com/images/haggadah/haggadah-dedications-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 11, "item": {"@type": "VisualArtwork", "name": "04Baruch Ata", "image": "https://akalderon-arts.com/images/haggadah/haggadah-04baruch-ata-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 12, "item": {"@type": "VisualArtwork", "name": "Haggad The Seder Plate", "image": "https://akalderon-arts.com/images/haggadah/haggadah-haggad-the-seder-plate-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 13, "item": {"@type": "VisualArtwork", "name": "Haggadah Seder Orders", "image": "https://akalderon-arts.com/images/haggadah/haggadah-haggadah-seder-orders-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 14, "item": {"@type": "VisualArtwork", "name": "-Kidush", "image": "https://akalderon-arts.com/images/haggadah/haggadah-kidush-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 15, "item": {"@type": "VisualArtwork", "name": "Bore Meorei Esh", "image": "https://akalderon-arts.com/images/haggadah/haggadah-bore-meorei-esh-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 16, "item": {"@type": "VisualArtwork", "name": "Halahmaania", "image": "https://akalderon-arts.com/images/haggadah/haggadah-halahmaania-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 17, "item": {"@type": "VisualArtwork", "name": "11Mah Nishtana", "image": "https://akalderon-arts.com/images/haggadah/haggadah-11mah-nishtana-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 18, "item": {"@type": "VisualArtwork", "name": "We were slaves", "image": "https://akalderon-arts.com/images/haggadah/haggadah-we-were-slaves-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 19, "item": {"@type": "VisualArtwork", "name": "Raabbi s story", "image": "https://akalderon-arts.com/images/haggadah/haggadah-raabbi-s-story-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 20, "item": {"@type": "VisualArtwork", "name": "Haggadah s Four Sons", "image": "https://akalderon-arts.com/images/haggadah/haggadah-haggadah-s-four-sons-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 21, "item": {"@type": "VisualArtwork", "name": "Keeping His promise", "image": "https://akalderon-arts.com/images/haggadah/haggadah-keeping-his-promise-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 22, "item": {"@type": "VisualArtwork", "name": "That Hath been maintained to our forfathers", "image": "https://akalderon-arts.com/images/haggadah/haggadah-that-hath-been-maintained-to-our-forfathers-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 23, "item": {"@type": "VisualArtwork", "name": "Few in number", "image": "https://akalderon-arts.com/images/haggadah/haggadah-few-in-number-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 24, "item": {"@type": "VisualArtwork", "name": "The hard bondage", "image": "https://akalderon-arts.com/images/haggadah/haggadah-the-hard-bondage-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 25, "item": {"@type": "VisualArtwork", "name": "And we cried", "image": "https://akalderon-arts.com/images/haggadah/haggadah-and-we-cried-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 26, "item": {"@type": "VisualArtwork", "name": "Blood,Fire and Pillars", "image": "https://akalderon-arts.com/images/haggadah/haggadah-blood-fire-and-pillars-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 27, "item": {"@type": "VisualArtwork", "name": "With a strong arm", "image": "https://akalderon-arts.com/images/haggadah/haggadah-with-a-strong-arm-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 28, "item": {"@type": "VisualArtwork", "name": "Ten Plages", "image": "https://akalderon-arts.com/images/haggadah/haggadah-ten-plages-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 29, "item": {"@type": "VisualArtwork", "name": "Rabbi Jose of Galilee", "image": "https://akalderon-arts.com/images/haggadah/haggadah-rabbi-jose-of-galilee-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 30, "item": {"@type": "VisualArtwork", "name": "Exodus Crossing the sea", "image": "https://akalderon-arts.com/images/haggadah/haggadah-exodus-crossing-the-sea-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 31, "item": {"@type": "VisualArtwork", "name": "How many benefits Dayeinu", "image": "https://akalderon-arts.com/images/haggadah/haggadah-how-many-benefits-dayeinu-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 32, "item": {"@type": "VisualArtwork", "name": "Pesah", "image": "https://akalderon-arts.com/images/haggadah/haggadah-pesah-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 33, "item": {"@type": "VisualArtwork", "name": "In every generation", "image": "https://akalderon-arts.com/images/haggadah/haggadah-in-every-generation-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 34, "item": {"@type": "VisualArtwork", "name": "Israel went out of Egypt", "image": "https://akalderon-arts.com/images/haggadah/haggadah-israel-went-out-of-egypt-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 35, "item": {"@type": "VisualArtwork", "name": "Haleluyah", "image": "https://akalderon-arts.com/images/haggadah/haggadah-haleluyah-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 36, "item": {"@type": "VisualArtwork", "name": "Haleluya B", "image": "https://akalderon-arts.com/images/haggadah/haggadah-haleluya-b-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 37, "item": {"@type": "VisualArtwork", "name": "O praise the Lord", "image": "https://akalderon-arts.com/images/haggadah/haggadah-o-praise-the-lord-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 38, "item": {"@type": "VisualArtwork", "name": "Praise The Lord", "image": "https://akalderon-arts.com/images/haggadah/haggadah-praise-the-lord-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 39, "item": {"@type": "VisualArtwork", "name": "The soul of every living being", "image": "https://akalderon-arts.com/images/haggadah/haggadah-the-soul-of-every-living-being-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 40, "item": {"@type": "VisualArtwork", "name": "Blessings befor dinner", "image": "https://akalderon-arts.com/images/haggadah/haggadah-blessings-befor-dinner-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 41, "item": {"@type": "VisualArtwork", "name": "Seder Dinner", "image": "https://akalderon-arts.com/images/haggadah/haggadah-seder-dinner-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 42, "item": {"@type": "VisualArtwork", "name": "Epicoman and Blessings", "image": "https://akalderon-arts.com/images/haggadah/haggadah-epicoman-and-blessings-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 43, "item": {"@type": "VisualArtwork", "name": "Rebuild Jerusalem", "image": "https://akalderon-arts.com/images/haggadah/haggadah-rebuild-jerusalem-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 44, "item": {"@type": "VisualArtwork", "name": "Have mercy L-rd", "image": "https://akalderon-arts.com/images/haggadah/haggadah-have-mercy-l-rd-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 45, "item": {"@type": "VisualArtwork", "name": "Blessed are Thou, Lord", "image": "https://akalderon-arts.com/images/haggadah/haggadah-blessed-are-thou-lord-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 46, "item": {"@type": "VisualArtwork", "name": "O fear the Lord", "image": "https://akalderon-arts.com/images/haggadah/haggadah-o-fear-the-lord-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 47, "item": {"@type": "VisualArtwork", "name": "Pour out Your wrath", "image": "https://akalderon-arts.com/images/haggadah/haggadah-pour-out-your-wrath-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 48, "item": {"@type": "VisualArtwork", "name": "Nirtza", "image": "https://akalderon-arts.com/images/haggadah/haggadah-nirtza-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 49, "item": {"@type": "VisualArtwork", "name": "Next Year in Jerusalem", "image": "https://akalderon-arts.com/images/haggadah/haggadah-next-year-in-jerusalem-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 50, "item": {"@type": "VisualArtwork", "name": "The sacrifice of the Passover", "image": "https://akalderon-arts.com/images/haggadah/haggadah-the-sacrifice-of-the-passover-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 51, "item": {"@type": "VisualArtwork", "name": "To Him Praise Has ever been", "image": "https://akalderon-arts.com/images/haggadah/haggadah-to-him-praise-has-ever-been-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 52, "item": {"@type": "VisualArtwork", "name": "Rebuild the house", "image": "https://akalderon-arts.com/images/haggadah/haggadah-rebuild-the-house-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 53, "item": {"@type": "VisualArtwork", "name": "Who knows what is One", "image": "https://akalderon-arts.com/images/haggadah/haggadah-who-knows-what-is-one-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 54, "item": {"@type": "VisualArtwork", "name": "Who knows Six", "image": "https://akalderon-arts.com/images/haggadah/haggadah-who-knows-six-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 55, "item": {"@type": "VisualArtwork", "name": "Who knows what is Ten", "image": "https://akalderon-arts.com/images/haggadah/haggadah-who-knows-what-is-ten-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}, {"@type": "ListItem", "position": 56, "item": {"@type": "VisualArtwork", "name": "Had Gadia  One only kid", "image": "https://akalderon-arts.com/images/haggadah/haggadah-had-gadia-one-only-kid-asher-kalderon.jpg", "creator": {"@id": "https://akalderon-arts.com/#artist"}, "acquireLicensePage": "https://akalderon-arts.com/kalderon_licensing.html"}}]}}]}</script>
 </head>
 <body>
@@ -166,7 +180,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
     <li><a href="kalderon_gallery_v4.html">Art Gallery</a></li>
     <li><a href="#">Posters</a></li>
     <li><a href="kalderon_judaica.html">Judaica Art</a></li>
-    <li><a href="#" class="active">Haggadah</a></li>
+    <li><a href="#" class="active" aria-current="page">Haggadah</a></li>
     <li><a href="kalderon_symbols.html">Symbols</a></li>
     <li><a href="kalderon_stamps_v3.html">Stamps</a></li>
     <li><a href="kalderon_shop.html">Shop</a></li>
@@ -204,7 +218,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
 <div class="pastel-strip" aria-hidden="true"></div>
 <nav class="cat-nav" aria-label="Browse by chapter"><button class="nav-cat" data-target="editions">The Book <span class="nav-count">9</span></button><button class="nav-cat" data-target="seder">The Seder <span class="nav-count">7</span></button><button class="nav-cat" data-target="story">The Story of Exodus <span class="nav-count">15</span></button><button class="nav-cat" data-target="praise">Praise & Hallel <span class="nav-count">7</span></button><button class="nav-cat" data-target="dinner">The Seder Dinner <span class="nav-count">8</span></button><button class="nav-cat" data-target="closing">Closing Songs <span class="nav-count">9</span></button></nav>
 <div id="illustrations"></div>
-<main id="main">
+<main id="main" tabindex="-1">
   
   <section class="cat-section" id="editions" aria-labelledby="heading-editions">
     <div class="cat-header">
@@ -225,7 +239,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
       <div class="slide-stage">
         <button class="slide-btn prev" aria-label="Previous page">&#8592;</button>
         <div class="slide-viewport">
-          <img class="slide-img" src="" alt="" loading="lazy">
+          <img class="slide-img" src="" alt="" loading="lazy" aria-hidden="true">
           <div class="slide-caption">
             <span class="slide-title"></span>
             <span class="slide-counter"></span>
@@ -255,7 +269,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
       <div class="slide-stage">
         <button class="slide-btn prev" aria-label="Previous page">&#8592;</button>
         <div class="slide-viewport">
-          <img class="slide-img" src="" alt="" loading="lazy">
+          <img class="slide-img" src="" alt="" loading="lazy" aria-hidden="true">
           <div class="slide-caption">
             <span class="slide-title"></span>
             <span class="slide-counter"></span>
@@ -285,7 +299,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
       <div class="slide-stage">
         <button class="slide-btn prev" aria-label="Previous page">&#8592;</button>
         <div class="slide-viewport">
-          <img class="slide-img" src="" alt="" loading="lazy">
+          <img class="slide-img" src="" alt="" loading="lazy" aria-hidden="true">
           <div class="slide-caption">
             <span class="slide-title"></span>
             <span class="slide-counter"></span>
@@ -315,7 +329,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
       <div class="slide-stage">
         <button class="slide-btn prev" aria-label="Previous page">&#8592;</button>
         <div class="slide-viewport">
-          <img class="slide-img" src="" alt="" loading="lazy">
+          <img class="slide-img" src="" alt="" loading="lazy" aria-hidden="true">
           <div class="slide-caption">
             <span class="slide-title"></span>
             <span class="slide-counter"></span>
@@ -345,7 +359,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
       <div class="slide-stage">
         <button class="slide-btn prev" aria-label="Previous page">&#8592;</button>
         <div class="slide-viewport">
-          <img class="slide-img" src="" alt="" loading="lazy">
+          <img class="slide-img" src="" alt="" loading="lazy" aria-hidden="true">
           <div class="slide-caption">
             <span class="slide-title"></span>
             <span class="slide-counter"></span>
@@ -375,7 +389,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
       <div class="slide-stage">
         <button class="slide-btn prev" aria-label="Previous page">&#8592;</button>
         <div class="slide-viewport">
-          <img class="slide-img" src="" alt="" loading="lazy">
+          <img class="slide-img" src="" alt="" loading="lazy" aria-hidden="true">
           <div class="slide-caption">
             <span class="slide-title"></span>
             <span class="slide-counter"></span>
@@ -414,9 +428,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
     <a href="#">Cookie Settings</a>
   </nav>
   <div class="footer-badges">
-    <div class="badge">IS 5568</div>
-    <div class="badge">WCAG 2.1 AA</div>
-    <div class="badge">PPL 2024</div>
+      <a class="badge" href="kalderon_accessibility.html">Accessibility statement</a>
   </div>
 </footer>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
@@ -571,13 +583,13 @@ document.querySelectorAll('.cat-section').forEach(s => observer.observe(s));
             justify-content:space-between;gap:32px;flex-wrap:wrap;">
   <div>
     <div id="cookie-title" style="font-size:10px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:rgba(248,244,238,0.75);margin-bottom:5px;">Cookie Policy · PPL 2024</div>
-    <p style="font-size:12px;font-weight:300;color:rgba(248,244,238,0.4);line-height:1.6;max-width:560px;">We use essential cookies only. By continuing to browse you agree to our <a href="kalderon_privacy.html" style="color:#d4b483;">Privacy Policy</a> and <a href="kalderon_accessibility.html" style="color:#d4b483;">Accessibility Statement</a>.</p>
+    <p style="font-size:12px;font-weight:300;color:rgba(248,244,238,0.82);line-height:1.6;max-width:560px;">We use essential cookies only. By continuing to browse you agree to our <a href="kalderon_privacy.html" style="color:#d4b483;">Privacy Policy</a> and <a href="kalderon_accessibility.html" style="color:#d4b483;">Accessibility Statement</a>.</p>
   </div>
   <div style="display:flex;gap:10px;flex-shrink:0;">
     <button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','accepted');"
-            style="padding:10px 28px;background:#b8902a;color:#1c1612;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;">Accept</button>
+            style="padding:10px 28px;background:#b8902a;color:#1c1612;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;">Accept</button>
     <button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','essential');"
-            style="padding:10px 22px;background:transparent;color:rgba(248,244,238,0.4);border:1px solid rgba(255,255,255,0.1);cursor:pointer;font-family:'DM Sans',sans-serif;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Essential Only</button>
+            style="padding:10px 22px;background:transparent;color:rgba(248,244,238,0.82);border:1px solid rgba(255,255,255,0.1);cursor:pointer;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Essential Only</button>
   </div>
 </div>
 <script>if(localStorage.getItem('ak_cookies')){document.getElementById('cookie-banner').style.display='none';}</script>

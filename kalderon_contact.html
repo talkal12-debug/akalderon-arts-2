@@ -26,9 +26,9 @@
 :root{
   --ink:#1c1612;
   --cream:#f8f4ee;
-  --gold:#b8902a;
+  --gold:#b8902a;--gold-dark:#7d5f0e;
   --light:#faf7f2;
-  --muted:#8a7f72;
+  --muted:#615a51;
   --border:rgba(28,22,18,0.1);
   --deep:#1a1410;
 }
@@ -52,7 +52,7 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
 
 /* HERO */
 .page-hero{padding:120px 80px 60px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;}
-.eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:16px;margin-bottom:24px;}
+.eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-dark);display:flex;align-items:center;gap:16px;margin-bottom:24px;}
 .eyebrow::before{content:'';display:block;width:40px;height:1px;background:var(--gold);}
 .page-title{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,5vw,4.5rem);font-weight:300;line-height:1.05;color:var(--deep);}
 .page-title em{color:var(--gold);font-style:italic;display:block;}
@@ -62,7 +62,7 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
 .direct-icon{font-size:1rem;}
 .direct-info{font-size:0.85rem;color:var(--ink);font-weight:400;}
 .direct-info a{color:var(--ink);text-decoration:none;transition:color 0.2s;}
-.direct-info a:hover{color:var(--gold);}
+.direct-info a:hover{color:var(--gold-dark);}
 .direct-label{font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:2px;}
 
 /* FORM SECTION */
@@ -78,7 +78,7 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
 .form-group input,
 .form-group textarea{border:1px solid var(--border);padding:14px 16px;font-size:0.9rem;font-family:'DM Sans',sans-serif;color:var(--ink);background:#faf9f7;outline:none;transition:border-color 0.2s,background 0.2s;resize:none;width:100%;}
 .form-group input:focus,
-.form-group textarea:focus{border-color:var(--gold);background:#fff;}
+.form-group textarea:focus{border-color:var(--gold-dark);background:#fff;}
 .form-group textarea{min-height:160px;}
 .form-footer{display:flex;align-items:center;justify-content:space-between;margin-top:32px;padding-top:32px;border-top:1px solid var(--border);}
 .form-note{font-size:0.8rem;color:var(--muted);display:flex;align-items:center;gap:8px;}
@@ -105,6 +105,20 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
   .form-grid{grid-template-columns:1fr;}
   .form-footer{flex-direction:column;gap:20px;align-items:flex-start;}
 }
+
+/* ===== ACCESSIBILITY (IS 5568 / WCAG 2.1 AA) ===== */
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[tabindex]:focus-visible,summary:focus-visible{outline:3px solid #b8902a!important;outline-offset:3px!important;border-radius:2px;}
+nav a:focus-visible,.main-nav a:focus-visible{outline-offset:-3px!important;}
+main:focus{outline:none;}
+.skip-link{position:absolute;top:-100px;left:0;background:#b8902a;color:#0f0f0d;padding:12px 24px;font-size:14px;font-weight:500;z-index:99999;text-decoration:none;}
+.skip-link:focus{top:0;}
+[aria-current="page"]{color:#b8902a!important;}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important;}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important;}
+}
+@media(forced-colors:active){a,button{forced-color-adjust:auto;}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://akalderon-arts.com/#artist", "name": "Asher Kalderon", "birthDate": "1929", "deathDate": "2018", "nationality": "Israeli", "jobTitle": "Graphic Designer and Artist", "description": "One of Israel's most distinguished graphic designers. Creator of 60+ Israeli stamps, national symbols, posters, tapestries, Judaica art and an award-winning illustrated Haggadah.", "alumniOf": "Bezalel Academy of Arts and Design", "url": "https://akalderon-arts.com/", "sameAs": ["https://www.absolutearts.com/kalderon/", "https://www.artmajeur.com/akalderonart", "https://www.coroflot.com/kalderon/profile", "https://www.facebook.com/Asher-Kalderons-Art-36782493053/"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://akalderon-arts.com/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://akalderon-arts.com/kalderon_contact.html"}]}]}</script>
 </head>
@@ -125,11 +139,11 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
     <li><a href="kalderon_shop.html">Shop</a></li>
     <li><a href="kalderon_about.html">About</a></li>
   </ul>
-  <div class="nav-end"><a href="kalderon_licensing.html" style="text-decoration:none;"><button class="btn-license">Licensing</button></a><a href="kalderon_contact.html" style="text-decoration:none;margin-left:8px;"><button class="btn-license" style="background:transparent;border:1px solid #b8902a;color:#b8902a;">Contact</button></a></div>
+  <div class="nav-end"><a href="kalderon_licensing.html" style="text-decoration:none;"><button class="btn-license">Licensing</button></a><a href="kalderon_contact.html" aria-current="page" style="text-decoration:none;margin-left:8px;"><button class="btn-license" style="background:transparent;border:1px solid #b8902a;color:#b8902a;">Contact</button></a></div>
 </nav>
 <div class="pastel-strip"></div>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="page-hero">
     <div class="hero-left">

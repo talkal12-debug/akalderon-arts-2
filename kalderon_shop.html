@@ -21,7 +21,7 @@
 
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
-:root{--ink:#0f0f0d;--cream:#f8f4ee;--gold:#b8902a;--light:#faf8f4;--mid:#ede8e0;--muted:#7a7670;--border:rgba(15,15,13,0.1);
+:root{--ink:#0f0f0d;--cream:#f8f4ee;--gold:#b8902a;--gold-dark:#7d5f0e;--light:#faf8f4;--mid:#ede8e0;--muted:#5f5b55;--border:rgba(15,15,13,0.1);
   --pastel-blue:#7ab3c4;--pastel-rose:#d4957a;--pastel-sage:#7aab8a;--pastel-lavender:#b07fa8;--pastel-wheat:#d4b483;--pastel-sky:#6b9fc4;--pastel-terracotta:#c4845a;}
 html{scroll-behavior:smooth;}
 body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 0%,#f2ecf8 35%,#e8f2f8 65%,#ecf8f0 100%);color:var(--ink);min-height:100vh;}
@@ -33,25 +33,25 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .nav-brand{display:flex;align-items:center;padding:0 40px;border-right:1px solid rgba(255,255,255,0.06);font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:400;color:#f7f4ef;text-decoration:none;letter-spacing:0.02em;white-space:nowrap;}
 .nav-brand em{color:var(--gold);font-style:italic;}
 .nav-links{display:flex;list-style:none;flex:1;overflow-x:auto;}
-.nav-links a{display:flex;align-items:center;padding:18px 16px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:rgba(247,244,239,0.4);text-decoration:none;border-right:1px solid rgba(255,255,255,0.04);white-space:nowrap;transition:color 0.2s;}
+.nav-links a{display:flex;align-items:center;padding:18px 16px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:rgba(247,244,239,0.82);text-decoration:none;border-right:1px solid rgba(255,255,255,0.04);white-space:nowrap;transition:color 0.2s;}
 .nav-links a:hover,.nav-links a.active{color:var(--gold);}
 .nav-links a:focus{outline:2px solid var(--gold);outline-offset:-2px;}
 .nav-end{display:flex;align-items:center;padding:0 24px;border-left:1px solid rgba(255,255,255,0.08);flex-shrink:0;}
-.btn-license{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;text-decoration:none;}
+.btn-license{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;text-decoration:none;}
 
 /* PAGE HEADER */
 .page-header{padding:72px 64px 48px;background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);border-bottom:1px solid rgba(184,144,42,0.15);display:grid;grid-template-columns:1fr auto;align-items:end;gap:40px;}
-.header-eyebrow{font-size:9px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:10px;margin-bottom:16px;}
+.header-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:10px;margin-bottom:16px;}
 .header-eyebrow::before{content:'';display:block;width:24px;height:1px;background:var(--gold);}
 .header-title{font-family:'Cormorant Garamond',serif;font-size:60px;font-weight:300;color:#f7f4ef;line-height:1;}
 .header-title em{font-style:italic;color:var(--gold);}
-.header-sub{font-size:13px;font-weight:300;color:rgba(247,244,239,0.55);margin-top:16px;max-width:520px;line-height:1.7;}
-.header-meta{text-align:right;color:rgba(247,244,239,0.5);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;}
+.header-sub{font-size:13px;font-weight:300;color:rgba(247,244,239,0.82);margin-top:16px;max-width:520px;line-height:1.7;}
+.header-meta{text-align:right;color:rgba(247,244,239,0.82);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;}
 .header-meta strong{display:block;font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:300;color:var(--gold);letter-spacing:0;text-transform:none;}
 
 /* CATEGORY TILES (landing) */
 .cat-intro{margin-bottom:36px;}
-.cat-intro-eyebrow{font-size:9px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.cat-intro-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:10px;}
 .cat-intro h2{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;color:var(--ink);}
 .cat-tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
 @media(max-width:1100px){.cat-tiles{grid-template-columns:repeat(2,1fr);gap:20px;}}
@@ -65,14 +65,14 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .cat-tile-cap{position:absolute;left:0;right:0;bottom:0;padding:26px 22px 20px;background:linear-gradient(to top,rgba(20,16,12,.94),rgba(20,16,12,0));color:#f7f4ef;}
 .cat-tile-name{font-family:'Cormorant Garamond',serif;font-size:27px;font-weight:400;line-height:1.1;}
 .cat-tile-meta{margin-top:7px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);}
-.cat-tile-meta em{color:rgba(247,244,239,.6);font-style:normal;}
+.cat-tile-meta em{color:rgba(247,244,239,0.82);font-style:normal;}
 /* CATEGORY VIEW */
 .back-link{display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-bottom:26px;background:none;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
-.back-link:hover{color:var(--gold);}
+.back-link:hover{color:var(--gold-dark);}
 .view-head{margin-bottom:34px;padding-bottom:22px;border-bottom:1px solid var(--border);}
-.view-eyebrow{font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;}
+.view-eyebrow{font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:8px;}
 .view-title{font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:300;color:var(--ink);}
-.view-title span{color:rgba(15,15,13,.28);}
+.view-title span{color:rgba(15,15,13,0.9);}
 
 /* GRID */
 .shop-wrap{padding:56px 64px 72px;}
@@ -89,24 +89,25 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .artwork-frame .img-hover{position:absolute;inset:12px;width:auto;height:auto;max-width:calc(100% - 24px);max-height:calc(100% - 24px);margin:auto;opacity:0;}
 .artwork:hover .artwork-frame .img-hover{opacity:1;}
 .artwork:hover .artwork-frame .img-main{opacity:0;}
-.etsy-tag{position:absolute;top:12px;right:12px;background:rgba(26,20,16,0.85);color:var(--gold);font-size:7px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;padding:4px 8px;}
+.etsy-tag{position:absolute;top:12px;right:12px;background:rgba(26,20,16,0.85);color:var(--gold);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;padding:4px 8px;}
 .artwork-info{padding:12px 2px 0;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:baseline;gap:10px;}
 .artwork-title{font-family:'Cormorant Garamond',serif;font-size:15px;font-weight:400;font-style:italic;color:var(--ink);line-height:1.3;}
-.artwork-price{font-size:11px;font-weight:500;letter-spacing:0.05em;color:var(--gold);white-space:nowrap;}
+.artwork-price{font-size:11px;font-weight:500;letter-spacing:0.05em;color:var(--gold-dark);white-space:nowrap;}
 
+.img-fallback{width:100%;height:100%;min-height:120px;background:linear-gradient(135deg,#ede8e0,#f8f4ee);}
 .empty-note{grid-column:1/-1;text-align:center;color:var(--muted);font-size:13px;padding:40px;}
 
 /* FOOTER */
-footer{background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);color:rgba(247,244,239,0.6);padding:48px 64px 28px;}
+footer{background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);color:rgba(247,244,239,0.82);padding:48px 64px 28px;}
 .footer-top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px;align-items:center;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,0.08);}
 .footer-brand{font-family:'Cormorant Garamond',serif;font-size:22px;color:#f7f4ef;}
 .footer-brand em{color:var(--gold);font-style:italic;}
 .footer-nav{display:flex;gap:20px;flex-wrap:wrap;}
-.footer-nav a{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(247,244,239,0.5);text-decoration:none;}
+.footer-nav a{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(247,244,239,0.82);text-decoration:none;}
 .footer-nav a:hover{color:var(--gold);}
 .footer-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;padding-top:20px;font-size:11px;}
 .footer-badges{display:flex;gap:8px;}
-.badge{padding:3px 10px;border:1px solid rgba(255,255,255,0.08);font-size:7px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.35);}
+.badge{padding:3px 10px;border:1px solid rgba(255,255,255,0.08);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);}
 .pastel-strip{height:5px;background:linear-gradient(to right,#7ab3c4,#d4957a,#b07fa8,#7aab8a,#d4b483,#6b9fc4,#7ab3c4);}
 
 @media(max-width:760px){
@@ -116,6 +117,20 @@ footer{background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);color:rgba(24
   .shop-wrap{padding:36px 20px 56px;}
   nav.main-nav{overflow-x:auto;}
 }
+
+/* ===== ACCESSIBILITY (IS 5568 / WCAG 2.1 AA) ===== */
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[tabindex]:focus-visible,summary:focus-visible{outline:3px solid #b8902a!important;outline-offset:3px!important;border-radius:2px;}
+nav a:focus-visible,.main-nav a:focus-visible{outline-offset:-3px!important;}
+main:focus{outline:none;}
+.skip-link{position:absolute;top:-100px;left:0;background:#b8902a;color:#0f0f0d;padding:12px 24px;font-size:14px;font-weight:500;z-index:99999;text-decoration:none;}
+.skip-link:focus{top:0;}
+[aria-current="page"]{color:#b8902a!important;}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important;}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important;}
+}
+@media(forced-colors:active){a,button{forced-color-adjust:auto;}}
 </style>
 </head>
 <body>
@@ -131,7 +146,7 @@ footer{background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);color:rgba(24
     <li><a href="kalderon_haggadah_v4.html">Haggadah</a></li>
     <li><a href="kalderon_symbols.html">Symbols</a></li>
     <li><a href="kalderon_stamps_v3.html">Stamps</a></li>
-    <li><a href="kalderon_shop.html" class="active">Shop</a></li>
+    <li><a href="kalderon_shop.html" class="active" aria-current="page">Shop</a></li>
     <li><a href="kalderon_about.html">About</a></li>
   </ul>
   <div class="nav-end"><a href="kalderon_licensing.html" class="btn-license">Licensing</a></div>
@@ -146,9 +161,10 @@ footer{background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);color:rgba(24
   <div class="header-meta">Items<strong id="totalCount">0</strong></div>
 </header>
 
-<main id="main" class="shop-wrap">
+<main id="main" tabindex="-1" class="shop-wrap">
   <div id="view"></div>
 </main>
+<div id="a11y-status" class="visually-hidden" role="status" aria-live="polite"></div>
 
 <footer>
   <div class="footer-top">
@@ -156,7 +172,7 @@ footer{background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);color:rgba(24
     <nav class="footer-nav" aria-label="Footer">
       <a href="/">Home</a>
       <a href="kalderon_gallery_v4.html">Gallery</a>
-      <a href="kalderon_shop.html">Shop</a>
+      <a href="kalderon_shop.html" aria-current="page">Shop</a>
       <a href="kalderon_licensing.html">Licensing</a>
       <a href="kalderon_about.html">About</a>
       <a href="kalderon_contact.html">Contact</a>
@@ -165,8 +181,7 @@ footer{background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);color:rgba(24
   <div class="footer-bottom">
     <span>AKalderon Arts · © A&amp;L Kalderon</span>
     <div class="footer-badges">
-      <span class="badge">IS 5568</span>
-      <span class="badge">WCAG 2.1 AA</span>
+      <a class="badge" href="kalderon_accessibility.html">Accessibility statement</a>
       <span class="badge">Secure checkout on Etsy</span>
     </div>
   </div>
@@ -1817,46 +1832,65 @@ footer{background:linear-gradient(135deg,#1a1410 60%,#1e1520 100%);color:rgba(24
     }
   }
 
+  var status = document.getElementById('a11y-status');
+  var mainEl = document.getElementById('main');
+  var firstRender = true;
+  function announce(msg){ if(status){ status.textContent=''; setTimeout(function(){ status.textContent=msg; },60); } }
+  function afterRender(t,msg){
+    document.title = t;
+    if(!firstRender){ announce(msg); if(mainEl && mainEl.focus) mainEl.focus(); }
+    firstRender = false;
+    window.scrollTo(0,0);
+  }
+  function imgHTML(cls,src,alt){
+    if(!src) return '<div class="img-fallback" role="img" aria-label="'+esc(alt||'Artwork image unavailable')+'"></div>';
+    return '<img class="'+cls+'" loading="lazy" decoding="async" src="'+esc(src)+'" alt="'+esc(alt)+'">';
+  }
+
   function renderLanding(){
     var tiles = sections.map(function(s){
+      var n = count(s.id);
       return '<a class="cat-tile" href="#c/'+s.id+'">'+
-        '<div class="cat-tile-frame"><img loading="lazy" src="'+esc(repImage(s.id))+'" alt="'+esc(s.name)+' — Asher Kalderon art"></div>'+
+        '<div class="cat-tile-frame">'+imgHTML('',repImage(s.id),'')+'</div>'+
         '<div class="cat-tile-cap"><div class="cat-tile-name">'+esc(s.name)+'</div>'+
-        '<div class="cat-tile-meta">'+count(s.id)+' items <em>· View collection →</em></div></div></a>';
+        '<div class="cat-tile-meta">'+n+' items <em>\u00b7 View collection \u2192</em></div></div>'+
+        '<span class="visually-hidden">View the '+esc(s.name)+' collection, '+n+' items</span></a>';
     }).join('');
     view.innerHTML =
       '<div class="cat-intro"><div class="cat-intro-eyebrow">'+products.length+' works across '+sections.length+' collections</div>'+
       '<h2>Choose a collection to explore</h2></div>'+
       '<div class="cat-tiles">'+tiles+'</div>';
-    document.title = baseTitle;
-    window.scrollTo(0,0);
+    afterRender(baseTitle, 'All collections. '+sections.length+' collections listed.');
   }
 
   function cardHTML(p){
-    var alt = esc(p.alt || p.title);
+    var alt = p.alt || p.title || '';
+    var price = fmtPrice(p.price,p.currency||DATA.currency);
     return '<a class="artwork" href="'+withUtm(p.url)+'" target="_blank" rel="noopener noreferrer nofollow" data-id="'+p.id+'">'+
-      '<div class="artwork-frame"><span class="etsy-tag">Etsy</span>'+
-      '<img class="img-main" loading="lazy" src="'+esc(p.image)+'" alt="'+alt+'"></div>'+
+      '<div class="artwork-frame"><span class="etsy-tag" aria-hidden="true">Etsy</span>'+
+      imgHTML('img-main',p.image,alt)+'</div>'+
       '<div class="artwork-info"><span class="artwork-title">'+esc(p.title)+'</span>'+
-      '<span class="artwork-price">'+fmtPrice(p.price,p.currency||DATA.currency)+'</span></div></a>';
+      '<span class="artwork-price">'+price+'</span></div>'+
+      '<span class="visually-hidden">'+(price?', price '+price:'')+' \u2014 buy on Etsy (opens in a new tab)</span></a>';
   }
   function renderCategory(secId){
     var s = sections.find(function(x){return x.id===secId;});
     if(!s){ renderLanding(); return; }
     var list = products.filter(function(p){return p.section===secId;});
     view.innerHTML =
-      '<button class="back-link" onclick="location.hash=\x27\x27">← All collections</button>'+
-      '<div class="view-head"><div class="view-eyebrow">Shop · Collection</div>'+
-      '<h2 class="view-title">'+esc(s.name)+' <span>'+list.length+'</span></h2></div>'+
-      '<div class="artwork-grid">'+list.map(cardHTML).join('')+'</div>';
+      '<button type="button" class="back-link" id="backLink">\u2190 All collections</button>'+
+      '<div class="view-head"><div class="view-eyebrow">Shop \u00b7 Collection</div>'+
+      '<h2 class="view-title">'+esc(s.name)+' <span>'+list.length+' items</span></h2></div>'+
+      '<div class="artwork-grid">'+(list.length?list.map(cardHTML).join(''):'<p class="empty-note">No items in this collection yet.</p>')+'</div>';
+    var back=document.getElementById('backLink');
+    if(back) back.addEventListener('click',function(){ location.hash=''; });
     [].forEach.call(view.querySelectorAll('.artwork'), function(a){
       a.addEventListener('click', function(){
         var p = products.find(function(x){return x.id===a.getAttribute('data-id');});
         if(p) track(p);
       });
     });
-    document.title = s.name + ' — ' + baseTitle;
-    window.scrollTo(0,0);
+    afterRender(s.name+' \u2014 '+baseTitle, s.name+' collection, '+list.length+' items.');
   }
 
   function route(){

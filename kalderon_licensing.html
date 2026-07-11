@@ -26,9 +26,9 @@
 :root{
   --ink:#1c1612;
   --cream:#f8f4ee;
-  --gold:#b8902a;
+  --gold:#b8902a;--gold-dark:#7d5f0e;
   --light:#faf7f2;
-  --muted:#8a7f72;
+  --muted:#615a51;
   --border:rgba(28,22,18,0.1);
   --deep:#1a1410;
   --pastel-blue:#7ab3c4;
@@ -59,7 +59,7 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
 
 /* HERO */
 .page-header{padding:140px 80px 80px;max-width:1200px;margin:0 auto;}
-.eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:16px;margin-bottom:28px;}
+.eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-dark);display:flex;align-items:center;gap:16px;margin-bottom:28px;}
 .eyebrow::before{content:'';display:block;width:40px;height:1px;background:var(--gold);}
 .page-title{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6vw,5.5rem);font-weight:300;line-height:1.05;color:var(--deep);margin-bottom:12px;}
 .page-title em{color:var(--gold);font-style:italic;display:block;}
@@ -69,7 +69,7 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
 .stats-bar{display:flex;gap:0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);max-width:1200px;margin:0 80px 80px;}
 .stat{flex:1;padding:32px 40px;border-right:1px solid var(--border);}
 .stat:last-child{border-right:none;}
-.stat-number{font-family:'Cormorant Garamond',serif;font-size:2.8rem;font-weight:300;color:var(--gold);line-height:1;}
+.stat-number{font-family:'Cormorant Garamond',serif;font-size:2.8rem;font-weight:300;color:var(--gold-dark);line-height:1;}
 .stat-label{font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);margin-top:6px;}
 
 /* INTRO SECTION */
@@ -77,7 +77,7 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
 .intro-text h2{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;line-height:1.3;color:var(--deep);margin-bottom:24px;}
 .intro-text p{font-size:0.95rem;line-height:1.85;color:var(--muted);font-weight:300;}
 .quote-block{background:var(--deep);padding:48px;position:relative;}
-.quote-block::before{content:'\201C';font-family:'Cormorant Garamond',serif;font-size:8rem;color:var(--gold);opacity:0.3;position:absolute;top:-20px;left:32px;line-height:1;}
+.quote-block::before{content:'\201C';font-family:'Cormorant Garamond',serif;font-size:8rem;color:var(--gold-dark);opacity:0.3;position:absolute;top:-20px;left:32px;line-height:1;}
 .quote-text{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;color:#fff;line-height:1.6;font-weight:300;}
 
 /* USE CASES */
@@ -89,19 +89,19 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
 .uses-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,0.1);}
 .use-card{background:var(--deep);padding:40px 32px;transition:background 0.3s;}
 .use-card:hover{background:#241e18;}
-.use-number{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:var(--gold);opacity:0.4;line-height:1;margin-bottom:20px;}
+.use-number{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:var(--gold-dark);opacity:0.4;line-height:1;margin-bottom:20px;}
 .use-title{font-size:0.75rem;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:#fff;margin-bottom:12px;}
 .use-desc{font-size:0.85rem;color:rgba(255,255,255,0.45);line-height:1.7;font-weight:300;}
 
 /* PROCESS */
 .process-section{max-width:1200px;margin:0 auto;padding:80px;}
-.section-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:16px;margin-bottom:40px;}
+.section-eyebrow{font-size:0.65rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-dark);display:flex;align-items:center;gap:16px;margin-bottom:40px;}
 .section-eyebrow::before{content:'';display:block;width:40px;height:1px;background:var(--gold);}
 .process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;}
 .step{position:relative;}
 .step::after{content:'';position:absolute;top:20px;right:-20px;width:40px;height:1px;background:var(--border);}
 .step:last-child::after{display:none;}
-.step-num{width:40px;height:40px;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--gold);margin-bottom:20px;}
+.step-num{width:40px;height:40px;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--gold-dark);margin-bottom:20px;}
 .step-title{font-size:0.75rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--deep);margin-bottom:10px;}
 .step-desc{font-size:0.85rem;color:var(--muted);line-height:1.7;font-weight:300;}
 
@@ -109,17 +109,17 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
 .contact-section{background:linear-gradient(135deg,#1a1410 0%,#2a2018 100%);padding:100px 80px;}
 .contact-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
 .contact-left h2{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:#fff;line-height:1.2;margin-bottom:20px;}
-.contact-left h2 em{color:var(--gold);font-style:italic;}
+.contact-left h2 em{color:var(--gold-dark);font-style:italic;}
 .contact-left p{font-size:0.9rem;color:rgba(255,255,255,0.45);line-height:1.8;font-weight:300;}
 .contact-details{display:flex;flex-direction:column;gap:24px;}
 .contact-item{display:flex;align-items:flex-start;gap:20px;padding:28px 32px;border:1px solid rgba(184,144,42,0.2);transition:border-color 0.3s;}
 .contact-item:hover{border-color:rgba(184,144,42,0.6);}
 .contact-icon{font-size:1.4rem;line-height:1;margin-top:2px;}
 .contact-info{}
-.contact-label{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.contact-label{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:6px;}
 .contact-value{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#fff;font-weight:300;}
 .contact-value a{color:#fff;text-decoration:none;transition:color 0.2s;}
-.contact-value a:hover{color:var(--gold);}
+.contact-value a:hover{color:var(--gold-dark);}
 .response-note{margin-top:32px;font-size:0.8rem;color:rgba(255,255,255,0.3);display:flex;align-items:center;gap:10px;}
 .response-note::before{content:'';display:block;width:6px;height:6px;border-radius:50%;background:var(--gold);}
 
@@ -140,6 +140,20 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
   .uses-section{padding:60px 32px;}
   .stats-bar{margin:0 32px 60px;}
 }
+
+/* ===== ACCESSIBILITY (IS 5568 / WCAG 2.1 AA) ===== */
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[tabindex]:focus-visible,summary:focus-visible{outline:3px solid #b8902a!important;outline-offset:3px!important;border-radius:2px;}
+nav a:focus-visible,.main-nav a:focus-visible{outline-offset:-3px!important;}
+main:focus{outline:none;}
+.skip-link{position:absolute;top:-100px;left:0;background:#b8902a;color:#0f0f0d;padding:12px 24px;font-size:14px;font-weight:500;z-index:99999;text-decoration:none;}
+.skip-link:focus{top:0;}
+[aria-current="page"]{color:#b8902a!important;}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important;}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important;}
+}
+@media(forced-colors:active){a,button{forced-color-adjust:auto;}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://akalderon-arts.com/#artist", "name": "Asher Kalderon", "birthDate": "1929", "deathDate": "2018", "nationality": "Israeli", "jobTitle": "Graphic Designer and Artist", "description": "One of Israel's most distinguished graphic designers. Creator of 60+ Israeli stamps, national symbols, posters, tapestries, Judaica art and an award-winning illustrated Haggadah.", "alumniOf": "Bezalel Academy of Arts and Design", "url": "https://akalderon-arts.com/", "sameAs": ["https://www.absolutearts.com/kalderon/", "https://www.artmajeur.com/akalderonart", "https://www.coroflot.com/kalderon/profile", "https://www.facebook.com/Asher-Kalderons-Art-36782493053/"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://akalderon-arts.com/"}, {"@type": "ListItem", "position": 2, "name": "Licensing", "item": "https://akalderon-arts.com/kalderon_licensing.html"}]}]}</script>
 </head>
@@ -160,11 +174,11 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#f8f2e8 
     <li><a href="kalderon_shop.html">Shop</a></li>
     <li><a href="kalderon_about.html">About</a></li>
   </ul>
-  <div class="nav-end"><a href="kalderon_licensing.html" style="text-decoration:none;"><button class="btn-license">Licensing</button></a><a href="kalderon_contact.html" style="text-decoration:none;margin-left:8px;"><button class="btn-license" style="background:transparent;border:1px solid #b8902a;color:#b8902a;">Contact</button></a><div style="display:none;"><button class="btn-license">Licensing</button></a><a href="kalderon_contact.html" style="text-decoration:none;margin-left:8px;"><button class="btn-license" style="background:transparent;border:1px solid #b8902a;color:#b8902a;">Contact</button></a></div>
+  <div class="nav-end"><a href="kalderon_licensing.html" aria-current="page" style="text-decoration:none;"><button class="btn-license">Licensing</button></a><a href="kalderon_contact.html" style="text-decoration:none;margin-left:8px;"><button class="btn-license" style="background:transparent;border:1px solid #b8902a;color:#b8902a;">Contact</button></a><div style="display:none;"><button class="btn-license">Licensing</button></a><a href="kalderon_contact.html" style="text-decoration:none;margin-left:8px;"><button class="btn-license" style="background:transparent;border:1px solid #b8902a;color:#b8902a;">Contact</button></a></div>
 </nav>
 <div class="pastel-strip"></div>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <!-- HERO -->
   <div class="page-header">

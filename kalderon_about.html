@@ -24,8 +24,8 @@
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
 :root{
-  --ink:#0f0f0d;--cream:#f8f4ee;--gold:#b8902a;
-  --light:#faf8f4;--mid:#ede8e0;--muted:#7a7670;
+  --ink:#0f0f0d;--cream:#f8f4ee;--gold:#b8902a;--gold-dark:#7d5f0e;
+  --light:#faf8f4;--mid:#ede8e0;--muted:#5f5b55;
   --border:rgba(15,15,13,0.1);
   --pastel-blue:#7ab3c4;
   --pastel-rose:#d4957a;
@@ -46,11 +46,11 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .brand-text{font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:400;letter-spacing:0.08em;color:#f7f4ef;}
 .brand-text em{font-style:italic;color:var(--gold);}
 .nav-links{display:flex;align-items:center;list-style:none;flex:1;overflow-x:auto;}
-.nav-links a{display:block;padding:18px 16px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:rgba(247,244,239,0.4);text-decoration:none;border-right:1px solid rgba(255,255,255,0.04);white-space:nowrap;transition:color 0.2s;}
+.nav-links a{display:block;padding:18px 16px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:rgba(247,244,239,0.82);text-decoration:none;border-right:1px solid rgba(255,255,255,0.04);white-space:nowrap;transition:color 0.2s;}
 .nav-links a:hover,.nav-links a.active{color:var(--gold);}
 .nav-links a:focus{outline:2px solid var(--gold);outline-offset:-2px;}
 .nav-end{display:flex;align-items:center;padding:0 24px;border-left:1px solid rgba(255,255,255,0.08);flex-shrink:0;}
-.btn-contact{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
+.btn-contact{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
 
 /* ── HERO — שני עמודות: ציטוט + מספרים ── */
 .hero{
@@ -63,14 +63,14 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
   display:flex;flex-direction:column;justify-content:space-between;
   border-right:1px solid rgba(255,255,255,0.06);
 }
-.hero-eyebrow{font-size:9px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:32px;}
+.hero-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:32px;}
 .hero-eyebrow::before{content:'';display:block;width:28px;height:1px;background:var(--gold);}
 .hero-quote{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:300;line-height:1.12;color:#f7f4ef;}
 .hero-quote em{display:block;font-style:italic;color:var(--gold);}
 .hero-name{margin-top:40px;}
 .hero-name-main{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:#f7f4ef;letter-spacing:0.04em;}
-.hero-name-sub{font-size:10px;font-weight:400;letter-spacing:0.2em;text-transform:uppercase;color:rgba(247,244,239,0.35);margin-top:6px;}
-.hero-intro{font-size:13px;font-weight:300;line-height:1.8;color:rgba(247,244,239,0.45);margin-top:20px;max-width:480px;}
+.hero-name-sub{font-size:10px;font-weight:400;letter-spacing:0.2em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:6px;}
+.hero-intro{font-size:13px;font-weight:300;line-height:1.8;color:rgba(247,244,239,0.82);margin-top:20px;max-width:480px;}
 
 /* Facts grid right side */
 .hero-right{
@@ -83,8 +83,8 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 }
 .hero-fact-block:last-child{border-bottom:none;}
 .fact-big{font-family:'Cormorant Garamond',serif;font-size:80px;font-weight:300;color:var(--gold);line-height:1;}
-.fact-label{font-size:9px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:8px;}
-.fact-desc{font-size:12px;font-weight:300;color:rgba(247,244,239,0.4);margin-top:6px;line-height:1.6;}
+.fact-label{font-size:11px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:8px;}
+.fact-desc{font-size:12px;font-weight:300;color:rgba(247,244,239,0.82);margin-top:6px;line-height:1.6;}
 
 /* ── BIOGRAPHY — alternating layout ── */
 .bio-section{
@@ -101,10 +101,10 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 }
 .bio-section:nth-child(even) .bio-text{border-right:none;border-left:1px solid var(--border);}
 
-.bio-eyebrow{font-size:9px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:10px;margin-bottom:20px;}
+.bio-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.24em;text-transform:uppercase;color:var(--gold-dark);display:flex;align-items:center;gap:10px;margin-bottom:20px;}
 .bio-eyebrow::before{content:'';display:block;width:20px;height:1px;background:var(--gold);}
 .bio-title{font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:300;line-height:1.1;color:var(--ink);margin-bottom:24px;}
-.bio-title em{font-style:italic;color:var(--gold);}
+.bio-title em{font-style:italic;color:var(--gold-dark);}
 .bio-body{font-size:14px;font-weight:300;line-height:1.85;color:var(--muted);}
 .bio-body + .bio-body{margin-top:16px;}
 
@@ -120,18 +120,18 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .bio-years{display:flex;flex-direction:column;gap:28px;width:100%;}
 .bio-year-row{display:flex;align-items:flex-start;gap:20px;}
 .year-dot{width:8px;height:8px;border-radius:50%;background:var(--gold);flex-shrink:0;margin-top:4px;}
-.year-num{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:300;color:var(--gold);min-width:48px;line-height:1;}
-.year-desc{font-size:12px;font-weight:300;color:rgba(247,244,239,0.5);line-height:1.6;}
+.year-num{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:300;color:var(--gold-dark);min-width:48px;line-height:1;}
+.year-desc{font-size:12px;font-weight:300;color:rgba(247,244,239,0.82);line-height:1.6;}
 
 /* Quote blocks */
 .bio-quote{
   font-family:'Cormorant Garamond',serif;
   font-size:28px;font-weight:300;font-style:italic;
-  line-height:1.3;color:rgba(247,244,239,0.5);
+  line-height:1.3;color:rgba(247,244,239,0.82);
   text-align:center;
   padding:0 32px;
 }
-.bio-quote-attr{font-size:9px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);margin-top:20px;text-align:center;}
+.bio-quote-attr{font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);margin-top:20px;text-align:center;}
 
 /* ── AWARDS & COLLECTIONS ── */
 .awards-section{
@@ -142,7 +142,7 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
 .awards-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin-top:40px;border:1px solid var(--border);}
 .award-col{padding:32px;border-right:1px solid var(--border);}
 .award-col:last-child{border-right:none;}
-.award-col-title{font-size:9px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid var(--border);}
+.award-col-title{font-size:11px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid var(--border);}
 .award-item{font-size:12px;font-weight:300;color:var(--muted);line-height:1.6;padding:8px 0;border-bottom:1px solid rgba(15,15,13,0.05);}
 .award-item:last-child{border-bottom:none;}
 .award-item strong{font-weight:400;color:var(--ink);display:block;}
@@ -163,7 +163,7 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
   background:rgba(15,15,13,0.6);
 }
 .collection-name{font-size:12px;font-weight:400;color:#f7f4ef;margin-bottom:4px;}
-.collection-loc{font-size:10px;font-weight:300;letter-spacing:0.1em;color:rgba(247,244,239,0.3);}
+.collection-loc{font-size:10px;font-weight:300;letter-spacing:0.1em;color:rgba(247,244,239,0.82);}
 
 /* ── EXHIBITIONS ── */
 .exhibitions-section{
@@ -172,16 +172,16 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
   border-bottom:1px solid var(--border);
   display:grid;grid-template-columns:1fr 1fr;gap:64px;
 }
-.exh-col-title{font-size:9px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid var(--border);}
+.exh-col-title{font-size:11px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid var(--border);}
 .exh-item{display:flex;gap:20px;padding:10px 0;border-bottom:1px solid rgba(15,15,13,0.05);}
-.exh-year{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:300;color:var(--gold);min-width:44px;flex-shrink:0;}
+.exh-year{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:300;color:var(--gold-dark);min-width:44px;flex-shrink:0;}
 .exh-desc{font-size:12px;font-weight:300;color:var(--muted);line-height:1.5;}
 
 /* Section headers shared */
-.section-eyebrow{font-size:9px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:16px;}
+.section-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:16px;}
 .section-eyebrow::before{content:'';display:block;width:28px;height:1px;background:var(--gold);}
 .section-title{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:300;color:var(--ink);}
-.section-title em{font-style:italic;color:var(--gold);}
+.section-title em{font-style:italic;color:var(--gold-dark);}
 .section-title-light{color:#f7f4ef;}
 
 /* ── CONTACT / LICENSING ── */
@@ -191,30 +191,44 @@ nav.main-nav{position:sticky;top:0;z-index:100;display:flex;align-items:stretch;
   display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;
 }
 .contact-h{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:300;line-height:1.1;color:#f7f4ef;}
-.contact-h em{display:block;font-style:italic;color:var(--gold);}
-.contact-sub{font-size:13px;font-weight:300;color:rgba(247,244,239,0.4);margin-top:16px;line-height:1.7;max-width:400px;}
+.contact-h em{display:block;font-style:italic;color:var(--gold-dark);}
+.contact-sub{font-size:13px;font-weight:300;color:rgba(247,244,239,0.82);margin-top:16px;line-height:1.7;max-width:400px;}
 .c-row{display:flex;align-items:baseline;gap:16px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.06);}
-.c-label{font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.25);min-width:80px;}
+.c-label{font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);min-width:80px;}
 .c-val{font-size:13px;font-weight:300;color:#f7f4ef;}
-.c-val a{color:var(--gold);text-decoration:none;}
+.c-val a{color:var(--gold-dark);text-decoration:none;}
 .contact-ctas{display:flex;gap:12px;margin-top:32px;}
-.btn-gold{padding:13px 32px;background:var(--gold);color:var(--ink);font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
+.btn-gold{padding:13px 32px;background:var(--gold);color:var(--ink);font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}
 .btn-gold:focus{outline:3px solid #fff;outline-offset:2px;}
-.btn-ghost{padding:13px 32px;background:transparent;color:rgba(247,244,239,0.4);border:1px solid rgba(255,255,255,0.1);font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;}
+.btn-ghost{padding:13px 32px;background:transparent;color:rgba(247,244,239,0.82);border:1px solid rgba(255,255,255,0.1);font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;}
 
 /* FOOTER */
 footer{background:#080807;padding:24px 64px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.04);}
-.footer-brand{font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(247,244,239,0.2);}
+.footer-brand{font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(247,244,239,0.82);}
 .footer-nav{display:flex;gap:28px;}
-.footer-nav a{font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(247,244,239,0.18);text-decoration:none;}
+.footer-nav a{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(247,244,239,0.82);text-decoration:none;}
 .footer-nav a:hover{color:var(--gold);}
 .footer-badges{display:flex;gap:8px;}
-.badge{padding:3px 10px;border:1px solid rgba(255,255,255,0.08);font-size:7px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.18);}
+.badge{padding:3px 10px;border:1px solid rgba(255,255,255,0.08);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);}
 
 /* Pastel strip */
 .pastel-strip{height:5px;background:linear-gradient(to right,#7ab3c4,#d4957a,#b07fa8,#7aab8a,#d4b483,#6b9fc4,#7ab3c4);}
 
-.btn-license{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}.btn-license:focus{outline:3px solid #fff;outline-offset:2px;}</style>
+.btn-license{padding:9px 22px;background:var(--gold);color:var(--ink);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;}.btn-license:focus{outline:3px solid #fff;outline-offset:2px;}
+/* ===== ACCESSIBILITY (IS 5568 / WCAG 2.1 AA) ===== */
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[tabindex]:focus-visible,summary:focus-visible{outline:3px solid #b8902a!important;outline-offset:3px!important;border-radius:2px;}
+nav a:focus-visible,.main-nav a:focus-visible{outline-offset:-3px!important;}
+main:focus{outline:none;}
+.skip-link{position:absolute;top:-100px;left:0;background:#b8902a;color:#0f0f0d;padding:12px 24px;font-size:14px;font-weight:500;z-index:99999;text-decoration:none;}
+.skip-link:focus{top:0;}
+[aria-current="page"]{color:#b8902a!important;}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important;}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important;}
+}
+@media(forced-colors:active){a,button{forced-color-adjust:auto;}}
+</style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://akalderon-arts.com/#artist", "name": "Asher Kalderon", "birthDate": "1929", "deathDate": "2018", "nationality": "Israeli", "jobTitle": "Graphic Designer and Artist", "description": "One of Israel's most distinguished graphic designers. Creator of 60+ Israeli stamps, national symbols, posters, tapestries, Judaica art and an award-winning illustrated Haggadah.", "alumniOf": "Bezalel Academy of Arts and Design", "url": "https://akalderon-arts.com/", "sameAs": ["https://www.absolutearts.com/kalderon/", "https://www.artmajeur.com/akalderonart", "https://www.coroflot.com/kalderon/profile", "https://www.facebook.com/Asher-Kalderons-Art-36782493053/"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://akalderon-arts.com/"}, {"@type": "ListItem", "position": 2, "name": "About the Artist", "item": "https://akalderon-arts.com/kalderon_about.html"}]}]}</script>
 </head>
 <body>
@@ -233,13 +247,13 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
     <li><a href="kalderon_symbols.html">Symbols</a></li>
     <li><a href="kalderon_stamps_v3.html">Stamps</a></li>
     <li><a href="kalderon_shop.html">Shop</a></li>
-    <li><a href="#" class="active">About</a></li>
+    <li><a href="#" class="active" aria-current="page">About</a></li>
   </ul>
   <div class="nav-end"><a href="kalderon_licensing.html" style="text-decoration:none;"><button class="btn-license">Licensing</button></a><a href="kalderon_contact.html" style="text-decoration:none;margin-left:8px;"><button class="btn-license" style="background:transparent;border:1px solid #b8902a;color:#b8902a;">Contact</button></a><div style="display:none;"><button class="btn-license">Licensing</button></a><a href="kalderon_contact.html" style="text-decoration:none;margin-left:8px;"><button class="btn-license" style="background:transparent;border:1px solid #b8902a;color:#b8902a;">Contact</button></a></div>
 </nav>
 
 <!-- HERO -->
-<main id="main">
+<main id="main" tabindex="-1">
 <header class="hero" aria-labelledby="hero-name">
   <div class="hero-left">
     <div>
@@ -277,7 +291,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
     <div style="position:absolute;inset:0;pointer-events:none;opacity:0.4;mix-blend-mode:overlay;"><svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><filter id='grain'><feTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%' height='100%' filter='url(#grain)' opacity='0.12'/></svg></div><div style="position:absolute;inset:0;background:linear-gradient(to right, transparent 60%, rgba(26,22,18,1) 100%);"></div>
   </div>
   <div style="padding:56px 64px;display:flex;flex-direction:column;justify-content:center;">
-    <div style="font-size:9px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:20px;">
+    <div style="font-size:11px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:20px;">
       <span style="display:block;width:28px;height:1px;background:var(--gold);"></span>1929 — 2018
     </div>
     <blockquote style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;font-style:italic;line-height:1.25;color:#f7f4ef;margin:0;">
@@ -286,15 +300,15 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
     <div style="margin-top:32px;padding-top:28px;border-top:1px solid rgba(184,144,42,0.2);display:flex;gap:40px;">
       <div>
         <div style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;color:var(--gold);line-height:1;">60+</div>
-        <div style="font-size:9px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:4px;">Years of Practice</div>
+        <div style="font-size:11px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:4px;">Years of Practice</div>
       </div>
       <div>
         <div style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;color:var(--gold);line-height:1;">60+</div>
-        <div style="font-size:9px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:4px;">Israeli Stamps</div>
+        <div style="font-size:11px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:4px;">Israeli Stamps</div>
       </div>
       <div>
         <div style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;color:var(--gold);line-height:1;">100+</div>
-        <div style="font-size:9px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:4px;">Awards</div>
+        <div style="font-size:11px;font-weight:400;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:4px;">Awards</div>
       </div>
     </div>
   </div>
@@ -328,7 +342,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
 <section class="bio-section" aria-labelledby="bio-stamps">
   <div class="bio-visual">
     <div style="text-align:center;">
-      <div style="font-family:'Cormorant Garamond',serif;font-size:96px;font-weight:300;color:rgba(15,15,13,0.08);line-height:1;">✦</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:96px;font-weight:300;color:rgba(15,15,13,0.9);line-height:1;">✦</div>
       <div style="font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;font-style:italic;color:var(--muted);margin-top:8px;">"His stamps became<br>part of Israel's<br>visual memory"</div>
     </div>
   </div>
@@ -354,19 +368,19 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;width:100%;background:rgba(255,255,255,0.06);">
       <div style="padding:24px;background:rgba(15,15,13,0.7);text-align:center;">
         <div style="font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:300;color:var(--gold);">200+</div>
-        <div style="font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:4px;">Artworks</div>
+        <div style="font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:4px;">Artworks</div>
       </div>
       <div style="padding:24px;background:rgba(15,15,13,0.7);text-align:center;">
         <div style="font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:300;color:var(--gold);">40+</div>
-        <div style="font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:4px;">Tapestries</div>
+        <div style="font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:4px;">Tapestries</div>
       </div>
       <div style="padding:24px;background:rgba(15,15,13,0.7);text-align:center;">
         <div style="font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:300;color:var(--gold);">100+</div>
-        <div style="font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:4px;">Posters</div>
+        <div style="font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:4px;">Posters</div>
       </div>
       <div style="padding:24px;background:rgba(15,15,13,0.7);text-align:center;">
         <div style="font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:300;color:var(--gold);">3</div>
-        <div style="font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.3);margin-top:4px;">Haggadah Editions</div>
+        <div style="font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:rgba(247,244,239,0.82);margin-top:4px;">Haggadah Editions</div>
       </div>
     </div>
   </div>
@@ -401,7 +415,7 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
         </div>
         <!-- כיתוב מתחת -->
         <div style="margin-top:24px;">
-          <div style="font-family:'Cormorant Garamond',serif;font-size:13px;font-style:italic;font-weight:300;color:rgba(247,244,239,0.5);letter-spacing:0.06em;line-height:1.5;">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:13px;font-style:italic;font-weight:300;color:rgba(247,244,239,0.82);letter-spacing:0.06em;line-height:1.5;">
             The New Passover Haggadah<br>
             <span style="font-style:normal;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);opacity:0.7;">3 Limited Editions · 2005</span>
           </div>
@@ -573,9 +587,6 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
     <a href="#">Cookie Settings</a>
   </nav>
   <div class="footer-badges" role="list">
-    <div class="badge" role="listitem">IS 5568</div>
-        <div class="badge" role="listitem">WCAG 2.1 AA</div>
-    <div class="badge" role="listitem">PPL 2024</div>
   </div>
 </footer>
 
@@ -589,19 +600,19 @@ footer{background:#080807;padding:24px 64px;display:flex;align-items:center;just
             justify-content:space-between;gap:32px;flex-wrap:wrap;">
   <div>
     <div id="cookie-title" style="font-size:10px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:rgba(248,244,238,0.75);margin-bottom:5px;">Cookie Policy · PPL 2024</div>
-    <p style="font-size:12px;font-weight:300;color:rgba(248,244,238,0.4);line-height:1.6;max-width:560px;">We use essential cookies only. By continuing to browse you agree to our <a href="kalderon_privacy.html" style="color:#d4b483;">Privacy Policy</a> and <a href="kalderon_accessibility.html" style="color:#d4b483;">Accessibility Statement</a>.</p>
+    <p style="font-size:12px;font-weight:300;color:rgba(248,244,238,0.82);line-height:1.6;max-width:560px;">We use essential cookies only. By continuing to browse you agree to our <a href="kalderon_privacy.html" style="color:#d4b483;">Privacy Policy</a> and <a href="kalderon_accessibility.html" style="color:#d4b483;">Accessibility Statement</a>.</p>
   </div>
   <div style="display:flex;gap:10px;flex-shrink:0;">
     <button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','accepted');"
-            style="padding:10px 28px;background:#b8902a;color:#1c1612;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:9px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;">Accept</button>
+            style="padding:10px 28px;background:#b8902a;color:#1c1612;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;">Accept</button>
     <button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('ak_cookies','essential');"
-            style="padding:10px 22px;background:transparent;color:rgba(248,244,238,0.4);border:1px solid rgba(255,255,255,0.1);cursor:pointer;font-family:'DM Sans',sans-serif;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Essential Only</button>
+            style="padding:10px 22px;background:transparent;color:rgba(248,244,238,0.82);border:1px solid rgba(255,255,255,0.1);cursor:pointer;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;">Essential Only</button>
   </div>
 </div>
 <script>if(localStorage.getItem('ak_cookies')){document.getElementById('cookie-banner').style.display='none';}</script>
 
 <div id="img-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:9999;cursor:zoom-out;align-items:center;justify-content:center;" onclick="this.style.display='none'">
-<img id="img-overlay-img" style="max-width:90vw;max-height:90vh;object-fit:contain;box-shadow:0 8px 60px rgba(0,0,0,0.6);">
+<img id="img-overlay-img" alt="Enlarged view of the selected artwork" style="max-width:90vw;max-height:90vh;object-fit:contain;box-shadow:0 8px 60px rgba(0,0,0,0.6);">
 </div>
 <script>
 document.querySelectorAll('.artwork-frame img, .artwork img, .work-img img, .poster-frame img, .stamp-frame img, .symbol-frame img, .judaica-frame img, .gallery-img img, img.artwork-img, .grid-item img, .item-frame img, .card-img img').forEach(function(img){
@@ -624,6 +635,39 @@ document.querySelectorAll('.artwork-frame, .artwork, .work-img, .poster-frame, .
     });
   }
 });
+</script>
+
+<script>
+/* Accessibility: image lightbox keyboard support + alt text */
+(function(){
+  var ov=document.getElementById('img-overlay'), ovImg=document.getElementById('img-overlay-img'), last=null;
+  if(!ov||!ovImg) return;
+  ov.setAttribute('role','dialog'); ov.setAttribute('aria-modal','true'); ov.setAttribute('aria-label','Enlarged artwork image');
+  ov.setAttribute('tabindex','-1');
+  document.addEventListener('click',function(e){
+    var t=e.target;
+    if(t && t.tagName==='IMG' && t.id!=='img-overlay-img' && ov.style.display!=='none' && ov.contains(t)===false){}
+  },true);
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape' && ov.style.display!=='none' && ov.style.display!==''){
+      ov.style.display='none'; if(last && last.focus) last.focus();
+    }
+  });
+  var obs=new MutationObserver(function(){
+    if(ov.style.display!=='none' && ov.style.display!==''){
+      last=document.activeElement;
+      if(!ovImg.alt) ovImg.alt='Enlarged view of the selected artwork';
+      ov.focus();
+    }
+  });
+  obs.observe(ov,{attributes:true,attributeFilter:['style']});
+  /* make thumbnails keyboard-openable */
+  [].forEach.call(document.querySelectorAll('img[data-zoom],.artwork img,.grid-item img'),function(im){
+    if(im.closest('a')) return;
+    if(!im.hasAttribute('tabindex')){ im.setAttribute('tabindex','0'); im.setAttribute('role','button');
+      im.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); im.click(); } }); }
+  });
+})();
 </script>
 </body>
 </html>
