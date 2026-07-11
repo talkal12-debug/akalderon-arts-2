@@ -831,3 +831,40 @@ document.querySelectorAll('.nav-cat[data-target]').forEach(function(btn){
   });
 });
 </script>
+
+<script>
+/* Accessibility: image lightbox keyboard support (WCAG 2.1.1 / 2.1.2) */
+(function(){
+  var ov=document.getElementById('img-overlay'), ovImg=document.getElementById('img-overlay-img'), last=null;
+  if(!ov) return;
+  ov.setAttribute('role','dialog'); ov.setAttribute('aria-modal','true');
+  ov.setAttribute('aria-label','Enlarged artwork image. Press Escape to close.');
+  ov.setAttribute('tabindex','-1');
+  function close(){ ov.style.display='none'; if(last&&last.focus) last.focus(); }
+  document.addEventListener('keydown',function(e){
+    var open = ov.style.display && ov.style.display!=='none';
+    if(!open) return;
+    if(e.key==='Escape'){ e.preventDefault(); close(); }
+    if(e.key==='Tab'){ e.preventDefault(); ov.focus(); }   /* keep focus inside the dialog */
+  });
+  new MutationObserver(function(){
+    if(ov.style.display && ov.style.display!=='none'){
+      last=document.activeElement;
+      if(ovImg && !ovImg.getAttribute('alt')) ovImg.setAttribute('alt','Enlarged view of the selected artwork');
+      ov.focus();
+    }
+  }).observe(ov,{attributes:true,attributeFilter:['style']});
+  /* thumbnails that open the lightbox must be reachable and activatable by keyboard */
+  [].forEach.call(document.images,function(im){
+    if(im.id==='img-overlay-img'||im.closest('a')||im.closest('#img-overlay')) return;
+    var s=getComputedStyle(im);
+    if(s.cursor!=='zoom-in'&&s.cursor!=='pointer') return;
+    if(!im.hasAttribute('tabindex')){
+      im.setAttribute('tabindex','0'); im.setAttribute('role','button');
+      im.addEventListener('keydown',function(e){
+        if(e.key==='Enter'||e.key===' '){ e.preventDefault(); im.click(); }
+      });
+    }
+  });
+})();
+</script>
