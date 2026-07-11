@@ -286,7 +286,7 @@ main:focus{outline:none;}
 <div style="display:grid;grid-template-columns:320px 1fr;background:var(--deep);border-bottom:1px solid rgba(184,144,42,0.15);">
   <div style="position:relative;overflow:hidden;min-height:400px;">
     <img src="images/about/asher-kalderon.jpg"
-         alt="Asher Kalderon"
+         alt="Photograph of the artist Asher Kalderon: an older, smiling bald man in a pale blue shirt, seated before a soft floral-patterned backdrop."
          style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block;filter:grayscale(100%) contrast(1.08) brightness(0.95);" width="4032" height="3024" loading="lazy" decoding="async">
     <div style="position:absolute;inset:0;pointer-events:none;opacity:0.4;mix-blend-mode:overlay;"><svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><filter id='grain'><feTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%' height='100%' filter='url(#grain)' opacity='0.12'/></svg></div><div style="position:absolute;inset:0;background:linear-gradient(to right, transparent 60%, rgba(26,22,18,1) 100%);"></div>
   </div>
@@ -410,7 +410,7 @@ main:focus{outline:none;}
             z-index:2;
           "></div>
           <img src="images/about/the-new-passover-haggadah-asher-kalderon.jpg"
-               alt="The New Passover Haggadah — Asher Kalderon"
+               alt="The New Passover Haggadah: a red hardcover book titled &quot;Haggadah&quot; in gold Hebrew and Latin lettering with flowing foliate ornament, shown above a copy lying open at a vivid blue and turquoise illuminated spread."
                style="display:block;max-width:260px;width:100%;height:auto;position:relative;z-index:1;" width="462" height="500" loading="lazy" decoding="async">
         </div>
         <!-- כיתוב מתחת -->
@@ -637,8 +637,9 @@ document.querySelectorAll('.artwork-frame, .artwork, .work-img, .poster-frame, .
 });
 </script>
 
+<!--x-->
 <script>
-/* Accessibility: image lightbox keyboard support + alt text */
+/* old */
 (function(){
   var ov=document.getElementById('img-overlay'), ovImg=document.getElementById('img-overlay-img'), last=null;
   if(!ov||!ovImg) return;
@@ -666,6 +667,43 @@ document.querySelectorAll('.artwork-frame, .artwork, .work-img, .poster-frame, .
     if(im.closest('a')) return;
     if(!im.hasAttribute('tabindex')){ im.setAttribute('tabindex','0'); im.setAttribute('role','button');
       im.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); im.click(); } }); }
+  });
+})();
+</script>
+
+<script>
+/* Accessibility: image lightbox keyboard support (WCAG 2.1.1 / 2.1.2) */
+(function(){
+  var ov=document.getElementById('img-overlay'), ovImg=document.getElementById('img-overlay-img'), last=null;
+  if(!ov) return;
+  ov.setAttribute('role','dialog'); ov.setAttribute('aria-modal','true');
+  ov.setAttribute('aria-label','Enlarged artwork image. Press Escape to close.');
+  ov.setAttribute('tabindex','-1');
+  function close(){ ov.style.display='none'; if(last&&last.focus) last.focus(); }
+  document.addEventListener('keydown',function(e){
+    var open = ov.style.display && ov.style.display!=='none';
+    if(!open) return;
+    if(e.key==='Escape'){ e.preventDefault(); close(); }
+    if(e.key==='Tab'){ e.preventDefault(); ov.focus(); }   /* keep focus inside the dialog */
+  });
+  new MutationObserver(function(){
+    if(ov.style.display && ov.style.display!=='none'){
+      last=document.activeElement;
+      if(ovImg && !ovImg.getAttribute('alt')) ovImg.setAttribute('alt','Enlarged view of the selected artwork');
+      ov.focus();
+    }
+  }).observe(ov,{attributes:true,attributeFilter:['style']});
+  /* thumbnails that open the lightbox must be reachable and activatable by keyboard */
+  [].forEach.call(document.images,function(im){
+    if(im.id==='img-overlay-img'||im.closest('a')||im.closest('#img-overlay')) return;
+    var s=getComputedStyle(im);
+    if(s.cursor!=='zoom-in'&&s.cursor!=='pointer') return;
+    if(!im.hasAttribute('tabindex')){
+      im.setAttribute('tabindex','0'); im.setAttribute('role','button');
+      im.addEventListener('keydown',function(e){
+        if(e.key==='Enter'||e.key===' '){ e.preventDefault(); im.click(); }
+      });
+    }
   });
 })();
 </script>
