@@ -1903,6 +1903,8 @@ main:focus{outline:none;}
   var ld = {"@context":"https://schema.org","@type":"ItemList","name":"Asher Kalderon Shop","itemListElement":products.map(function(p,i){
     return {"@type":"ListItem","position":i+1,"item":{
       "@type":"Product","name":p.title,"image":p.image||undefined,"url":p.url,
+      "description":p.alt||p.title,
+      "brand":{"@type":"Brand","name":"Asher Kalderon"},
       "offers":{"@type":"Offer","price":p.price,"priceCurrency":p.currency||DATA.currency,"availability":"https://schema.org/InStock","url":p.url}
     }};
   })};
